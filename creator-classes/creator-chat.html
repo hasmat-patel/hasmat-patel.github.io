@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chat | Creator classes</title>
+  <meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+  <meta name="theme-color" content="#191919">
+  <meta name="msapplication-navbutton-color" content="#191919">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#191919">
+  <link href='assets/images/favicon.png' rel='shortcut icon'>
+  <link href="assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/fonts/gilroy/gilroy-style.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/fonts/moderat/moderat-style.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/all.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet" />
+  <link href="assets/css/feather.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/chat.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <script src="assets/js/modernizr.js"></script>
+</head>
+
+<body>
+
+  <div id="wrapper" class="wrapper home-wrapper">
+
+    <div class="main-middle-area pt-custom-0">
+
+      <section class="general-chat-section general-chat-section" id="user-chat-section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 p-0">
+              <div class="general-chat-div" id="chat-div">
+                <div class="general-chat-row">
+
+                  <div class="container-general-video-div" id="video-content-left">
+                    <div class="general-video-root">
+
+                      <div class="general-video-back">
+                        <!-- <iframe src="assets/images/video/video.mp4" class="iframe-video" frameborder="0"></iframe> -->
+
+                        <video class="video-full" id="live-video-stream-play" loop autoplay muted="false">
+                          <source src="assets/images/video/video.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+                      </div>
+                      
+                      <div class="general-video-content">
+                        <div class="general-video-content-row">
+
+                          <div class="general-video-top general-video-top-fixed">
+                            <div class="general-video-top-row">
+                              <div class="general-video-left">
+                                <a href="#" class="btn btn-common-primary live-video no-cursor mr-16"> <i class="bg-custom-icon video-camera-new-icon"></i> Live</a>
+                                <a href="#" class="btn btn-common-primary white-black-primary"> Finish the stream</a>
+                              </div>
+                            </div>
+                            <div class="general-video-top-row2">
+                              <div class="disc-div">
+                                
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="center-body-middle-div">
+
+                          </div>
+
+                          <!-- <div class="general-video-top">
+                            <div class="general-video-top-row">
+                              <div class="general-video-left">
+                                <a href="#" class="btn btn-common-primary live-video no-cursor mr-10"> <i class="bg-custom-icon video-camera-icon"></i> Live</a>
+                                <a href="#" class="btn btn-common-primary white-black-primary"> Finish the stream</a> 
+                              </div>
+                            </div>
+                            <div class="general-video-top-row2">
+                              <div class="disc-div">
+                                <p>Vivamus suscipit tortor eget felis porttitor volutpat Mauris blandit aliquet elit</p>
+                              </div>
+                            </div>
+                          </div> -->
+
+                          <div class="general-video-bottom general-video-bottom-fixed">
+                            <div class="general-video-bottom-row">
+                              <div class="white-icon-text-list">
+                                <div class="white-icon-text-list-row">
+                                  <div class="white-icon-text-box">
+                                    <a href="#" class="white-icon-text-link">
+                                      <span class="white-icon-span">
+                                        <i class="bg-custom-icon mic-icon"></i>
+                                      </span>
+                                      <span class="text-span">Mic</span>
+                                    </a>
+                                  </div>
+                                  <div class="white-icon-text-box">
+                                    <a href="#" class="white-icon-text-link">
+                                      <span class="white-icon-span">
+                                        <i class="bg-custom-icon video-cam-icon"></i>
+                                      </span>
+                                      <span class="text-span">Cam</span>
+                                    </a>
+                                  </div>
+                                  <div class="white-icon-text-box">
+                                    <a href="#" class="white-icon-text-link">
+                                      <span class="white-icon-span">
+                                        <i class="bg-custom-icon television-icon"></i>
+                                      </span>
+                                      <span class="text-span">Share</span>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>    
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="chatting-general-div" id="chatting-group-right">
+
+                    <div class="backdrop-progress"></div>
+
+                    <div class="arrow-group-box">
+                      <a href="#" class="btn-arrow-bar" id="chat-slider-button"> 
+                        <span class="text-span-row">
+                          <span class="round-span"> <i class="fe fe-chevron-left arrow"></i> </span>  
+                        </span>
+                      </a>
+                    </div>
+
+                    <div class="chatting-general-row">
+                      <div class="chat-progress-group-inner">
+
+                        <div class="chat-progress-group-header">
+                          <div class="progress-group-header-left">
+                            <h3>Chat</h3>
+                          </div>
+                        </div>
+
+                        <div class="chat-area-box-root">
+                          <div class="card chat-box" id="chatbox">
+                            <div class="card-body chat-content">
+
+                              <div class="card-body-row">
+
+                                <div class="chat-item chat-left">
+                                  <div class="user-img-thumb">
+                                    <img src="assets/images/profile.jpg" class="img-fluid img-user" />
+                                  </div>
+                                  <div class="chat-details">
+                                    <div class="chat-user">Lorem ipsum</div>
+                                    <div class="chat-text">Vivamus magna just</div> </br>
+                                    <div class="chat-text chat-text2">Vivamus magna justo, lacinia eget consect</div>
+                                  </div>
+                                </div>
+
+                                <div class="chat-item chat-right">
+                                  <div class="chat-details">
+                                    <div class="chat-text">Vivamus magna just</div> </br>
+                                    <div class="chat-text chat-text2">Vivamus magna justo, lacinia eget consect</div>
+                                  </div>
+                                </div>
+
+                                <div class="chat-item chat-left">
+                                  <div class="user-img-thumb">
+                                    <img src="assets/images/profile.png" class="img-fluid img-user" />
+                                  </div>
+                                  <div class="chat-details">
+                                    <div class="chat-user">Lorem ipsum</div>
+                                    <div class="chat-text">Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.Vivamus magna justo, l acinia eget consectetur sed, convallis at tellus.</div>
+                                  </div>
+                                </div>
+
+                                <div class="chat-item chat-right">
+                                  <div class="chat-details">
+                                    <div class="chat-text">Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.Vivamus magna justo, l acinia eget consectetur sed, convallis at tellus.</div>
+                                  </div>
+                                </div>
+                                
+                                <div class="chat-item chat-left">
+                                  <div class="user-img-thumb">
+                                    <img src="assets/images/profile.jpg" class="img-fluid img-user" />
+                                  </div>
+                                  <div class="chat-details">
+                                    <div class="chat-user">Lorem ipsum</div>
+                                    <div class="chat-text">Vivamus magna just</div> </br>
+                                    <div class="chat-text chat-text2">Vivamus magna justo, lacinia eget consect</div>
+                                  </div>
+                                </div>
+
+                              </div>
+
+                            </div>
+                            <div class="card-footer chat-form">
+                              <div class="card-footer-row">
+                                <form class="card-form" id="chat-form">
+                                  <textarea class="form-control" placeholder="Write a message"></textarea>
+                                  <button class="btn btn-primary">
+                                    <i class="fa fa-play"></i>
+                                  </button>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+
+  </div><!-- end of wrapper -->
+
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/chat.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>

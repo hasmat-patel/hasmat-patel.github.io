@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content="" />
+<meta name="author" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Category | Creator classes</title>
+<meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+<meta name="theme-color" content="#191919">
+<meta name="msapplication-navbutton-color" content="#191919">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#191919">
+<link href='assets/images/favicon.png' rel='shortcut icon'>
+<link href="assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/fonts/gilroy/gilroy-style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/fonts/moderat/moderat-style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/all.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet" />
+<link href="assets/css/feather.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/select-category-question.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+<script src="assets/js/modernizr.js"></script>
+</head>
+
+<body>
+
+<div id="wrapper" class="wrapper select-category-wrapper">
+
+	<div class="main-middle-area pt-custom-0">
+    
+    <section class="select-category-section" id="select-category-section">
+      <div class="select-category-div">
+
+        <div class="container container-770">
+          <div class="row">
+            <div class="col-lg-12 col-md-12">
+
+              <div class="logo-vs-div">
+                <a class="logo_link clearfix" href="index.html">
+                  <img src="assets/images/white-icon-logo.svg" class="img-fluid logo_img main-logo" alt="logo">
+                  <h1 class="text-logo"> <span class="text-logo-span1">Creator</span> <span class="text-logo-span2">classes</span></h1>
+                </a>
+              </div>
+
+              <div class="select-category-root-div">
+
+                <div class="select-category-img-root">
+                  <div class="img-thumb">
+                    <img src="assets/images/icons/select-category-question-graphic.png" class="img-fluid" alt="img" />
+                  </div>
+                </div>
+
+                <div class="select-category-center-side">
+                  <div class="select-category-content-div">
+
+                    <div class="select-category-top-area-div">
+                      <div class="skip-div">
+                        <a href="#" class="skip-link"> 
+                          <span> Skip </span>
+                          <span class="material-icons-outlined">chevron_right</span> 
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="select-category-body-area-div">
+                      <div class="select-category-body-center">
+
+                        <div class="heading-div">
+                          <h2>What do you wanna learn?</h2>
+                        </div>
+
+                        <div class="filter-category-root-div">
+                          <div class="filter-category-inner">
+                            <ul class="filter-list-ul">
+                              <li><a href="#" class="filter-link"> All </a></li>
+                              <li><a href="#" class="filter-link"> <span class="icon-img-span"> <img src="assets/images/icons-filter/icon-01.png" alt="img" class="img-fluid"> </span> <span class="span-text"> Underwater </span> </a></li>
+                              <li><a href="#" class="filter-link"> <span class="icon-img-span"> <img src="assets/images/icons-filter/icon-03.png" alt="img" class="img-fluid"> </span> <span class="span-text"> Filmmaking </span> </a></li>
+                              <li><a href="#" class="filter-link"> <span class="icon-img-span"> <img src="assets/images/icons-filter/icon-02.png" alt="img" class="img-fluid"> </span> <span class="span-text"> VFX </span> </a></li>
+                              <li><a href="#" class="filter-link"> <span class="icon-img-span"> <img src="assets/images/icons-filter/icon-04.png" alt="img" class="img-fluid"> </span> <span class="span-text"> Design </span> </a></li>
+                              <li><a href="#" class="filter-link"> <span class="icon-img-span"> <img src="assets/images/icons-filter/icon-05.png" alt="img" class="img-fluid"> </span> <span class="span-text"> Photography </span> </a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+</div><!-- end of wrapper -->
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/custom.js"></script> 
+
+<script>
+    
+  $(document).ready(function () {
+
+    /* tab login */
+    $(".nav-tabs a[href='#signup-tab-02']").click(function(){
+      $(this).tab('show');
+      $(".ltp-h2").removeClass("hide-h2");
+      $(".ltb-h2").addClass("hide-h2");
+    });
+
+    $(".nav-tabs a[href='#login-tab-01']").click(function(){
+      $(this).tab('show');
+      $(".ltb-h2").removeClass("hide-h2");
+      $(".ltp-h2").addClass("hide-h2");
+    });
+    /* End of tab login */
+    
+    $('#show_password01').on('click', function () {
+      var passwordField2 = $('#password01');
+      var passwordFieldType2 = passwordField2.attr('type');
+
+      if (passwordField2.val() != '') {
+        if (passwordFieldType2 == 'password') {
+          passwordField2.attr('type', 'html');
+          $(this).html('<span class="pass-custom-icon material-icons password-hide"> visibility_off </span>');
+        }
+        else {
+          passwordField2.attr('type', 'password');
+          $(this).html('<span class="pass-custom-icon material-icons password-view"> visibility </span>');
+        }
+      }
+    });
+
+    $('#show_password02').on('click', function () {
+      var passwordField2 = $('#password02');
+      var passwordFieldType2 = passwordField2.attr('type');
+
+      if (passwordField2.val() != '') {
+        if (passwordFieldType2 == 'password') {
+          passwordField2.attr('type', 'html');
+          $(this).html('<span class="pass-custom-icon material-icons password-hide"> visibility_off </span>');
+        }
+        else {
+          passwordField2.attr('type', 'password');
+          $(this).html('<span class="pass-custom-icon material-icons password-view"> visibility </span>');
+        }
+      }
+    });
+
+    $('#show_password03').on('click', function () {
+      var passwordField2 = $('#password03');
+      var passwordFieldType2 = passwordField2.attr('type');
+
+      if (passwordField2.val() != '') {
+        if (passwordFieldType2 == 'password') {
+          passwordField2.attr('type', 'html');
+          $(this).html('<span class="pass-custom-icon material-icons password-hide"> visibility_off </span>');
+        }
+        else {
+          passwordField2.attr('type', 'password');
+          $(this).html('<span class="pass-custom-icon material-icons password-view"> visibility </span>');
+        }
+      }
+    });
+  });
+</script>
+
+</body>
+</html>

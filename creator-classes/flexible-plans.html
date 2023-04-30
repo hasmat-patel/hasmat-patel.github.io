@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Flexible Plans | Creator classes</title>
+  <meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+  <meta name="theme-color" content="#191919">
+  <meta name="msapplication-navbutton-color" content="#191919">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#191919">
+  <link href='assets/images/favicon.png' rel='shortcut icon'>
+  <link href="assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/fonts/gilroy/gilroy-style.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/fonts/moderat/moderat-style.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/all.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+    rel="stylesheet" />
+  <link href="assets/css/feather.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/header.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/modal-style.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/user/flexible-plans-style.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <script src="assets/js/modernizr.js"></script>
+</head>
+
+<body>
+
+  <div id="wrapper" class="wrapper home-wrapper">
+
+    <header>
+      <div class="header-div header-div2 clearfix" >
+        <div class="inner-top-header-div clearfix">
+          <div class="container container-1000">
+              <div class="row">
+                  <div class="col-lg-12 col-md-12">
+                      <div class="header-container">
+  
+                        <div class="logo-div">
+                          <a class="logo_link clearfix" href="index.html">
+                            <img src="assets/images/white-icon-logo.svg" class="img-fluid logo_img main-logo-icon" alt="logo" />
+                          </a>
+                        </div>
+  
+                        <nav class="nav-center-div">
+                          <div class="top-nav1">
+                            <div class="cd-shadow-layer"></div>
+                            <div class="nav-m-bar">
+                              <a onclick="openNav()" class="opennav" data-placement="bottom" title="" data-original-title="Menu">
+                                <i class="menu-bars menu-icon"></i>
+                              </a>
+                            </div>
+  
+                            <div class="nav-div clearfix" id="mySidenav" >
+                              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+                              <div class="row-nav-div">
+                                <div class="left-side">
+                                  <ul class="nav ullist-inline" id="nav-res">
+                                    <li class="active"><a href="user-home.html" class="nav-link">Home</a></li>
+                                    <li><a href="user-live-streams.html" class="nav-link">Live streams</a></li>
+                                    <li><a href="user-classes.html" class="nav-link">Classes</a></li>
+                                    <li><a href="user-creators.html" class="nav-link">Creators</a></li>
+                                    <li><a href="user-materials.html" class="nav-link">Materials</a></li>
+                                  </ul>
+                                </div>
+  
+                                <div class="right-side">
+                                  <div class="right-nf-icon-div">
+                                    <div class="icon-row-nf">
+                                      <div class="icon-box-nf">
+                                        <a href="user-favourites.html" class="link"> <span class="material-icons">favorite</span> </a>
+                                      </div>
+                                      <div class="icon-box-nf">
+                                        <a href="#" class="link" data-toggle="modal" data-target="#notifications-modal"> <span class="material-icons">notifications</span> <span class="text-count-n">1</span> </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="user-drop-down">
+                                    <div class="dropdown drop-left dropdown-custom-top">
+                                      <a class="btn btn-default dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <div class="user-profile">
+                                          <div class="user-img">
+                                              <img src="assets/images/profile.png" class="user-top-image" alt="user image" />
+                                          </div>
+                                        </div>
+                                      </a>
+                                      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <ul>
+                                          <li><a class="dropdown-item" href="user-profile-settings.html"> <span class="bg-custom-icon user-icon"></span>  Profile Settings</a></li>
+                                          <li class="logout-li"><a class="dropdown-item" href="login.html"> <span class="bg-custom-icon logout-icon"></span> Logout</a></li>
+                                        </ul>                   
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </nav>
+                      </div>
+                  
+                  </div>
+              </div>
+          </div>
+        </div>	
+      </div><!--  End of header with navigation div  -->
+    </header>
+
+    <div class="main-middle-area pt-custom-default">
+
+      <section class="flexible-plans-section" id="flexible-plans-section">
+        <div class="flexible-plans-div">
+          <div class="container container-800">
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+
+                <div class="heading-div">
+                  <div class="heading-inner-div">
+                    <h2>Flexible Plans</h2>
+                    <h3>Our exclusive course in 2 sets</h3>
+                  </div>
+                </div>
+
+                <div class="flexible-plans-root">
+                  
+                  <div class="flexible-plans-top">
+                    <div class="flex-plan-row">
+
+                      <div class="row mlr-8">
+                        <div class="col-lg-6 col-md-6 plr-8">
+                          <div class="flex-plan-card">
+                            <input type="radio" class="custom-control-input" id="plan-select01" name="select-plan-custom">
+                            <label for="plan-select01" class="flex-plan-card-inner">
+                              <div class="check-icon-group">
+                                <span class="check-span-rounded"><i class="bg-custom-icon custom-check-icon"></i></span>
+                              </div>
+
+                              <div class="min-details-div">
+                                <div class="fp-title-top">
+                                  <h4>Lite Plan</h4>
+                                </div>
+                                <div class="fp-number-top">
+                                  <h2>$40</h2>
+                                </div>
+                                <div class="desc-inner-box">
+                                  <ul class="check-list-ul">
+                                    <li>10 EXCLUSIVE TUTORIALS</li>
+                                    <li>OVER 10 LUTS AND PRESETS</li>
+                                    <li>PHOTOSHOP BRUSH TOOLS</li>
+                                    <li>MEDIA KIT TEMPLATES</li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="plan-btn">
+                                <button class="btn btn-common-primary btn-choose-plan">Choose Plan</button>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 plr-8">
+                          <div class="flex-plan-card">
+                            <input type="radio" class="custom-control-input" id="plan-select02" name="select-plan-custom">
+
+                            <label for="plan-select02" class="flex-plan-card-inner">
+
+                              <div class="check-icon-group">
+                                <span class="check-span-rounded"><i class="bg-custom-icon custom-check-icon"></i></span>
+                              </div>
+                              
+                              <div class="min-details-div">
+                                <div class="fp-title-top">
+                                  <h4>Pro Plan</h4>
+                                </div>
+                                <div class="fp-number-top">
+                                  <h2>$97</h2>
+                                </div>
+                                <div class="desc-inner-box">
+                                  <ul class="check-list-ul">
+                                    <li>25 EXCLUSIVE TUTORIALS </li>
+                                    <li>OVER 25 LUTS AND PRESETS</li>
+                                    <li>PHOTOSHOP BRUSH TOOLS</li>
+                                    <li>SFX PACK</li>
+                                    <li>MEDIA KIT TEMPLATES</li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="plan-btn">
+                                <label class="w-100" for="plan-select02">
+                                  <button type="button" class="btn btn-common-primary btn-choose-plan">Choose Plan</button>
+                                </label>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="flexible-plans-bottom">
+
+                    <div class="flexible-plans-btn-div">
+                      <a href="#" class="btn btn-common-black btn-black-back mr-20"> Back </a>
+                      <a href="#" class="btn btn-common-white btn-next disable" id="plan-next-btn"> Next </a>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+
+  </div><!-- end of wrapper -->
+
+  <div class="modal right right-slider-modal fade" id="login-to-book-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"> <i
+                class="fe fe-x close-icon-x"></i> </span></button>
+        </div>
+
+        <div class="modal-body">
+
+          <div class="common-modal-body login-to-book-body">
+            <div class="common-header-div">
+              <div class="title-heading-div">
+                <h2 class="ltb-h2">Login to Book</h2>
+                <h2 class="ltp-h2 hide-h2">Sign up to Book</h2>
+              </div>
+            </div>
+            <div class="common-body-div">
+
+              <div class="common-body-inner-div">
+
+                <div class="tabs-root-custom">
+
+                  <div class="tabs-header">
+                    <ul class="nav nav-tabs">
+                      <li class="nav-item">
+                        <a class="nav-link active show" data-toggle="tab" href="#login-tab-01">Login</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#signup-tab-02">SignUp</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="tabs-body">
+                    <div class="tab-content">
+
+                      <div id="login-tab-01" class="tab-pane fade active show">
+
+                        <div class="tab-pane-inner">
+
+                          <div class="form-ls-root">
+                            <div class="form-root-main">
+                              <form class="form-root">
+
+                                <div class="row mlr-8">
+
+                                  <div class="col-xl-12 col-lg-12 col-md-12 plr-8">
+                                    <div class="form-group-custom form-group-icon">
+                                      <span class="custom-icon"><span
+                                          class="material-icons user-rounded-icon">account_circle</span></span>
+                                      <div class="form-group-control">
+                                        <input type="text" class="form-control" placeholder="Username or email">
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-xl-12 col-lg-12 col-md-12 plr-8">
+                                    <div class="form-group-custom form-group-icon">
+                                      <span class="custom-icon"><span
+                                          class="material-icons pass-key-icon">vpn_key</span></span>
+                                      <div class="form-group-control">
+                                        <input type="password" id="password01" class="form-control"
+                                          placeholder="Password">
+                                      </div>
+                                      <span class="icon-group">
+                                        <button type="button" id="show_password01" name="show_password"
+                                          class="pass-hide password-view-click">
+                                          <span class="pass-custom-icon material-icons"> visibility </span>
+                                        </button>
+                                      </span>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-xl-12 col-lg-12 col-md-12 plr-8">
+                                    <div class="general-form-btn">
+                                      <a href="#" class="btn-common-linked" data-toggle="modal"
+                                        data-target="#booking-modal" data-dismiss="modal"> <button type="button"
+                                          class="btn btn-common-primary btn-login">Login</button> </a>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-xl-12 col-lg-12 col-md-12 plr-8">
+                                    <div class="bottom-row">
+                                      <div class="link-box text-center-reg-side">
+                                        <p>Don’t have an account? <a href="#" class="btn btn-link btn-red-link">Register
+                                            now</a></p>
+                                      </div>
+                                      <div class="link-box text-right-side">
+                                        <a href="#" class="btn btn-link btn-forgot">Forgot Password?</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="next-box-row">
+                                      <div class="link-box text-center-side">
+                                        <a href="#" class="btn btn-link btn-next-link">Next>></a>
+                                      </div>
+                                    </div>
+                                  </div>
+
+
+                                </div>
+
+                              </form>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                      <div id="signup-tab-02" class="tab-pane fade">
+
+                        <div class="tab-pane-inner">
+
+                          <div class="form-ls-root">
+                            <div class="form-root-main">
+                              <form class="form-root">
+
+                                <div class="row mlr-8">
+
+                                  <div class="col-xl-12 col-lg-12 col-md-12 plr-8">
+                                    <div class="social-button-div">
+                                      <div class="sb-div-row">
+                                        <div class="sb-div sb-full-div">
+                                          <a href="#" class="btn btn-blck-sb btn-blck-sb-full"> <i
+                                              class="fab fa-google icon-i"></i> <span class="text-div"> Sign up with
+                                              google </span> </a>
+                                        </div>
+                                        <div class="sb-div">
+                                          <a href="#" class="btn btn-blck-sb"> <i class="fab fa-twitter icon-i"></i>
+                                          </a>
+                                        </div>
+                                        <div class="sb-div">
+                                          <a href="#" class="btn btn-blck-sb"> <i class="fab fa-facebook-f icon-i"></i>
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-xl-12 col-lg-12 col-md-12 plr-8">
+                                    <div class="form-group-custom form-group-icon">
+                                      <span class="custom-icon"><span
+                                          class="material-icons user-rounded-icon">account_circle</span></span>
+                                      <div class="form-group-control">
+                                        <input type="text" class="form-control" placeholder="Username or email">
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-xl-12 col-lg-12 col-md-12 plr-8">
+                                    <div class="form-group-custom form-group-icon">
+                                      <span class="custom-icon"><span
+                                          class="material-icons user-rounded-icon">mail</span></span>
+                                      <div class="form-group-control">
+                                        <input type="email" class="form-control" placeholder="e-mail">
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-xl-12 col-lg-12 col-md-12 plr-8">
+                                    <div class="form-group-custom form-group-icon">
+                                      <span class="custom-icon"><span
+                                          class="material-icons pass-key-icon">vpn_key</span></span>
+                                      <div class="form-group-control">
+                                        <input type="password" id="password02" class="form-control"
+                                          placeholder="Password">
+                                      </div>
+                                      <span class="icon-group">
+                                        <button type="button" id="show_password02" name="show_password"
+                                          class="pass-hide password-view-click">
+                                          <span class="pass-custom-icon material-icons"> visibility </span>
+                                        </button>
+                                      </span>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-xl-12 col-lg-12 col-md-12 plr-8">
+                                    <div class="form-group-custom form-group-icon">
+                                      <span class="custom-icon"><span
+                                          class="material-icons pass-key-icon">vpn_key</span></span>
+                                      <div class="form-group-control">
+                                        <input type="password" id="password03" class="form-control"
+                                          placeholder="Confirm Password">
+                                      </div>
+                                      <span class="icon-group">
+                                        <button type="button" id="show_password03" name="show_password"
+                                          class="pass-hide password-view-click">
+                                          <span class="pass-custom-icon material-icons"> visibility </span>
+                                        </button>
+                                      </span>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-xl-12 col-lg-12 col-md-12 plr-8">
+                                    <div class="general-form-btn">
+                                      <a href="#" class="btn-common-linked" data-toggle="modal"
+                                        data-target="#booking-modal" data-dismiss="modal"> <button type="button"
+                                          class="btn btn-common-primary btn-signup">SignUp</button> </a>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-xl-12 col-lg-12 col-md-12 plr-8">
+                                    <div class="bottom-row">
+                                      <div class="link-box text-center-reg-side">
+                                        <p>Have an account? <a href="#" class="btn btn-link btn-red-link">Login</a></p>
+                                      </div>
+                                    </div>
+
+                                    <div class="next-box-row">
+                                      <div class="link-box text-center-side">
+                                        <a href="#" class="btn btn-link btn-next-link disable">Next>></a>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                </div>
+
+                              </form>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="modal right right-slider-modal fade" id="notifications-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"> <i class="fe fe-x close-icon-x"></i> </span></button>
+        </div>
+  
+        <div class="modal-body">
+  
+          <div class="common-modal-body login-to-book-body">
+            <div class="common-header-div">
+              <div class="title-heading-div nt-heading-div">
+                <h2>Notifications</h2>
+              </div>
+            </div>
+            <div class="common-body-div">
+  
+              <div class="common-body-inner-div">
+  
+                <div class="notifications-common-div">
+                  <div class="notifications-common-inner">
+  
+                    <div class="notifications-listing-div">
+  
+                      <div class="notifications-box">
+                        <div class="notifications-row">
+                          <div class="nt-left">
+                            <div class="thumb-div">
+                              <img src="assets/images/user-02.jpg" class="img-fluid" alt="img" />
+                            </div>
+                          </div>
+                          <div class="nt-right">
+                            <div class="text-desc">
+                              <h3> <a href="#" class="link">Your seat for michael gray’s stream has been booked</a></h3>
+                              <span class="time-span">17:05</span>
+                            </div>
+                          </div>    
+                        </div>
+                      </div>
+  
+                      <div class="notifications-box">
+                        <div class="notifications-row">
+                          <div class="nt-left">
+                            <div class="thumb-div">
+                              <img src="assets/images/user-02.jpg" class="img-fluid" alt="img" />
+                            </div>
+                          </div>
+                          <div class="nt-right">
+                            <div class="text-desc">
+                              <h3> <a href="#" class="link">Your seat for michael gray’s stream has been booked</a></h3>
+                              <span class="time-span">17:05</span>
+                            </div>
+                          </div>    
+                        </div>
+                      </div>
+  
+                      <div class="notifications-box">
+                        <div class="notifications-row">
+                          <div class="nt-left">
+                            <div class="thumb-div">
+                              <img src="assets/images/user-02.jpg" class="img-fluid" alt="img" />
+                            </div>
+                          </div>
+                          <div class="nt-right">
+                            <div class="text-desc">
+                              <h3> <a href="#" class="link">Your seat for michael gray’s stream has been booked</a></h3>
+                              <span class="time-span">17:05</span>
+                            </div>
+                          </div>    
+                        </div>
+                      </div>
+  
+                      <div class="notifications-box">
+                        <div class="notifications-row">
+                          <div class="nt-left">
+                            <div class="thumb-div">
+                              <img src="assets/images/user-02.jpg" class="img-fluid" alt="img" />
+                            </div>
+                          </div>
+                          <div class="nt-right">
+                            <div class="text-desc">
+                              <h3> <a href="#" class="link">Your seat for michael gray’s stream has been booked</a></h3>
+                              <span class="time-span">17:05</span>
+                            </div>
+                          </div>    
+                        </div>
+                      </div>
+  
+                      <div class="notifications-box">
+                        <div class="notifications-row">
+                          <div class="nt-left">
+                            <div class="thumb-div">
+                              <img src="assets/images/user-02.jpg" class="img-fluid" alt="img" />
+                            </div>
+                          </div>
+                          <div class="nt-right">
+                            <div class="text-desc">
+                              <h3> <a href="#" class="link">Your seat for michael gray’s stream has been booked</a></h3>
+                              <span class="time-span">17:05</span>
+                            </div>
+                          </div>    
+                        </div>
+                      </div>
+  
+                      <div class="notifications-box">
+                        <div class="notifications-row">
+                          <div class="nt-left">
+                            <div class="thumb-div">
+                              <img src="assets/images/user-02.jpg" class="img-fluid" alt="img" />
+                            </div>
+                          </div>
+                          <div class="nt-right">
+                            <div class="text-desc">
+                              <h3> <a href="#" class="link">Your seat for michael gray’s stream has been booked</a></h3>
+                              <span class="time-span">17:05</span>
+                            </div>
+                          </div>    
+                        </div>
+                      </div>
+  
+                      <div class="notifications-box">
+                        <div class="notifications-row">
+                          <div class="nt-left">
+                            <div class="thumb-div">
+                              <img src="assets/images/user-02.jpg" class="img-fluid" alt="img" />
+                            </div>
+                          </div>
+                          <div class="nt-right">
+                            <div class="text-desc">
+                              <h3> <a href="#" class="link">Your seat for michael gray’s stream has been booked</a></h3>
+                              <span class="time-span">17:05</span>
+                            </div>
+                          </div>    
+                        </div>
+                      </div>
+  
+                    </div>
+  
+                  </div>
+                </div>
+  
+              </div>
+  
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  <script>
+    $('.flex-plan-card input:radio.custom-control-input').click(function() {
+        $('.flex-plan-card input:radio[name='+$(this).attr('name')+']').parent().removeClass('active');
+        $(this).parent().addClass('active');
+
+        $("#plan-next-btn").removeClass("disable");
+      });
+  </script>
+
+</body>
+
+</html>
