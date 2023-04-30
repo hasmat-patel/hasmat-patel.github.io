@@ -1,0 +1,454 @@
+.common-content-root {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+
+  .common-tab-div {
+    width: 365px;
+    padding: 20px;
+    background-color: var(--lightColor06);
+  }
+
+  .common-tab-content-div {
+    flex: 1;
+    width: calc(100% - 365px);
+  }
+
+  .common-text-div {
+    min-height: 700px;
+  }
+}
+
+.nav.nav-pills-general {
+  li {
+    width: 100%;
+
+    .nav-link {
+      width: 100%;
+      padding: 10px 24px;
+      border-radius: 5px;
+      min-height: 60px;
+      text-align: left;
+      line-height: 1.5;
+      font-size: 20px;
+      font-family: var(--jost);
+      color: var(--blackColor01);
+      background-color: transparent;
+
+      &.active {
+        color: var(--whiteColor);
+        background-color: var(--primaryColor01);
+      }
+    }
+  }
+}
+
+.common-text-div {
+  padding: 20px 30px;
+  font-size: 16px;
+  position: relative;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    line-height: 1.5;
+    color: var(--blackColor01);
+    letter-spacing: 0;
+    font-family: var(--jost);
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+
+  h3 {
+    font-size: var(--fontSize30);
+  }
+
+  h4 {
+    font-size: var(--fontSize24);
+  }
+
+  h5 {
+    font-size: var(--fontSize20);
+  }
+
+  h6 {
+    font-size: var(--fontSize18);
+  }
+
+  p {
+    color: var(--greyColor07);
+    margin-bottom: 15px;
+  }
+
+  ul {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--greyColor07);
+    margin-bottom: 15px;
+    letter-spacing: 0;
+    line-height: 1.5;
+    padding-left: 2px;
+
+    li {
+      padding-left: 18px;
+      margin-bottom: 7px;
+      position: relative;
+
+      &::before {
+        content: "";
+        display: block;
+        width: 8px;
+        height: 8px;
+        background: var(--primaryColor01);
+        border-radius: 100px;
+        position: absolute;
+        left: 0;
+        top: 8px;
+      }
+    }
+
+    ul {
+      padding-top: 7px;
+    }
+
+    ol {
+      counter-reset: alphabetUpperCase;
+      list-style: none;
+      padding-top: 7px;
+
+      li {
+        padding-left: 20px;
+
+        &::before {
+          content: counter(alphabetUpperCase, decimal) ".";
+          counter-increment: alphabetUpperCase;
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 24px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: var(--blackColor01);
+          background-color: transparent;
+          width: auto;
+        }
+      }
+    }
+  }
+
+  ol {
+    counter-reset: Number;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--greyColor07);
+    margin-bottom: 15px;
+    letter-spacing: 0;
+    line-height: 1.5;
+    list-style-type: none;
+
+    > li {
+      padding-left: 20px;
+      margin-bottom: 7px;
+      position: relative;
+
+      &::before {
+        counter-increment: Number;
+        content: counters(Number, ".", decimal) ".";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--blackColor01);
+        background-color: transparent;
+        width: auto;
+      }
+
+      > ol {
+        padding-top: 7px;
+
+        li {
+          padding-left: 32px;
+
+          > ol {
+            li {
+              padding-left: 40px;
+            }
+          }
+        }
+      }
+
+      > ul {
+        padding-top: 7px;
+
+        li {
+          padding-left: 18px;
+          margin-bottom: 7px;
+          position: relative;
+
+          &::before {
+            content: "";
+            display: block;
+            width: 8px;
+            height: 8px;
+            background: var(--primaryColor01);
+            border-radius: 100px;
+            position: absolute;
+            left: 0;
+            top: 8px;
+          }
+
+          li {
+            &::before {
+              background: var(--primaryColor02);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  ol[type="A"] {
+    counter-reset: alphabetUpperCase;
+    list-style: none;
+
+    li {
+      &::before {
+        content: counter(alphabetUpperCase, upper-alpha) ".";
+        counter-increment: alphabetUpperCase;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--blackColor01);
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1600px) {
+  .nav.nav-pills-general {
+    li {
+      .nav-link {
+        padding: 10px 16px;
+        min-height: 46px;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .common-content-root {
+    .common-text-div {
+      min-height: 570px;
+      padding: 20px;
+    }
+  }
+
+  .common-text-div {
+    font-size: 14px;
+
+    p,
+    ul,
+    ol {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      li {
+        padding-left: 14px;
+
+        &::before {
+          width: 6px;
+          height: 6px;
+          top: 7px;
+        }
+      }
+
+      ol {
+        li {
+          padding-left: 16px;
+
+          &::before {
+            height: 21px;
+          }
+        }
+      }
+    }
+
+    ol {
+      > {
+        li {
+          padding-left: 16px;
+
+          &::before {
+            height: 21px;
+          }
+
+          > ul {
+            li {
+              padding-left: 14px;
+
+              &::before {
+                width: 6px;
+                height: 6px;
+                top: 7px;
+              }
+            }
+          }
+
+          > ol {
+            li {
+              padding-left: 26px;
+
+              > ol {
+                li {
+                  padding-left: 36px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    ol[type="A"] li::before {
+      height: 21px;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1150px) {
+  .common-content-root {
+    .common-tab-div {
+      width: 260px;
+      padding: 15px;
+    }
+
+    .common-tab-content-div {
+      width: calc(100% - 260px);
+    }
+
+    .common-text-div {
+      padding: 15px;
+    }
+  }
+
+  .nav.nav-pills-general li .nav-link {
+    padding: 10px 12px;
+    min-height: 44px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav.nav-pills-general {
+    li {
+      .nav-link {
+        padding: 10px 12px;
+        min-height: 44px;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .common-content-root {
+    .common-text-div {
+      min-height: 200px;
+      padding: 15px;
+    }
+
+    .common-tab-div {
+      width: 100%;
+      padding: 15px;
+    }
+
+    .common-tab-content-div {
+      flex: auto;
+      width: 100%;
+    }
+  }
+
+  .common-text-div {
+    font-size: 14px;
+
+    p,
+    ul,
+    ol {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      li {
+        padding-left: 14px;
+
+        &::before {
+          width: 6px;
+          height: 6px;
+          top: 7px;
+        }
+      }
+
+      ol {
+        li {
+          padding-left: 16px;
+
+          &::before {
+            height: 21px;
+          }
+        }
+      }
+    }
+
+    ol {
+      > {
+        li {
+          padding-left: 16px;
+
+          &::before {
+            height: 21px;
+          }
+
+          > ul {
+            li {
+              padding-left: 14px;
+
+              &::before {
+                width: 6px;
+                height: 6px;
+                top: 7px;
+              }
+            }
+          }
+
+          > ol {
+            li {
+              padding-left: 26px;
+
+              > ol {
+                li {
+                  padding-left: 36px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    ol[type="A"] li::before {
+      height: 21px;
+    }
+  }
+}

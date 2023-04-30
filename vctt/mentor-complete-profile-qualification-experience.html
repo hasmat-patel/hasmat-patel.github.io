@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Complete Profile | VCTT</title>
+  <meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+  <meta name="theme-color" content="#662D91">
+  <meta name="msapplication-navbutton-color" content="#662D91">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#662D91">
+  <link href='assets/images/favicon.png' rel='shortcut icon'>
+  <link href="assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/general-font.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/all.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/swiper-bundle.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/jquery-ui.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div id="wrapper" class="wrapper">
+
+    <!-- Header for Mentor -->
+    <header>
+      <div class="header-div header-white-div header-after-login">
+
+        <div class="inner-top-header-div">
+          <div class="container container-1760">
+
+            <div class="header-container">
+
+              <div class="logo-div">
+                <a class="logo_link clearfix" href="index.html">
+                  <img src="assets/images/logo.png" class="img-fluid img-logo-main" alt="logo" />
+                  <img src="assets/images/logo-hr.png" class="img-fluid img-logo-sticky" alt="logo" />
+                </a>
+              </div>
+
+              <nav class="nav-center-div">
+                <div class="top-nav1">
+
+                  <div class="cd-shadow-layer"></div>
+
+                  <div class="nav-m-bar">
+                    <a onclick="openNav()" class="opennav">
+                      <i class="menu-bars menu-icon fas fa-bars"></i>
+                    </a>
+                  </div>
+
+                  <div class="nav-div clearfix" id="mySidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                    <div class="row-nav-div">
+                      <div class="left-side">
+                        <ul class="nav ullist-inline" id="nav-res">
+                          <li><a href="#" class="nav-link">Dashboard</a></li>
+                          <li><a href="#" class="nav-link">Find Mentee</a></li>
+                          <li><a href="#" class="nav-link">My Sessions</a></li>
+                          <li><a href="#" class="nav-link">My Requests</a></li>
+                        </ul>
+
+                        <ul class="nav ullist-inline ullist-inline-auth">
+                          <li class="message-li"><a href="#" class="nav-link btn-message" title="Chat"> <span
+                                class="ico-round"> <img src="assets/images/icons/mail-icon.svg"
+                                  class="img-fluid img-messages" alt="message" /> </span> <span
+                                class="txt-ico-cht">Messages</span> </a></li>
+                          <li class="user-drop-down dropdown">
+                            <a class="btn-default dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                              data-bs-toggle="dropdown" aria-expanded="false">
+                              <div class="user-profile">
+                                <div class="user-img">
+                                  <img src="assets/images/profile-image01.png" class="img-fluid user-top-image"
+                                    alt="user image" />
+                                </div>
+                                <div class="user-info">
+                                  <span class="text-span">Jorge Robertson</span>
+                                </div>
+                              </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
+                              <ul class="submenu-list">
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-66 Session Guide-icon"></i></span> <span class="txt">My Session Guide</span></a></li>
+                                <li><a class="dropdown-item" href="mentor-set-availability.html"> <span class="span-icon"><i class="icon icon-44 availability-icon"></i></span> <span class="txt">My Availability</span></a></li>
+                                <li><a class="dropdown-item" href="mentor-complete-profile.html"> <span class="span-icon"><i class="icon icon-68 profile-icon"></i></span> <span class="txt">My Profile</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-69 email-icon"></i></span> <span class="txt">Email Preference</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-22 change-password-icon"></i></span> <span class="txt">Change Password</span></a></li>
+                                <li><a class="dropdown-item" href="sign-in.html"> <span class="span-icon"><i class="icon icon-23 logout-icon"></i></span> <span class="txt">Logout</span></a></li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </nav>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End of header -->
+
+    <!-- Main Area -->
+    <div class="main-middle-area">
+
+      <div class="general-page-section complete-profile-section">
+        <div class="shape-bottom-dv"> &nbsp; </div>
+
+        <div class="container container-1200">
+          <div class="general-page-div">
+
+            <div class="general-title-div">
+              <h1><span class="txt">Complete Profile</span></h1>
+            </div>
+
+            <div class="common-dt-border-card complete-profile-card mb-70">
+              <div class="common-dt-border-card-inner">
+
+                <div class="gnr-top-title-card border-bottom-01">
+                  <h4>Please fill in the below qualification/experience to complete your profile.</h4>
+                </div>
+
+                <div class="gnr-middle-body-card">
+                  <ul class="custom-timeline">
+                    <li class="done">
+                      <a href="mentor-complete-profile.html">Personal Information</a>
+                    </li>
+                    <li class="current">
+                      <a href="mentor-complete-profile-qualification-experience.html">Qualification / Experiences</a>
+                    </li>
+                  </ul>
+
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="sub-title-txt-div">
+                          <h4>About / Bio</h4>
+                        </div>
+                        <div class="form-group">
+                          <label class="form-label">Introduction Video Link </label>
+                          <div class="input-control-row">
+                            <input type="text" class="form-control" placeholder="Place your link here"/>
+                          </div>
+                        </div>
+                        <div class="form-group select2-form-group">
+                          <label class="form-label">Speaking Language </label>
+                          <div class="input-control-row">
+                            <div class="select-custom2">
+                              <select class="js-select2 js-select2-custom" id="language-select2" data-placeholder="" multiple>                                
+                                <option selected value="English">English </option>
+                                <option selected value="French ">French </option>
+                                <option value="Spanish">Spanish</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="form-label">English Bio </label>
+                          <div class="input-control-row">
+                            <textarea type="text" class="form-control" placeholder="Enter english bio" cols="30" rows="3"></textarea>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="form-label">French Bio </label>
+                          <div class="input-control-row">
+                            <textarea type="text" class="form-control" placeholder="Enter french bio" cols="30" rows="3"></textarea>
+                          </div>
+                        </div>
+                        <div class="form-group select2-form-group">
+                          <label class="form-label">Skills </label>
+                          <div class="input-control-row">
+                            <div class="select-custom2">
+                              <select class="js-select2 js-select2-custom" id="skills-select2" data-placeholder="" multiple>                                
+                                <option selected value="Public Speaking">Public Speaking </option>
+                                <option value="Public Speaking ">Public Speaking </option>
+                                <option value="Public Speaking">Public Speaking</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      </div> 
+                      
+                      <div class="col-12">
+                        <div class="sub-title-txt-div">
+                          <h4>Qualification</h4>
+                        </div>
+
+                        <!-- Undergraduate Degree -->
+                        <div class="card card-custom-common mb-4">
+                          <div class="card-header">
+                            <h5 class="card-title mb-0">Undergraduate Degree</h5>
+                          </div>
+                          <div class="card-add-items qlf-list-root">
+                            <div class="qlf-list-row">
+                              <ul class="ul-list">
+                                <li>The new school (Major in Computers) (2009-2012)</li>
+                              </ul>
+                            </div>
+                            <div class="d-flex align-content-center ms-auto">
+                              <a href="#" class="edit-btn mx-2" data-bs-toggle="modal" data-bs-target="#undergraduateDeg"><i class="icon icon-62 align-middle"></i></a>
+                              <a href="#" class="delete-btn mx-2"><i class="icon icon-63 align-middle"></i></a>
+                            </div>
+                          </div>
+                          <div class="card-add-items qlf-list-root">
+                            <div class="qlf-list-row">
+                              <ul class="ul-list">
+                                <li>The new school (Major in Computers) (2009-2012)</li>
+                              </ul>
+                            </div>
+                            <div class="d-flex align-content-center ms-auto">
+                              <a href="#" class="edit-btn mx-2" data-bs-toggle="modal" data-bs-target="#undergraduateDeg"><i class="icon icon-62 align-middle"></i></a>
+                              <a href="#" class="delete-btn mx-2"><i class="icon icon-63 align-middle"></i></a>
+                            </div>
+                          </div>
+                          <div class="card-body pb-0">
+                            <div class="row">
+                              <div class="col-lg-6 col-md-12">
+                                <div class="form-group">
+                                  <label class="form-label">University / College Name</label>
+                                  <div class="input-control-row">
+                                    <input type="text" class="form-control" placeholder="Enter university / college name"/>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-md-6">
+                                <div class="form-group">
+                                  <label class="form-label">Major</label>
+                                  <div class="input-control-row">
+                                    <input type="text" class="form-control" placeholder="Enter major"/>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-md-6">
+                                <div class="form-group select2-form-group">
+                                  <label class="form-label">Degree Type</label>
+                                  <div class="input-control-row">
+                                    <div class="select-custom2">
+                                      <select class="js-select2 js-select2-custom" id="degree-select2" data-placeholder="Select degree type">
+                                        <option selected></option>                                        
+                                        <option value="English">English </option>
+                                        <option value="French ">French </option>
+                                        <option value="Spanish">Spanish</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                </div>                                
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <label class="form-label">Select Date</label>                                
+                              </div>
+                              <div class="col-lg-3 col-sm">
+                                <div class="form-group">                                  
+                                  <div class="input-control-row">
+                                    <input type="text" class="form-control uidatepicker mw-100" readonly>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-sm-auto">
+                                <div class="form-group">
+                                  <label class="form-label my-sm-3">To</label>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-sm">
+                                <div class="form-group">
+                                  <div class="input-control-row">
+                                    <input type="text" class="form-control uidatepicker mw-100" readonly>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-auto ms-auto">
+                                <div class="form-group text-end">
+                                  <a href="#" class="btn btn-black-outline btn-add-outline"><i class="fas fa-plus-circle"></i> <span class="txt">Add</span></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Graduate Degree -->
+                        <div class="card card-custom-common mb-4">
+                          <div class="card-header">
+                            <h5 class="card-title mb-0">Graduate Degree</h5>
+                          </div>                          
+                          <div class="card-body pb-0">
+                            <div class="row">
+                              <div class="col-lg-6 col-md-12">
+                                <div class="form-group">
+                                  <label class="form-label">University / College Name</label>
+                                  <div class="input-control-row">
+                                    <input type="text" class="form-control" placeholder="Enter university / college name"/>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-md-6">
+                                <div class="form-group">
+                                  <label class="form-label">Major</label>
+                                  <div class="input-control-row">
+                                    <input type="text" class="form-control" placeholder="Enter major"/>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-md-6">
+                                <div class="form-group select2-form-group">
+                                  <label class="form-label">Degree Type</label>
+                                  <div class="input-control-row">
+                                    <div class="select-custom2">
+                                      <select class="js-select2 js-select2-custom" id="degree-select2" data-placeholder="Select degree type">
+                                        <option selected></option>                                        
+                                        <option value="English">English </option>
+                                        <option value="French ">French </option>
+                                        <option value="Spanish">Spanish</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                </div>                                
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <label class="form-label">Select Date</label>                                
+                              </div>
+                              <div class="col-lg-3 col-sm">
+                                <div class="form-group">                                  
+                                  <div class="input-control-row">
+                                    <input type="text" class="form-control uidatepicker mw-100" readonly>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-sm-auto">
+                                <div class="form-group">
+                                  <label class="form-label my-sm-3">To</label>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-sm">
+                                <div class="form-group">
+                                  <div class="input-control-row">
+                                    <input type="text" class="form-control uidatepicker mw-100" readonly>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-auto ms-auto">
+                                <div class="form-group text-end">
+                                  <a href="#" class="btn btn-black-outline btn-add-outline"><i class="fas fa-plus-circle"></i> <span class="txt">Add</span></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Certificate / Diploma -->
+                        <div class="card card-custom-common mb-4">
+                          <div class="card-header">
+                            <h5 class="card-title mb-0">Certificate / Diploma</h5>
+                          </div>                          
+                          <div class="card-body pb-0">
+                            <div class="row">
+                              <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                  <label class="form-label">Institute Name</label>
+                                  <div class="input-control-row">
+                                    <input type="text" class="form-control" placeholder="Enter institute name"/>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                  <label class="form-label">Certificate Name</label>
+                                  <div class="input-control-row">
+                                    <input type="text" class="form-control" placeholder="Enter certificate name"/>
+                                  </div>
+                                </div>
+                              </div>                              
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <label class="form-label">Select Date</label>                                
+                              </div>
+                              <div class="col-lg-3 col-sm">
+                                <div class="form-group">                                  
+                                  <div class="input-control-row">
+                                    <input type="text" class="form-control uidatepicker mw-100" readonly>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-sm-auto">
+                                <div class="form-group">
+                                  <label class="form-label my-sm-3">To</label>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-sm">
+                                <div class="form-group">
+                                  <div class="input-control-row">
+                                    <input type="text" class="form-control uidatepicker mw-100" readonly>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-auto ms-auto">
+                                <div class="form-group text-end">
+                                  <a href="#" class="btn btn-black-outline btn-add-outline"><i class="fas fa-plus-circle"></i> <span class="txt">Add</span></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="col-12">
+                      <div class="sub-title-txt-div">
+                        <h4>Experience</h4>
+                      </div>
+
+                      <!-- Mentoring Experience -->
+                      <div class="card card-custom-common mb-4 mentor-exp-card">
+                        <div class="card-header">
+                          <h5 class="card-title mb-0">Mentoring Experience</h5>
+                        </div>                          
+                        <div class="card-body pb-0">
+                          <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6  col-12">
+                              <div class="form-group select2-form-group">
+                                <label class="form-label">Subject </label>
+                                <div class="input-control-row">
+                                  <div class="select-custom2">
+                                    <select class="js-select2 js-select2-custom" id="subject-select2" data-placeholder="Select Subject">                                
+                                      <option selected></option>
+                                      <option value="Subject">Subject</option>
+                                      <option value="Subject ">Subject</option>
+                                      <option value="Subject">Subject</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-12 flex-fill">
+                              <div class="form-group select2-form-group">
+                                <label class="form-label">Year </label>
+                                <div class="input-control-row">
+                                  <div class="select-custom2">
+                                    <select class="js-select2 js-select2-custom" id="year-select2" data-placeholder="Select year">                                
+                                      <option selected></option>
+                                      <option value="2000">2000</option>
+                                      <option value="2001">2001</option>
+                                      <option value="2002">2002</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>                              
+                            <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-12 flex-fill">
+                              <div class="form-group select2-form-group">
+                                <label class="form-label">Month </label>
+                                <div class="input-control-row">
+                                  <div class="select-custom2">
+                                    <select class="js-select2 js-select2-custom" id="month-select2" data-placeholder="Select month">                                
+                                      <option selected></option>
+                                      <option value="January">January</option>
+                                      <option value="February">February</option>
+                                      <option value="March">March</option>
+                                      <option value="April">April</option>
+                                      <option value="May">May</option>
+                                      <option value="June">June</option>
+                                      <option value="July">July</option>
+                                      <option value="August">August</option>
+                                      <option value="September">September</option>
+                                      <option value="October">October</option>
+                                      <option value="November">November</option>
+                                      <option value="December">December</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-auto align-self-end">
+                              <div class="form-group text-end">
+                                <a href="#" class="btn btn-black-outline btn-add-outline mb-2"><i class="fas fa-plus-circle"></i> <span class="txt">Add</span></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Professional Experience -->
+                      <div class="card card-custom-common mb-4">
+                        <div class="card-header">
+                          <h5 class="card-title mb-0">Professional Experience</h5>
+                        </div>                          
+                        <div class="card-body pb-0">
+                          <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                              <div class="form-group">
+                                <label class="form-label">Institute / Company Name</label>
+                                <div class="input-control-row">
+                                  <input type="text" class="form-control" placeholder="Enter institute / company name"/>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                              <div class="form-group">
+                                <label class="form-label">Post / Title</label>
+                                <div class="input-control-row">
+                                  <input type="text" class="form-control" placeholder="Enter post / title"/>
+                                </div>
+                              </div>
+                            </div>                              
+                          </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <label class="form-label">Select Date</label>                                
+                            </div>
+                            <div class="col-lg-3 col-sm">
+                              <div class="form-group">                                  
+                                <div class="input-control-row">
+                                  <input type="text" class="form-control uidatepicker mw-100" readonly>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-auto">
+                              <div class="form-group">
+                                <label class="form-label my-sm-3">To</label>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 col-sm">
+                              <div class="form-group">
+                                <div class="input-control-row">
+                                  <input type="text" class="form-control uidatepicker mw-100" readonly>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-auto ms-auto">
+                              <div class="form-group text-end">
+                                <a href="#" class="btn btn-black-outline btn-add-outline"><i class="fas fa-plus-circle"></i> <span class="txt">Add</span></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                
+                <div class="gnr-btm-card">
+                  <div class="btn-dv p-0">
+                    <a href="mentor-set-availability.html" class="btn btn-primary-common"> Submit </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- End of Main Area -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-div footer-inner-page">
+        <div class="container">
+          <div class="footer-in-div">
+            <div class="row row-cols-lg-4">
+
+              <div class="col grid-25 col-footer01">
+                <div class="footer-logo-inner">
+                  <a href="index.html" class="footer-logo-link">
+                    <img src="assets/images/logo.png" class="img-fluid img-footer-logo" alt="logo" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="col grid-32 col-footer02">
+                <div class="footer-nav-list-inner">
+                  <h3>Quick Links</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul footer-list-50">
+                      <li><a href="index.html" class="link">Home</a></li>
+                      <li><a href="subscription.html" class="link">Subscription</a></li>
+                      <li><a href="#" class="link">About Us</a></li>
+                      <li><a href="faqs.html" class="link">FAQs</a></li>
+                      <li><a href="#" class="link">Mentoring</a></li>
+                      <li><a href="contact-us.html" class="link">Contact Us</a></li>
+                      <li><a href="#" class="link">Organizations</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col grid-25 col-footer03">
+                <div class="footer-nav-list-inner">
+                  <h3>Information</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul">
+                      <li><a href="#" class="link">Cookie Policy</a></li>
+                      <li><a href="#" class="link">Terms of Service</a></li>
+                      <li><a href="#" class="link">Privacy Policy </a></li>
+                      <li><a href="#" class="link">Child Protection Policy</a></li>
+                      <li><a href="#" class="link">Volunteer Code of Conduct</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col grid-18 col-footer04">
+                <div class="footer-nav-list-inner">
+                  <h3>Contact Information</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul footer-list-ul-cnt">
+                      <li>
+                        <a href="mailto:mentorship@vctt.org" class="link mail-link">
+                          <span class="span-icon"> <i class="icon icon-6"></i> </span>
+                          <span class="text-span">mentorship@vctt.org</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="tel:+18683908244" class="link call-link">
+                          <span class="span-icon"> <i class="icon icon-5"></i> </span>
+                          <span class="text-span">+1-868-390-8244</span>
+                        </a>
+                      </li>
+                      <li>
+                        <span class="address-link">
+                          <span class="span-icon"> <i class="icon icon-4"></i> </span>
+                          <span class="text-span">3076 Counts Lane <br> Cincinnati, KY 45203</span>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-div">
+        <div class="container">
+          <div class="footer-bottom-inner-div">
+            <div class="footer-social-div">
+              <ul class="social-list">
+                <li><a class="social-link fb-link" target="_blank" href="https://www.facebook.com/volunteercentertt"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="social-link instagram-link" target="_blank" href="https://www.instagram.com/volunteercentertt/?hl=en"><i class="fab fa-instagram"></i></a></li>
+                <li><a class="social-link linkedin-link" target="_blank" href="https://www.linkedin.com/company/the-volunteer-center-of-trinidad-and-tobago/about/?viewAsMember=true"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a class="social-link youtube-link" target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a class="social-link twitter-link" target="_blank" href="https://twitter.com/officialvctt?lang=en"><i class="fab fa-twitter"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="copyright-div">
+              <p>&copy; Copyright © 2022 <a href="#">VCTT</a>. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+  </div><!-- end of wrapper -->
+
+  <!-- Modal Undergraduate Degree -->
+  <div class="modal fade modal-common" id="undergraduateDeg" tabindex="-1" aria-labelledby="undergraduateDegLabel" aria-hidden="true">
+    <div class="modal-dialog modal-md modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="undergraduateDegLabel">Edit Undergraduate Degree</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <i class="icon icon-28"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="form-div">            
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+                <div class="form-group">
+                  <label class="form-label">University / College Name</label>
+                  <div class="input-control-row">
+                    <input type="text" class="form-control" placeholder="Enter university / college name"/>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="form-group">
+                  <label class="form-label">Major</label>
+                  <div class="input-control-row">
+                    <input type="text" class="form-control" placeholder="Enter major"/>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="form-group select2-form-group">
+                  <label class="form-label">Degree Type</label>
+                  <div class="input-control-row">
+                    <div class="select-custom2">
+                      <select class="js-select2 js-select2-custom" id="degree-select2" data-placeholder="Select degree type">
+                        <option selected></option>                                        
+                        <option value="English">English </option>
+                        <option value="French ">French </option>
+                        <option value="Spanish">Spanish</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>                                
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <label class="form-label">Select Date</label>                                
+              </div>
+              <div class="col-lg col-sm">
+                <div class="form-group">                                  
+                  <div class="input-control-row">
+                    <input type="text" class="form-control uidatepicker mw-100" readonly>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-auto">
+                <div class="form-group">
+                  <label class="form-label my-sm-3">To</label>
+                </div>
+              </div>
+              <div class="col-lg col-sm">
+                <div class="form-group">
+                  <div class="input-control-row">
+                    <input type="text" class="form-control uidatepicker mw-100" readonly>
+                  </div>
+                </div>
+              </div>
+            </div>           
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary-common btn-w-210">Update</button>
+          <button type="button" class="btn btn-black-outline btn-w-210" data-bs-dismiss="modal">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Undergraduate Degree End -->
+
+  <!-- Back to top -->
+  <a href="#" class="cd-top text-replace js-cd-top"><i class="fas fa-chevron-up"></i></a>
+  <!-- End of Back to top -->
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/ion.rangeSlider.min.js"></script>
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+  <script src="assets/js/backtotop/util.js"></script>
+  <script src="assets/js/select2.full.js"></script>
+  <script src="assets/js/select2-call.js"></script>
+  <script src="assets/js/jquery-ui.min.js"></script>
+  <script src="assets/js/vanillaTextMask.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script>
+    /* Input Masking */
+    var phoneMask = [
+      /[1-9]/,
+      /\d/,
+      /\d/,
+      "-",
+      /\d/,
+      /\d/,
+      /\d/,
+      "-",
+      /\d/,
+      /\d/,
+      /\d/,
+      /\d/,
+    ];
+
+    var myInput = document.querySelector(".number_mask");
+
+    var maskedInputController = vanillaTextMask.maskInput({
+      inputElement: myInput,
+      mask: phoneMask,
+    });
+    /* End of Input Masking */
+  </script>
+
+</body>
+</html>

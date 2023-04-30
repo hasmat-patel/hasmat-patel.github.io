@@ -1,0 +1,318 @@
+.alert {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.alert.alert-success {
+  color: var(--successColor02);
+  background-color: #36931f17;
+  border-color: var(--successColor02);
+}
+
+.alert-dismissible .btn-close {
+  opacity: 0.75;
+}
+
+.gnr-middle-body-card>.alert {
+  width: 100%;
+}
+
+.custom-pagination-php>nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.custom-pagination .pagination .page-item.active .page-link {
+  color: var(--whiteColor);
+  background-color: var(--primaryColor01);
+}
+
+.custom-pagination-php .pagination .page-item:first-child .page-link,
+.custom-pagination-php .pagination .page-item:last-child .page-link {
+  width: auto;
+  padding: 0 20px;
+  color: var(--blackColor02);
+  font-size: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.custom-pagination-php .pagination .page-item:last-child .page-link {
+  flex-direction: row-reverse;
+}
+
+.custom-pagination-php .pagination .page-item:first-child .page-link::before,
+.custom-pagination-php .pagination .page-item:last-child .page-link::before {
+  font-size: 16px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+}
+
+.custom-pagination-php .pagination .page-item:first-child .page-link::before {
+  content: "\f104";
+}
+
+.custom-pagination-php .pagination .page-item:last-child .page-link::before {
+  content: "\f105";
+}
+
+.custom-pagination-php .pagination .page-item:first-child .page-link::after {
+  content: "PREV";
+  display: inline-block;
+  font-weight: 600;
+  border: none !important;
+  border-radius: 25px;
+  margin: 0;
+  padding: 0 0 0 10px;
+  color: var(--blackColor02);
+  width: auto;
+  font-size: 16px;
+  font-family: "Poppins", "Jost";
+}
+
+.custom-pagination-php .pagination .page-item:last-child .page-link::after {
+  content: "NEXT";
+  display: inline-block;
+  font-weight: 600;
+  border: none !important;
+  border-radius: 25px;
+  margin: 0;
+  padding: 0 10px 0 0;
+  color: var(--blackColor02);
+  width: auto;
+  font-size: 16px;
+  font-family: "Poppins", "Jost";
+}
+
+.custom-pagination-php .pagination .page-item.disabled .page-link {
+  opacity: 0.6;
+}
+
+.select-custom2.select2-multiple-slot {
+  --paddingRightSelect2: 130px;
+  --heightButton: 60px;
+}
+
+.select-custom2.select2-multiple-slot .select2-container--default .select2-search--inline .select2-search__field,
+.select-custom2.select2-multiple-slot-wth-check .select2-container--default .select2-search--inline .select2-search__field {
+  margin-top: 12px;
+}
+
+.select-custom2.select2-multiple-slot .btn-group-all {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.select-custom2.select2-multiple-slot .btn-group-all .btn.btn-select {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primaryColor03);
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  padding: 5px 20px 5px 10px;
+  border: none;
+  height: var(--heightButton);
+  text-decoration: underline;
+}
+
+.select-custom2.select2-multiple-slot .btn-group-all .btn.btn-select:hover {
+  color: var(--primaryColor02);
+}
+
+.select-custom2.select2-multiple-slot .select2-container--default .select2-selection--multiple {
+  padding-right: var(--paddingRightSelect2);
+}
+
+.btn-check-slt-avl {
+  padding: 0;
+  margin: 0;
+  background: var(--primaryColor01);
+  border: 1px solid var(--primaryColor01);
+  color: var(--whiteColor);
+  height: 36px;
+  width: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-check-slt-avl:hover {
+  background: var(--primaryColor02);
+  border: 1px solid var(--primaryColor02);
+}
+
+.group-datepicker-check .btn-check-slt-avl {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+
+.form-div .group-datepicker-check .form-control {
+  padding-right: 85px;
+  background-position: calc(100% - 60px) 18px;
+}
+
+.select-custom2.select2-multiple-slot-wth-check {
+  position: relative;
+}
+
+.select-custom2.select2-multiple-slot-wth-check .btn-check-slt-avl {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+
+.select-custom2.select2-multiple-slot-wth-check .select2-container--default .select2-selection--multiple {
+  padding-right: 56px;
+}
+
+@media (min-width: 768px) and (max-width: 1600px) {
+  .form-div .cst-form-radio-btn.signin-radio-btn .radio-card {
+    margin-bottom: 20px;
+  }
+
+  .form-div .form-group.signin-radio-group.mb-15 {
+    margin-bottom: 0;
+  }
+
+  .select-custom2.select2-multiple-slot .select2-container--default .select2-search--inline .select2-search__field,
+  .select-custom2.select2-multiple-slot-wth-check .select2-container--default .select2-search--inline .select2-search__field {
+    margin-top: 7px;
+  }
+
+  .select-custom2.select2-multiple-slot {
+    --heightButton: 45px;
+  }
+
+  .select-custom2.select2-multiple-slot .btn-group-all .btn.btn-select {
+    font-size: 14px;
+    padding: 6px 15px 5px 10px;
+  }
+
+  .select-custom2.select2-multiple-slot {
+    --paddingRightSelect2: 110px;
+  }
+
+  .form-div .group-datepicker-check .form-control {
+    padding-right: 76px;
+    background-position: calc(100% - 46px) 12px;
+  }
+
+  .btn-check-slt-avl {
+    padding: 1px 0 0;
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
+  }
+
+  .group-datepicker-check .btn-check-slt-avl {
+    right: 8px;
+    top: 8px;
+  }
+
+  .select-custom2.select2-multiple-slot-wth-check .btn-check-slt-avl {
+    right: 8px;
+    top: 8px;
+  }
+
+  .select-custom2.select2-multiple-slot-wth-check .select2-container--default .select2-selection--multiple {
+    padding-right: 46px;
+  }
+}
+
+@media (max-width: 767px) {
+  .alert {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px;
+  }
+
+  .alert.alert-dismissible {
+    padding-right: 36px;
+  }
+
+  .alert-dismissible .btn-close {
+    padding: 15px 12px;
+    background-size: 12px;
+  }
+
+  .custom-pagination-php .pagination .page-item:first-child .page-link::after,
+  .custom-pagination-php .pagination .page-item:last-child .page-link::after {
+    display: none;
+  }
+
+  .custom-pagination-php .pagination .page-item:first-child .page-link,
+  .custom-pagination-php .pagination .page-item:last-child .page-link {
+    padding: 0 14px;
+  }
+
+  .custom-pagination-php .pagination .page-item:first-child .page-link::before,
+  .custom-pagination-php .pagination .page-item:last-child .page-link::before {
+    font-size: 18px;
+  }
+
+  .select-custom2.select2-multiple-slot .select2-container--default .select2-search--inline .select2-search__field,
+  .select-custom2.select2-multiple-slot-wth-check .select2-container--default .select2-search--inline .select2-search__field {
+    margin-top: 7px;
+  }
+
+  .select-custom2.select2-multiple-slot {
+    --heightButton: 45px;
+  }
+
+  .select-custom2.select2-multiple-slot .btn-group-all .btn.btn-select {
+    font-size: 14px;
+    padding: 6px 15px 5px 10px;
+  }
+
+  .select-custom2.select2-multiple-slot {
+    --paddingRightSelect2: 110px;
+  }
+
+  .form-div .group-datepicker-check .form-control {
+    padding-right: 76px;
+    background-position: calc(100% - 46px) 12px;
+  }
+
+  .btn-check-slt-avl {
+    padding: 1px 0 0;
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
+  }
+
+  .group-datepicker-check .btn-check-slt-avl {
+    right: 8px;
+    top: 8px;
+  }
+
+  .select-custom2.select2-multiple-slot-wth-check .btn-check-slt-avl {
+    right: 8px;
+    top: 8px;
+  }
+
+  .select-custom2.select2-multiple-slot-wth-check .select2-container--default .select2-selection--multiple {
+    padding-right: 46px;
+  }
+}

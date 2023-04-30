@@ -1,0 +1,329 @@
+.frgt-pass-root-dv {
+  padding: 40px 0 120px;
+}
+
+.lgn-root-dv {
+  padding: 40px 0 120px;
+}
+
+.frgt-illustration-img-div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  max-width: 590px;
+  max-height: 800px;
+  position: sticky;
+  top: 0;
+  left: 0;
+
+  .img-fluid {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+.frgt-pass-card {
+  padding: 20px 30px 30px;
+
+  .frgt-top-card {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+
+    .general-title-div {
+      margin-bottom: 30px;
+    }
+
+    h4 {
+      text-align: center;
+      color: var(--secondaryColor01);
+      font-size: 21px;
+      line-height: 1.5;
+      font-weight: 500;
+      display: block;
+      font-family: var(--jost);
+      margin: 0;
+    }
+  }
+
+  .bk-to-link {
+    padding: 0;
+    margin: 35px auto 0;
+    position: relative;
+  }
+}
+
+.auth-page-section {
+  &::before {
+    top: 90px;
+  }
+
+  .shape-bottom-dv {
+    &::after {
+      top: 505px;
+    }
+  }
+}
+
+.custom-form-bottom-div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 10px 0 0;
+
+  .link.link-forgot {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primaryColor03);
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+
+    &:hover {
+      color: var(--primaryColor01);
+    }
+  }
+
+  .custom-checkbox-div {
+    margin-bottom: 0;
+  }
+}
+
+.border-vline-txt-dv {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 30px auto 0;
+  text-align: center;
+
+  &::before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: var(--greyColor03);
+    position: absolute;
+    left: 0;
+  }
+
+  p {
+    position: relative;
+    padding: 0 15px;
+    z-index: 2;
+    background: var(--whiteColor);
+  }
+}
+
+.auth-rd-opt-full-card {
+  display: none;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+
+  &.active {
+    display: block;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1600px) {
+  .lgn-root-dv {
+    padding: 20px 0 40px;
+  }
+
+  .frgt-pass-card .frgt-top-card h4 {
+    font-size: 16px;
+
+    br {
+      display: none;
+    }
+  }
+
+  .frgt-pass-card .frgt-top-card .general-title-div {
+    margin-bottom: 15px;
+  }
+
+  .frgt-pass-card .frgt-top-card {
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+  }
+
+  .form-div .form-group .form-label {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 6px 0;
+  }
+
+  .custom-form-bottom-div {
+    .link.link-forgot {
+      font-size: 14px;
+    }
+  }
+
+  .border-vline-txt-dv {
+    margin: 20px auto 0;
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .frgt-pass-card {
+    .bk-to-link {
+      margin: 15px auto 0;
+    }
+  }
+
+  .auth-btm-card {
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .link-back-arrow-btn {
+    font-size: 14px;
+  }
+
+  .frgt-illustration-img-div .img-fluid {
+    max-height: 500px;
+  }
+
+  .general-page-section.signup-section .shape-bottom-dv::before {
+    height: 265px;
+    background-size: 232px 753px;
+    top: auto;
+    bottom: 0;
+    background-position: left top;
+  }
+
+  .frgt-illustration-img-div {
+    max-height: 520px;
+    justify-content: center;
+  }
+
+  .frgt-pass-card {
+    padding: 15px 20px 20px;
+  }
+
+  .frgt-pass-root-dv {
+    padding: 20px 0 30px;
+
+    .frgt-pass-right {
+      display: flex;
+      align-items: center;
+    }
+
+    .common-dt-border-card {
+      max-width: 500px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .frgt-pass-root-dv {
+    padding: 20px 0 50px;
+  }
+
+  .lgn-root-dv {
+    padding: 20px 0 70px;
+  }
+
+  .frgt-illustration-img-div {
+    margin: 0 auto 50px;
+    height: auto;
+
+    .img-thumb-dv {
+      width: 100%;
+    }
+
+    .img-fluid {
+      max-height: 320px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .frgt-pass-root-dv {
+    padding: 10px 0 40px;
+  }
+
+  .lgn-root-dv {
+    padding: 10px 0 40px;
+
+    .frgt-pass-card {
+      .bk-to-link {
+        p {
+          font-size: 14px;
+        }
+
+        .link-back-arrow-btn {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .frgt-illustration-img-div {
+    margin: 0 auto 20px;
+
+    .img-fluid {
+      max-height: 200px;
+    }
+  }
+
+  .frgt-pass-card {
+    padding: 15px;
+
+    .frgt-top-card {
+      margin-bottom: 15px;
+      padding-bottom: 15px;
+
+      h4 {
+        font-size: 14px;
+      }
+
+      .general-title-div {
+        margin-bottom: 15px;
+      }
+    }
+
+    .bk-to-link {
+      margin: 15px auto 0;
+    }
+  }
+
+  .signup-section {
+    h4 {
+      br {
+        display: none;
+      }
+    }
+  }
+
+  .social-btn-link-full {
+    margin: 15px auto 0;
+  }
+}
+
+@media (max-width: 350px) {
+  .frgt-illustration-img-div {
+    .img-fluid {
+      max-height: 120px;
+    }
+  }
+
+  .frgt-pass-card .frgt-top-card h4 {
+    font-size: 12px;
+  }
+
+  .frgt-pass-card {
+    padding: 10px 15px;
+  }
+}

@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>My Mentee | VCTT</title>
+  <meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+  <meta name="theme-color" content="#662D91">
+  <meta name="msapplication-navbutton-color" content="#662D91">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#662D91">
+  <link href='assets/images/favicon.png' rel='shortcut icon'>
+  <link href="assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/general-font.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/all.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/jquery.rateyo.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/swiper-bundle.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div id="wrapper" class="wrapper">
+
+    <!-- Header for Organization -->
+    <header>
+      <div class="header-div header-white-div header-after-login">
+
+        <div class="inner-top-header-div">
+          <div class="container container-1760">
+
+            <div class="header-container">
+
+              <div class="logo-div">
+                <a class="logo_link clearfix" href="index.html">
+                  <img src="assets/images/logo.png" class="img-fluid img-logo-main" alt="logo" />
+                  <img src="assets/images/logo-hr.png" class="img-fluid img-logo-sticky" alt="logo" />
+                </a>
+              </div>
+
+              <nav class="nav-center-div">
+                <div class="top-nav1">
+
+                  <div class="cd-shadow-layer"></div>
+
+                  <div class="nav-m-bar">
+                    <a onclick="openNav()" class="opennav">
+                      <i class="menu-bars menu-icon fas fa-bars"></i>
+                    </a>
+                  </div>
+
+                  <div class="nav-div clearfix" id="mySidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                    <div class="row-nav-div">
+                      <div class="left-side">
+                        <ul class="nav ullist-inline" id="nav-res">
+                          <li><a href="organization-dashboard.html" class="nav-link">Dashboard</a></li>
+                          <li><a href="organization-my-mentee.html" class="nav-link">My Mentee</a></li>
+                          <li><a href="organization-mentor-listing.html" class="nav-link">My Mentors</a></li>
+                          <li class="dropdown">
+                            <a class="nav-link-dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                              <span class="txt">Sessions</span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
+                              <ul class="submenu-list">
+                                <li><a class="dropdown-item" href="organization-sessions-pending.html">1 to 1</a></li>
+                                <li><a class="dropdown-item" href="#">Many to 1</a></li>
+                                <li><a class="dropdown-item" href="#">Group Sessions</a></li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+
+                        <ul class="nav ullist-inline ullist-inline-auth">
+                          <li><a href="#" class="nav-link btn btn-primary-common btn-switch-nav">Switch To Mentorship</a></li>
+                          <li class="message-li"><a href="#" class="nav-link btn-message" title="Chat"> <span class="ico-round"> <img src="assets/images/icons/mail-icon.svg" class="img-fluid img-messages" alt="message" /> </span> <span class="txt-ico-cht">Messages</span> </a></li>
+                          <li class="user-drop-down dropdown">
+                            <a class="btn-default dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                              <div class="user-profile">
+                                <div class="user-img">
+                                  <img src="assets/images/profile-image01.png" class="img-fluid user-top-image" alt="user image" />
+                                </div>
+                                <div class="user-info">
+                                  <span class="text-span">Organization</span>
+                                </div>
+                              </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
+                              <ul class="submenu-list">
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-17"></i></span> <span class="txt">Account Info</span></a></li>
+                                <li><a class="dropdown-item" href="organization-assessment-form.html"> <span class="span-icon"><i class="icon icon-65 assessment-icon"></i></span><span class="txt">Assessment Form</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-66 Session Guide-icon"></i></span> <span class="txt">My Session Guide</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-18"></i></span> <span class="txt">My Subscription</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-19"></i></span> <span class="txt">Transaction History</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-20 payment-info-icon"></i></span> <span class="txt">Payment Info</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-21 billing-info-icon"></i></span> <span class="txt">Billing Info</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-22 change-password-icon"></i></span> <span class="txt">Change Password</span></a></li>
+                                <li><a class="dropdown-item" href="sign-in.html"> <span class="span-icon"><i class="icon icon-23 logout-icon"></i></span> <span class="txt">Logout</span></a></li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </nav>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End of header -->
+
+    <!-- Main Area -->
+    <div class="main-middle-area">
+
+      <div class="general-page-section mentee-detail-section">
+        <div class="shape-bottom-dv"> &nbsp; </div>
+      
+          <div class="container">
+            <div class="general-page-div">
+
+              <div class="title-container">
+                <div class="general-title-div">
+                  <h1><span class="txt">My Mentee</span></h1>
+                </div>
+              </div>
+
+              <div class="common-pst-relative-root">
+                <div class="white-color-btn-dv">
+                  <a href="#" class="btn-action btn-delete" data-bs-toggle="modal" data-bs-target="#deleteAccount"> 
+                    <span data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" data-bs-original-title="Delete">
+                      <i class="icon icon-26"></i> 
+                    </span>
+                  </a>
+                </div>
+
+                <div class="common-dt-border-card mb-60">
+                  <div class="common-dt-border-card-inner">
+
+                    <div class="mnt-details-top-dv">
+                      <div class="mnt-details-top-row">
+                        <div class="mnt-details-left-dv">
+                          
+                          <div class="img-div">
+                            <img src="assets/images/profile/user1.png" class="img-fluid img-user" alt="user">
+
+                            <div class="badge-dv">
+                              <img src="assets/images/icons/badge-rating4.svg" class="img-fluid img-bagde" alt="user">
+                            </div>
+                          </div>
+
+                          <div class="mnt-lft-info-dv">
+                            <h3>Issabella jen</h3>
+                            <ul class="mnt-info-list">
+                              <li>
+                                <span class="address-link">
+                                  <span class="span-icon"> <i class="icon icon-4"></i> </span>
+                                  <span class="text-span">Trinadad</span>
+                                </span>
+                              </li>
+                              <li>
+                                <a href="mailto:issabella@gmail.com" class="link mail-link">
+                                  <span class="span-icon"> <i class="icon icon-6"></i> </span>
+                                  <span class="text-span">issabella@gmail.com</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="tel:+123 4562 9722" class="link call-link">
+                                  <span class="span-icon"> <i class="icon icon-5"></i> </span>
+                                  <span class="text-span">+123 4562 9722</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="mnt-total-star-dv">
+                            <div class="star-rw-dv">
+                              <div class="star-dv">
+                                <i class="icon icon-16 active"></i>
+                                <i class="icon icon-16 active"></i>
+                                <i class="icon icon-16 active"></i>
+                                <i class="icon icon-16 active"></i>
+                                <i class="icon icon-16"></i>
+                              </div>
+                              <h5>4.00 <small>(230)</small></h5>
+                            </div>
+                            <h4>Total Sessions Attended : <span class="number-badge">20</span></h4>
+                            <p class="txt-p">Registered on : <b class="txt-bold">January 23rd 2022</b></p>
+                          </div>
+
+                        </div>
+
+                        <div class="mnt-details-right-dv">
+
+                          <div class="chart-mnt-dv">
+                            <div class="gauge-chart-dv" id="gauge-container"></div>
+                            <div class="txt-dv">
+                              <div class="smile-dv"> <img src="assets/images/icons/smile-rating1.svg" class="img-fluid img-rating" alt="smile" /></div>
+                              <p>Monthly Efficiency</p>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="mnt-details-middle-dv">
+                      <div class="btn-tp-dv">
+                        <a href="#" class="btn btn-black-outline btn-h50 mr-20">Report</a>
+                        <a href="#" class="btn btn-primary-common btn-h50 mr-20">Session Guide Completed</a>
+                        <a href="#" class="btn btn-black-outline btn-h50" data-bs-toggle="modal" data-bs-target="#RecommendMentors">Recommend Mentors</a>
+                      </div>
+
+                      <div class="desc-inner-div">
+                        <div class="desc-inner-row border-bottom-01">
+                          <h3>About Me</h3>
+                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </div>
+
+                        <div class="desc-inner-row border-bottom-01">
+                          <h3>Mentee's Goal</h3>
+                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </div>
+
+                        <div class="desc-inner-row mb-0 pb-10">
+                          <h3>Mentee's Interests</h3>
+                          <ul class="list-badge-mnt">
+                            <li> <span class="txt">Maths</span> </li>
+                            <li> <span class="txt">Communication</span> </li>
+                            <li> <span class="txt">Maths</span> </li>
+                            <li> <span class="txt">Social</span> </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="tab-custom-root">
+                        <div class="nav-pills-div">
+                          <ul class="nav nav-pills nav-pills-custom-list" id="mentee-pills-tab">
+                            <li class="nav-item nav-item-edit">
+                              <button class="nav-link active" id="mentee-pills-personal-info-tab" data-bs-toggle="pill" data-bs-target="#pills-personal-info" type="button">Personal Info</button>
+                              <a class="action-nav-link edit-action-nav-link" href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit" data-bs-original-title="Edit"> <i class="icons icon-27"></i> </a>
+                            </li>
+                            <li class="nav-item">
+                              <button class="nav-link" id="mentee-pills-reviews-tab" data-bs-toggle="pill" data-bs-target="#pills-reviews" type="button">Reviews</button>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <div class="tab-content tab-content-custom" id="mentee-pills-tabContent">
+                          <div class="tab-pane fade show active" id="pills-personal-info">                          
+                            <div class="card-personal-mentee-root">
+                              <div class="card-personal-mentee-bx">
+                                <div class="card-personal-mentee-tp sub-title-txt-div">
+                                  <h4>Mentee's Address</h4>
+                                </div>
+                                <div class="card-personal-mentee-body">
+                                  <div class="desc-div">
+                                    <ul class="mnt-info-list mnt-info-listv2">
+                                      <li>
+                                        <span class="address-link">
+                                          <span class="span-icon"> <i class="icon icon-4"></i> </span>
+                                          <span class="text-span">
+                                            <address>
+                                              Von Karmna, Street no 34,<br>
+                                              Opposite the Saint Mary Cathedral, <br>
+                                              near Gemini cross roads, <br>
+                                              Port of Spain, Trinidad, 602323.
+                                            </address>
+                                          </span>
+                                        </span>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="card-personal-mentee-bx">
+                                <div class="card-personal-mentee-tp sub-title-txt-div">
+                                  <h4>School Information</h4>
+                                </div>
+                                <div class="card-personal-mentee-body">
+                                  <div class="desc-div">
+                                    <h6>Carmel Convent School</h6>
+                                    <ul class="mnt-info-list mnt-info-listv2">
+                                      <li>
+                                        <span class="address-link">
+                                          <span class="span-icon"> <i class="icon icon-4"></i> </span>
+                                          <span class="text-span">
+                                            <address>
+                                              Von Karmna, Street no 34,<br>
+                                              Opposite the Saint Mary Cathedral, <br>
+                                              near Gemini cross roads, <br>
+                                              Port of Spain, Trinidad, 602323.
+                                            </address>
+                                          </span>
+                                        </span>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="card-personal-mentee-bx">
+                                <div class="card-personal-mentee-tp sub-title-txt-div">
+                                  <h4>Guardian's Information </h4>
+                                </div>
+                                <div class="card-personal-mentee-body">
+                                  <div class="desc-div">
+                                    <h6>Issabella Jen</h6>
+                                    <ul class="mnt-info-list mnt-info-listv2">
+                                      <li>
+                                        <span class="address-link">
+                                          <span class="span-icon"> <i class="icon icon-4"></i> </span>
+                                          <span class="text-span">
+                                            <address>
+                                              Von Karmna, Street no 34,<br>
+                                              Opposite the Saint Mary Cathedral, <br>
+                                              near Gemini cross roads, <br>
+                                              Port of Spain, Trinidad, 602323.
+                                            </address>
+                                          </span>
+                                        </span>
+                                      </li>
+                                      <li class="phone-no-li">
+                                        <span class="span-icon"> <i class="icon icon-5"></i> </span>
+                                        <span class="phone-span">
+                                          <a href="tel:+123 4562 9722" class="link call-link">
+                                            <span class="text-span">+123 4562 9722</span>
+                                          </a><span>,</span>
+                                          <a href="tel:+123 4562 9722" class="link call-link">
+                                            <span class="text-span">+123 4562 9722</span>
+                                          </a>
+                                        </span>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="card-personal-mentee-bx mb-10">
+                                <div class="card-personal-mentee-tp sub-title-txt-div">
+                                  <h4>Answers Given By Mentee</h4>
+                                </div>
+                                <div class="card-personal-mentee-body">
+                                  <div class="answers-desc-div">
+                                    
+                                    <div class="answers-desc-row">
+                                      <div class="answers-desc-tp">
+                                        <span class="txt-span">Q:</span>
+                                        <h6>Are you weak in science ?</h6>
+                                      </div>
+                                      <div class="answers-desc-bd">
+                                        <span class="txt-span">A:</span>
+                                        <p>Yes</p>
+                                      </div>
+                                    </div>
+
+                                    <div class="answers-desc-row">
+                                      <div class="answers-desc-tp">
+                                        <span class="txt-span">Q:</span>
+                                        <h6>Have you ever had difficulty in communicating with strangers?</h6>
+                                      </div>
+                                      <div class="answers-desc-bd">
+                                        <span class="txt-span">A:</span>
+                                        <p>No</p>
+                                      </div>
+                                    </div>
+
+                                    <div class="answers-desc-row">
+                                      <div class="answers-desc-tp">
+                                        <span class="txt-span">Q:</span>
+                                        <h6>Are you comfortable to attend the online mentoring sessions?</h6>
+                                      </div>
+                                      <div class="answers-desc-bd">
+                                        <span class="txt-span">A:</span>
+                                        <p>Yes</p>
+                                      </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="tab-pane fade" id="pills-reviews">
+                            <div class="card-personal-mentee-root">
+                              <div class="card-personal-mentee-body card-reviews">
+                                <div class="media"> 
+                                  <div class="media-inner">
+                                    <div class="media-img figure figure-50">
+                                      <img src="assets/images/profile/user1.png" alt="Image" class="cover">                                      
+                                    </div>
+                                    <div class="media-info">
+                                      <div>
+                                        <h4>Helena Christon <span>(Session ID : <text class="color-primary">#7897</text>)</span></h4>
+                                        <div class="rating">
+                                          <div class="rating_star" data-rateyo-half-star="true" data-rateyo-read-only="true" data-rateyo-star-width="14px" data-rateyo-spacing="5px" data-rateyo-rating="3.5"></div>                                          
+                                          <span>3.5</span>
+                                        </div>
+                                      </div>
+                                      <div class="d-flex flex-wrap">                                        
+                                        <span>February 05, 2022</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="media-inner">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, it or randomised words which don't look even slightly believable. </p>
+                                  </div>
+                                </div>
+                                <div class="media"> 
+                                  <div class="media-inner">
+                                    <div class="media-img figure figure-50">
+                                      <img src="assets/images/profile/user4.png" alt="Image" class="cover">                                      
+                                    </div>
+                                    <div class="media-info">
+                                      <div>
+                                        <h4>Mike Smith <span>(Session ID : <text class="color-primary">#7897</text>)</span></h4>
+                                        <div class="rating">
+                                          <div class="rating_star" data-rateyo-half-star="true" data-rateyo-read-only="true" data-rateyo-star-width="14px" data-rateyo-spacing="5px" data-rateyo-rating="3.5"></div>                                          
+                                          <span>3.5</span>
+                                        </div>
+                                      </div>
+                                      <div class="d-flex flex-wrap">                                        
+                                        <span>February 05, 2022</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="media-inner">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, it or randomised words which don't look even slightly believable. </p>
+                                  </div>
+                                </div>
+                                <div class="media"> 
+                                  <div class="media-inner">
+                                    <div class="media-img figure figure-50">
+                                      <img src="assets/images/profile/user1.png" alt="Image" class="cover">                                      
+                                    </div>
+                                    <div class="media-info">
+                                      <div>
+                                        <h4>Helena Christon <span>(Session ID : <text class="color-primary">#7897</text>)</span></h4>
+                                        <div class="rating">
+                                          <div class="rating_star" data-rateyo-half-star="true" data-rateyo-read-only="true" data-rateyo-star-width="14px" data-rateyo-spacing="5px" data-rateyo-rating="3.5"></div>                                          
+                                          <span>3.5</span>
+                                        </div>
+                                      </div>
+                                      <div class="d-flex flex-wrap">                                        
+                                        <span>February 05, 2022</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="media-inner">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, it or randomised words which don't look even slightly believable. </p>
+                                  </div>
+                                </div>
+                                <div class="media"> 
+                                  <div class="media-inner">
+                                    <div class="media-img figure figure-50">
+                                      <img src="assets/images/profile/user1.png" alt="Image" class="cover">                                      
+                                    </div>
+                                    <div class="media-info">
+                                      <div>
+                                        <h4>Helena Christon <span>(Session ID : <text class="color-primary">#7897</text>)</span></h4>
+                                        <div class="rating">
+                                          <div class="rating_star" data-rateyo-half-star="true" data-rateyo-read-only="true" data-rateyo-star-width="14px" data-rateyo-spacing="5px" data-rateyo-rating="3.5"></div>                                          
+                                          <span>3.5</span>
+                                        </div>
+                                      </div>
+                                      <div class="d-flex flex-wrap">                                        
+                                        <span>February 05, 2022</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="media-inner">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, it or randomised words which don't look even slightly believable. </p>
+                                  </div>
+                                </div>
+                                <div class="media"> 
+                                  <div class="media-inner">
+                                    <div class="media-img figure figure-50">
+                                      <img src="assets/images/profile/user4.png" alt="Image" class="cover">                                      
+                                    </div>
+                                    <div class="media-info">
+                                      <div>
+                                        <h4>Mike Smith <span>(Session ID : <text class="color-primary">#7897</text>)</span></h4>
+                                        <div class="rating">
+                                          <div class="rating_star" data-rateyo-half-star="true" data-rateyo-read-only="true" data-rateyo-star-width="14px" data-rateyo-spacing="5px" data-rateyo-rating="3.5"></div>                                          
+                                          <span>3.5</span>
+                                        </div>
+                                      </div>
+                                      <div class="d-flex flex-wrap">                                        
+                                        <span>February 05, 2022</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="media-inner">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, it or randomised words which don't look even slightly believable. </p>
+                                  </div>
+                                </div>
+                                <div class="media"> 
+                                  <div class="media-inner">
+                                    <div class="media-img figure figure-50">
+                                      <img src="assets/images/profile/user1.png" alt="Image" class="cover">                                      
+                                    </div>
+                                    <div class="media-info">
+                                      <div>
+                                        <h4>Helena Christon <span>(Session ID : <text class="color-primary">#7897</text>)</span></h4>
+                                        <div class="rating">
+                                          <div class="rating_star" data-rateyo-half-star="true" data-rateyo-read-only="true" data-rateyo-star-width="14px" data-rateyo-spacing="5px" data-rateyo-rating="3.5"></div>                                          
+                                          <span>3.5</span>
+                                        </div>
+                                      </div>
+                                      <div class="d-flex flex-wrap">                                        
+                                        <span>February 05, 2022</span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="media-inner">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, it or randomised words which don't look even slightly believable. </p>
+                                  </div>
+                                </div>
+                              </div>                              
+                              <div class="loader-dv">
+                                <img src="assets/images/loader.svg" class="img-fluid img-loader" alt="Loader">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <!-- End of Main Area -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-div footer-inner-page">
+        <div class="container">
+          <div class="footer-in-div">
+            <div class="row row-cols-lg-4">
+
+              <div class="col grid-25 col-footer01">
+                <div class="footer-logo-inner">
+                  <a href="index.html" class="footer-logo-link">
+                    <img src="assets/images/logo.png" class="img-fluid img-footer-logo" alt="logo" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="col grid-32 col-footer02">
+                <div class="footer-nav-list-inner">
+                  <h3>Quick Links</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul footer-list-50">
+                      <li><a href="index.html" class="link">Home</a></li>
+                      <li><a href="subscription.html" class="link">Subscription</a></li>
+                      <li><a href="#" class="link">About Us</a></li>
+                      <li><a href="faqs.html" class="link">FAQs</a></li>
+                      <li><a href="#" class="link">Mentoring</a></li>
+                      <li><a href="contact-us.html" class="link">Contact Us</a></li>
+                      <li><a href="#" class="link">Organizations</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col grid-25 col-footer03">
+                <div class="footer-nav-list-inner">
+                  <h3>Information</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul">
+                      <li><a href="#" class="link">Cookie Policy</a></li>
+                      <li><a href="#" class="link">Terms of Service</a></li>
+                      <li><a href="#" class="link">Privacy Policy </a></li>
+                      <li><a href="#" class="link">Child Protection Policy</a></li>
+                      <li><a href="#" class="link">Volunteer Code of Conduct</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col grid-18 col-footer04">
+                <div class="footer-nav-list-inner">
+                  <h3>Contact Information</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul footer-list-ul-cnt">
+                      <li>
+                        <a href="mailto:mentorship@vctt.org" class="link mail-link">
+                          <span class="span-icon"> <i class="icon icon-6"></i> </span>
+                          <span class="text-span">mentorship@vctt.org</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="tel:+18683908244" class="link call-link">
+                          <span class="span-icon"> <i class="icon icon-5"></i> </span>
+                          <span class="text-span">+1-868-390-8244</span>
+                        </a>
+                      </li>
+                      <li>
+                        <span class="address-link">
+                          <span class="span-icon"> <i class="icon icon-4"></i> </span>
+                          <span class="text-span">3076 Counts Lane <br> Cincinnati, KY 45203</span>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-div">
+        <div class="container">
+          <div class="footer-bottom-inner-div">
+            <div class="footer-social-div">
+              <ul class="social-list">
+                <li><a class="social-link fb-link" target="_blank" href="https://www.facebook.com/volunteercentertt"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="social-link instagram-link" target="_blank" href="https://www.instagram.com/volunteercentertt/?hl=en"><i class="fab fa-instagram"></i></a></li>
+                <li><a class="social-link linkedin-link" target="_blank" href="https://www.linkedin.com/company/the-volunteer-center-of-trinidad-and-tobago/about/?viewAsMember=true"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a class="social-link youtube-link" target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a class="social-link twitter-link" target="_blank" href="https://twitter.com/officialvctt?lang=en"><i class="fab fa-twitter"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="copyright-div">
+              <p>&copy; Copyright © 2022 <a href="#">VCTT</a>. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- Modal Delete Account -->
+    <div class="modal fade modal-common" id="deleteAccount" tabindex="-1" aria-labelledby="deleteAccountLabel" aria-hidden="true">
+      <div class="modal-dialog modal-md modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-head-icon">
+            <i class="icon icon-26"></i>
+          </div>
+          <div class="modal-header">            
+            <h5 class="modal-title" id="deleteAccountLabel">Are you sure?</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+              <i class="icon icon-28"></i>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="reason-popup-info">
+              <div class="color-gray text-center mb-4">                
+                Are you sure you want to delete this user's profile? You will not be able to view this user's profile in your list anymore if you delete it.
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-black-outline btn-w-210" data-bs-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-primary-common btn-w-280">Delete Account</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Delete Account -->
+
+    <!-- Modal Recommend Mentors -->
+    <div class="modal fade modal-common" id="RecommendMentors" tabindex="-1" aria-labelledby="RecommendMentorsLabel" aria-hidden="true">
+      <div class="modal-dialog modal-md modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="RecommendMentorsLabel">Recommend Mentors</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+              <i class="icon icon-28"></i>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="reason-popup-info">
+              <div class="text-center mb-4">                
+                <h3 class="fs-20 color-black font-jost">Select mentor to recommend them to mentee. once <br>recommended, mentee will be able to view those mentors only.</h3>
+              </div>
+              <div class="card group-session-card">
+                <div class="card-body">
+                  <form class="form-div">
+                    <div class="search-group form-group mb-3">
+                      <div class="form-left-icon">
+                        <i class="icon icon-15"></i>
+                        <input type="text" class="form-control"/>
+                      </div>
+                    </div>
+                  
+                    <ul class="group-session-listing scroll-call">
+                      <li class="list-item">
+                        <div class="custom-checkbox-div my-2">
+                          <label class="custom-checkbox-label">
+                            <input type="checkbox" name="groups" checked/>
+                            <span class="txt"></span>
+                          </label>
+                        </div>
+                        <figure class="figure figure-44 me-3">
+                          <img src="assets/images/profile/user1.png" alt="Image" class="cover">
+                        </figure>
+                        <h4 class="my-2">Issabella Smith</h4>                                        
+                      </li>                                      
+                      <li class="list-item">
+                        <div class="custom-checkbox-div my-2">
+                          <label class="custom-checkbox-label">
+                            <input type="checkbox" name="groups" checked/>
+                            <span class="txt"></span>
+                          </label>
+                        </div>
+                        <figure class="figure figure-44 me-3">
+                          <img src="assets/images/profile/user3.png" alt="Image" class="cover">
+                        </figure>
+                        <h4 class="my-2">Janet Wilson</h4>                                        
+                      </li>
+                      <li class="list-item">
+                        <div class="custom-checkbox-div my-2">
+                          <label class="custom-checkbox-label">
+                            <input type="checkbox" name="groups" checked/>
+                            <span class="txt"></span>
+                          </label>
+                        </div>
+                        <figure class="figure figure-44 me-3">
+                          <img src="assets/images/profile/user2.png" alt="Image" class="cover">
+                        </figure>
+                        <h4 class="my-2">Issabella Smith</h4>                                        
+                      </li>
+                      <li class="list-item">
+                        <div class="custom-checkbox-div my-2">
+                          <label class="custom-checkbox-label">
+                            <input type="checkbox" name="groups"/>
+                            <span class="txt"></span>
+                          </label>
+                        </div>
+                        <figure class="figure figure-44 me-3">
+                          <img src="assets/images/profile/user4.png" alt="Image" class="cover">
+                        </figure>
+                        <h4 class="my-2">Patrick Sheik</h4>                                        
+                      </li>
+                      <li class="list-item">
+                        <div class="custom-checkbox-div my-2">
+                          <label class="custom-checkbox-label">
+                            <input type="checkbox" name="groups"/>
+                            <span class="txt"></span>
+                          </label>
+                        </div>
+                        <figure class="figure figure-44 me-3">
+                          <img src="assets/images/profile/user5.png" alt="Image" class="cover">
+                        </figure>
+                        <h4 class="my-2">Issabella Smith</h4>                                        
+                      </li>
+                      <li class="list-item">
+                        <div class="custom-checkbox-div my-2">
+                          <label class="custom-checkbox-label">
+                            <input type="checkbox" name="groups"/>
+                            <span class="txt"></span>
+                          </label>
+                        </div>
+                        <figure class="figure figure-44 me-3">
+                          <img src="assets/images/profile/user6.png" alt="Image" class="cover">
+                        </figure>
+                        <h4 class="my-2">Patrick Sheik</h4>                                        
+                      </li>
+                      <li class="list-item">
+                        <div class="custom-checkbox-div my-2">
+                          <label class="custom-checkbox-label">
+                            <input type="checkbox" name="groups"/>
+                            <span class="txt"></span>
+                          </label>
+                        </div>
+                        <figure class="figure figure-44 me-3">
+                          <img src="assets/images/profile/user7.png" alt="Image" class="cover">
+                        </figure>
+                        <h4 class="my-2">Janet Wilson</h4>                                        
+                      </li>
+                    </ul>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary-common btn-w-210">Submit</button>
+          </div>        
+        </div>
+      </div>
+    </div>
+    <!-- Modal Recommend Mentors End -->
+
+  </div><!-- end of wrapper -->
+
+  <!-- Back to top -->
+  <a href="#" class="cd-top text-replace js-cd-top"><i class="fas fa-chevron-up"></i></a>
+  <!-- End of Back to top -->
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/ion.rangeSlider.min.js"></script>
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+  <script src="assets/js/backtotop/util.js"></script>
+  <script src="assets/js/select2.full.js"></script>
+  <script src="assets/js/select2-call.js"></script>
+  <script src="assets/js/jquery-ui.min.js"></script>
+  <script src="assets/js/chart/highcharts.js"></script>
+  <script src="assets/js/chart/highcharts-more.js"></script>
+  <script src="assets/js/chart/chart-call.js"></script>
+  <script src="assets/js/jquery.rateyo.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+</body>
+</html>

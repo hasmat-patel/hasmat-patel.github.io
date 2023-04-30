@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Complete Profile | VCTT</title>
+  <meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+  <meta name="theme-color" content="#662D91">
+  <meta name="msapplication-navbutton-color" content="#662D91">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#662D91">
+  <link href='assets/images/favicon.png' rel='shortcut icon'>
+  <link href="assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/general-font.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/all.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/swiper-bundle.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/jquery-ui.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/lightbox/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/lightbox/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div id="wrapper" class="wrapper">
+
+    <!-- Header for Mentor -->
+    <header>
+      <div class="header-div header-white-div header-after-login">
+
+        <div class="inner-top-header-div">
+          <div class="container container-1760">
+
+            <div class="header-container">
+
+              <div class="logo-div">
+                <a class="logo_link clearfix" href="index.html">
+                  <img src="assets/images/logo.png" class="img-fluid img-logo-main" alt="logo" />
+                  <img src="assets/images/logo-hr.png" class="img-fluid img-logo-sticky" alt="logo" />
+                </a>
+              </div>
+
+              <nav class="nav-center-div">
+                <div class="top-nav1">
+
+                  <div class="cd-shadow-layer"></div>
+
+                  <div class="nav-m-bar">
+                    <a onclick="openNav()" class="opennav">
+                      <i class="menu-bars menu-icon fas fa-bars"></i>
+                    </a>
+                  </div>
+
+                  <div class="nav-div clearfix" id="mySidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                    <div class="row-nav-div">
+                      <div class="left-side">
+                        <ul class="nav ullist-inline" id="nav-res">
+                          <li><a href="#" class="nav-link">Dashboard</a></li>
+                          <li><a href="#" class="nav-link">Find Mentee</a></li>
+                          <li><a href="#" class="nav-link">My Sessions</a></li>
+                          <li><a href="#" class="nav-link">My Requests</a></li>
+                        </ul>
+
+                        <ul class="nav ullist-inline ullist-inline-auth">
+                          <li class="message-li"><a href="#" class="nav-link btn-message" title="Chat"> <span
+                                class="ico-round"> <img src="assets/images/icons/mail-icon.svg"
+                                  class="img-fluid img-messages" alt="message" /> </span> <span
+                                class="txt-ico-cht">Messages</span> </a></li>
+                          <li class="user-drop-down dropdown">
+                            <a class="btn-default dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                              data-bs-toggle="dropdown" aria-expanded="false">
+                              <div class="user-profile">
+                                <div class="user-img">
+                                  <img src="assets/images/profile-image01.png" class="img-fluid user-top-image"
+                                    alt="user image" />
+                                </div>
+                                <div class="user-info">
+                                  <span class="text-span">Jorge Robertson</span>
+                                </div>
+                              </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
+                              <ul class="submenu-list">
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-66 Session Guide-icon"></i></span> <span class="txt">My Session Guide</span></a></li>
+                                <li><a class="dropdown-item" href="mentor-set-availability.html"> <span class="span-icon"><i class="icon icon-44 availability-icon"></i></span> <span class="txt">My Availability</span></a></li>
+                                <li><a class="dropdown-item" href="mentor-complete-profile.html"> <span class="span-icon"><i class="icon icon-68 profile-icon"></i></span> <span class="txt">My Profile</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-69 email-icon"></i></span> <span class="txt">Email Preference</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-22 change-password-icon"></i></span> <span class="txt">Change Password</span></a></li>
+                                <li><a class="dropdown-item" href="sign-in.html"> <span class="span-icon"><i class="icon icon-23 logout-icon"></i></span> <span class="txt">Logout</span></a></li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </nav>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End of header -->
+
+    <!-- Main Area -->
+    <div class="main-middle-area">
+
+      <div class="general-page-section complete-profile-section">
+        <div class="shape-bottom-dv"> &nbsp; </div>
+
+        <div class="container container-1200">
+          <div class="general-page-div">
+
+            <div class="general-title-div">
+              <h1><span class="txt">Complete Profile</span></h1>
+            </div>
+
+            <div class="common-dt-border-card complete-profile-card mb-70">
+              <div class="common-dt-border-card-inner">
+
+                <div class="gnr-top-title-card border-bottom-01">
+                  <h4>Please fill in the below personal details to complete your profile.</h4>
+                </div>
+
+                <div class="gnr-middle-body-card">
+                  <ul class="custom-timeline">
+                    <li class="current">
+                      <a href="mentor-complete-profile.html">Personal Information</a>
+                    </li>
+                    <li>
+                      <a href="mentor-complete-profile-qualification-experience.html">Qualification / Experiences</a>
+                    </li>
+                  </ul>
+
+                  <div class="form-div">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4 pro-fill-lft-4">
+                        <div class="img-circle-div">
+                          <div class="circle">
+                            <img class="profile-pic" src="assets/images/organization-image.png" alt="organization" />
+                            <label class="filelabel-icon" for="file-uploadpic">
+                              <span class="icon icon-10"></span>
+                            </label>
+                            <input class="file-upload d-none" id="file-uploadpic" type="file" accept="image/*">
+                          </div>
+        
+                          <div class="title-div">
+                            <label class="filelabel-text" id="filelabel-uploadpic" for="file-uploadpic">
+                              <h5>Upload Picture</h5>
+                              <p>No File Selected</p>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-8 col-md-8 pro-fill-rgt-8">
+                        <div class="org-name-form-group"> 
+                          <div class="row">
+                            <div class="col-lg-6 col-md-12 col-sm-6">
+                              <div class="form-group">
+                                <label class="form-label">First Name </label>
+                                <div class="input-control-row">
+                                  <input type="text" class="form-control" placeholder="Enter First name" value="VCTT" />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-6">
+                              <div class="form-group">
+                                <label class="form-label">Last Name </label>
+                                <div class="input-control-row">
+                                  <input type="text" class="form-control" placeholder="Enter Last name" value="VCTT" />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>                        
+                      </div>
+
+                      <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="form-group">
+                          <label class="form-label">Email Address </label>
+                          <div class="input-control-row">
+                            <input type="email" class="form-control" placeholder="Enter email address" value="vctt.org@gmail.com" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="form-group select2-form-group">
+                          <label class="form-label">Gender </label>
+                          <div class="input-control-row">
+                            <div class="select-custom2">
+                              <select class="js-select2 js-select2-custom">                                
+                                <option selected value="Select gender">Select gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                              </select>
+                            </div>                            
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="form-group">
+                          <label class="form-label">Date Of Birth</label>
+                          <div class="input-control-row">
+                            <input type="text" class="form-control uidatepicker mw-100" readonly>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="sub-title-txt-div mb-4">
+                          <h4>Identity Proof <span class="fw-normal fs-14 color-gray">(Please Upload Identity Proof If Any)</span></h4>
+                        </div>
+                        <div class="form-control p-3 br-25 mb-5">
+                          <div class="lightbox-cst-root">
+                            <div id="lightbox-gallery" class="row lightbox-gallery-mnt lightbox-gallery-mnt01" itemscope>
+                              <figure class="col-lg-3 col-md-4 grid-col lightbox-card">
+                                <div class="form-group file-form-group select2-form-group mb-md-0">
+                                  <div class="input-control-row">
+                                    <div class="select-custom2">
+                                      <select class="js-select2 js-select2-custom" id="document-select2" data-placeholder="Select document">
+                                        <option selected> </option>
+                                        <option value="Driving Licence">Driving Licence</option>
+                                        <option value="ID Card">ID Card</option>
+                                        <option value="ID Card">ID Card</option>
+                                      </select>
+                                    </div>
+                                    <div class="custom-file custom-file-btn">
+                                      <input type="file" class="custom-file-input" id="browse-doc">
+                                      <label class="custom-file-label" for="browse-doc"><span class="browse-txt">Browse</span> </label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </figure>
+                              <figure class="col-lg-3 col-md-4 grid-col lightbox-card" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">                                
+                                <a class="box-border-card linkzoom" href="assets/images/id_proof01.png" data-size="500x500" itemprop="contentUrl">
+                                  <button type="button" class="btn remove-file"><i class="icon icon-28"></i></button>
+                                  <span class="top-txt-span">
+                                    <img src="assets/images/id_proof01.png" itemprop="thumbnail" alt="ID Card" class="img-fluid" />
+                                    <span class="action-span">
+                                      <span class="zoom-span"> <i class="icon icon-37"></i> </span>
+                                    </span>
+                                  </span>
+                                  <span class="bottom-txt-span">
+                                    <span class="txt">Driving Licence</span> 
+                                  </span>
+                                </a>
+                              </figure>
+
+                              <figure class="col-lg-3 col-md-4 grid-col lightbox-card" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">                                
+                                <a class="box-border-card linkzoom" href="assets/images/id_proof02.png" data-caption="" data-size="500x500" itemprop="contentUrl">
+                                  <button type="button" class="btn remove-file"><i class="icon icon-28"></i></button>
+                                  <span class="top-txt-span">
+                                    <img src="assets/images/id_proof02.png" itemprop="thumbnail" alt="ID Card" class="img-fluid" />
+                                    <span class="action-span">
+                                      <span class="zoom-span"> <i class="icon icon-37"></i> </span>
+                                    </span>
+                                  </span>
+                                  <span class="bottom-txt-span">
+                                    <span class="txt">ID Card</span> 
+                                  </span>
+                                </a>
+                              </figure>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="sub-title-txt-div">
+                          <h4>Certificate Of Character</h4>
+                        </div>
+                        <div class="form-group file-form-group mb-17">
+                          <label class="form-label">The organization will verify the Certificate of Character, after verification the mentors will have full access to their role. </label>
+                          <div class="row">
+                            <div class="input-control-row col-md-6">
+                              <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="customFile01">
+                                <label class="custom-file-label" for="customFile01">Upload your Documents here<span class="browse-txt">Browse</span> </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12">                        
+                        <div class="row">
+                          <div class="col-lg-6">
+                            <div class="sub-title-txt-div mb-4">
+                              <h4>Address</h4>
+                            </div>                            
+                            <div class="row">
+                              <div class="col-12">
+                                <div class="form-group">
+                                  <label class="form-label">Street Address 1 </label>
+                                  <div class="input-control-row">
+                                    <input type="text" class="form-control" placeholder="Enter street address"/>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label class="form-label">Street Address 2 </label>
+                                  <div class="input-control-row">
+                                    <input type="text" class="form-control" placeholder="Enter street address"/>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="form-group select2-form-group">
+                                  <label class="form-label">Country </label>
+                                  <div class="input-control-row">
+                                    <div class="select-custom2">
+                                      <select class="js-select2 js-select2-custom select2-open-search" id="country-select2" data-placeholder="Select country">
+                                        <option selected> </option>
+                                        <option value="India">India</option>
+                                        <option value="US">US</option>
+                                        <option value="UK">UK</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="form-group select2-form-group">
+                                  <label class="form-label">State </label>
+                                  <div class="input-control-row">
+                                    <div class="select-custom2">
+                                      <select class="js-select2 js-select2-custom select2-open-search" id="state-select2" data-placeholder="Select State">
+                                        <option selected> </option>
+                                        <option value="State">State</option>
+                                        <option value="State">State</option>
+                                        <option value="State">State</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="form-group select2-form-group">
+                                  <label class="form-label">City </label>
+                                  <div class="input-control-row">
+                                    <div class="select-custom2">
+                                      <select class="js-select2 js-select2-custom select2-open-search" id="city-select2" data-placeholder="Select City">
+                                        <option selected> </option>
+                                        <option value="City">City</option>
+                                        <option value="City">City</option>
+                                        <option value="City">City</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="form-group">
+                                  <label class="form-label">Zip Code </label>
+                                  <div class="input-control-row">
+                                    <input type="text" class="form-control" placeholder="Enter zip code"/>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="sub-title-txt-div mb-4">
+                              <h4>Contact Information</h4>
+                            </div>                            
+                            <div class="row">
+                              <div class="col-12">
+                                <div class="form-group">
+                                  <label class="form-label">Phone Number</label>
+                                  <div class="input-control-row">
+                                    <input type="text" class="form-control" placeholder="Enter phone number"/>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label class="form-label">Video Call ID</label>
+                                  <div class="input-control-row">
+                                    <input type="text" class="form-control" placeholder="Enter Video Call ID"/>
+                                  </div>
+                                </div>
+                                <div class="form-group select2-form-group">
+                                  <label class="form-label">Time Zone</label>
+                                  <div class="input-control-row">
+                                    <div class="select-custom2">
+                                      <select class="js-select2 js-select2-custom select2-open-search" id="timezone-select2" data-placeholder="Select Time Zone">
+                                        <option selected> </option>
+                                        <option value="UTC+05:30">UTC+05:30</option>
+                                        <option value="UTC+05:45">UTC+05:45</option>
+                                        <option value="UTC+06:00">UTC+06:00</option>
+                                        <option value="UTC+06:30">UTC+06:30</option>
+                                      </select>
+                                    </div>                                                           
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>                        
+                      </div>
+
+                      <div class="col-lg-12 col-md-12">
+                        <div class="sub-title-txt-div mb-4">
+                          <h4>References </h4>
+                        </div>
+                        <div class="accordion accordion-general accordion-gnl-mnt-v2 mb-4" id="accordionMentorLstDtl">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="general_mentor_heading01">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#general_mentor01" aria-expanded="true" aria-controls="general_mentor01">
+                                Reference 01
+                                <div class="d-flex align-content-center accordion-btn">
+                                  <a href="#" class="edit-btn mx-2"><i class="icon icon-62 align-middle"></i></a>
+                                  <a href="#" class="delete-btn mx-2"><i class="icon icon-63 align-middle"></i></a>
+                                </div>
+                              </button>
+                            </h2>
+                            <div id="general_mentor01" class="accordion-collapse collapse show" aria-labelledby="general_mentor_heading01" data-bs-parent="#accordionMentorLstDtl">
+                              <div class="accordion-body">                                
+                                <div class="row acc-lb-desc-row">
+                                  <div class="col col-md-4 acc-lb-desc-col">
+                                    <div class="acc-lb-desc-bx">
+                                      <label>Full Name :</label>
+                                      <div class="desc-dv">
+                                        <p>Jack Milton</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col col-md-4 acc-lb-desc-col">
+                                    <div class="acc-lb-desc-bx">
+                                      <label>Email Address :</label>
+                                      <div class="desc-dv">
+                                        <p><a href="mailto:jack@gmail.com" class="link">jack@gmail.com</a></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col col-md-4 acc-lb-desc-col">
+                                    <div class="acc-lb-desc-bx">
+                                      <label>Contact Number :</label>
+                                      <div class="desc-dv">
+                                        <p><a href="tel:+13426561121" class="link">+1 (342)656 1121</a></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col col-md-4 acc-lb-desc-col">
+                                    <div class="acc-lb-desc-bx">
+                                      <label>Place of Work :</label>
+                                      <div class="desc-dv">
+                                        <p>Aden Organization</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col col-md-4 acc-lb-desc-col">
+                                    <div class="acc-lb-desc-bx">
+                                      <label>Designation :</label>
+                                      <div class="desc-dv">
+                                        <p>Assistant Professor</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col col-md-4 acc-lb-desc-col">
+                                    <div class="acc-lb-desc-bx">
+                                      <label>Relationship to Mentor :</label>
+                                      <div class="desc-dv">
+                                        <p>Colleague</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col col-md-12 acc-lb-desc-col">
+                                    <div class="acc-lb-desc-bx">
+                                      <label>Address :</label>
+                                      <div class="desc-dv">
+                                        <p>Karma street 12, opp the old church, Port of spain, Trinidad - 612399</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+      
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="general_mentor_heading02">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#general_mentor02" aria-expanded="false" aria-controls="general_mentor02">
+                                Reference 02
+                                <div class="d-flex align-content-center accordion-btn">
+                                  <a href="#" class="edit-btn mx-2"><i class="icon icon-62 align-middle"></i></a>
+                                  <a href="#" class="delete-btn mx-2"><i class="icon icon-63 align-middle"></i></a>
+                                </div>
+                              </button>
+                            </h2>
+                            <div id="general_mentor02" class="accordion-collapse collapse" aria-labelledby="general_mentor_heading02" data-bs-parent="#accordionMentorLstDtl">
+                              <div class="accordion-body">                                
+                                <div class="row acc-lb-desc-row">
+                                  <div class="col col-md-4 acc-lb-desc-col">
+                                    <div class="acc-lb-desc-bx">
+                                      <label>Full Name :</label>
+                                      <div class="desc-dv">
+                                        <p>Peter Milton</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col col-md-4 acc-lb-desc-col">
+                                    <div class="acc-lb-desc-bx">
+                                      <label>Email Address :</label>
+                                      <div class="desc-dv">
+                                        <p><a href="mailto:jack@gmail.com" class="link">jack@gmail.com</a></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col col-md-4 acc-lb-desc-col">
+                                    <div class="acc-lb-desc-bx">
+                                      <label>Contact Number :</label>
+                                      <div class="desc-dv">
+                                        <p><a href="tel:+13426561121" class="link">+1 (342)656 1121</a></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col col-md-4 acc-lb-desc-col">
+                                    <div class="acc-lb-desc-bx">
+                                      <label>Place of Work :</label>
+                                      <div class="desc-dv">
+                                        <p>Aden Organization</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col col-md-4 acc-lb-desc-col">
+                                    <div class="acc-lb-desc-bx">
+                                      <label>Designation :</label>
+                                      <div class="desc-dv">
+                                        <p>Assistant Professor</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col col-md-4 acc-lb-desc-col">
+                                    <div class="acc-lb-desc-bx">
+                                      <label>Relationship to Mentor :</label>
+                                      <div class="desc-dv">
+                                        <p>Colleague</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col col-md-12 acc-lb-desc-col">
+                                    <div class="acc-lb-desc-bx">
+                                      <label>Address :</label>
+                                      <div class="desc-dv">
+                                        <p>Karma street 12, opp the old church, Port of spain, Trinidad - 612399</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+      
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="general_mentor_heading03">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#general_mentor03" aria-expanded="false" aria-controls="general_mentor03">
+                                Reference 03
+                                <div class="d-flex align-content-center accordion-btn">
+                                  <a href="#" class="edit-btn mx-2"><i class="icon icon-62 align-middle"></i></a>
+                                  <a href="#" class="delete-btn mx-2"><i class="icon icon-63 align-middle"></i></a>
+                                </div>
+                              </button>
+                            </h2>
+                            <div id="general_mentor03" class="accordion-collapse collapse" aria-labelledby="general_mentor_heading03" data-bs-parent="#accordionMentorLstDtl">
+                              <div class="accordion-body">                                
+                                <div class="row acc-lb-desc-row">
+                                  <div class="col col-md-4 acc-lb-desc-col">
+                                    <div class="acc-lb-desc-bx">
+                                      <label>Full Name :</label>
+                                      <div class="desc-dv">
+                                        <p>Jhon Milton</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col col-md-4 acc-lb-desc-col">
+                                    <div class="acc-lb-desc-bx">
+                                      <label>Email Address :</label>
+                                      <div class="desc-dv">
+                                        <p><a href="mailto:jack@gmail.com" class="link">jack@gmail.com</a></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col col-md-4 acc-lb-desc-col">
+                                    <div class="acc-lb-desc-bx">
+                                      <label>Contact Number :</label>
+                                      <div class="desc-dv">
+                                        <p><a href="tel:+13426561121" class="link">+1 (342)656 1121</a></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col col-md-4 acc-lb-desc-col">
+                                    <div class="acc-lb-desc-bx">
+                                      <label>Place of Work :</label>
+                                      <div class="desc-dv">
+                                        <p>Aden Organization</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col col-md-4 acc-lb-desc-col">
+                                    <div class="acc-lb-desc-bx">
+                                      <label>Designation :</label>
+                                      <div class="desc-dv">
+                                        <p>Assistant Professor</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col col-md-4 acc-lb-desc-col">
+                                    <div class="acc-lb-desc-bx">
+                                      <label>Relationship to Mentor :</label>
+                                      <div class="desc-dv">
+                                        <p>Colleague</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col col-md-12 acc-lb-desc-col">
+                                    <div class="acc-lb-desc-bx">
+                                      <label>Address :</label>
+                                      <div class="desc-dv">
+                                        <p>Karma street 12, opp the old church, Port of spain, Trinidad - 612399</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12 col-md-12">
+                        <div class="sub-title-txt-div mb-4">
+                          <h4>Reference</h4>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="form-group">
+                              <label class="form-label">Full Name </label>
+                              <div class="input-control-row">
+                                <input type="text" class="form-control" placeholder="Enter full name"/>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="form-group">
+                              <label class="form-label">Email Address </label>
+                              <div class="input-control-row">
+                                <input type="email" class="form-control" placeholder="Enter email address"/>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="form-group">
+                              <label class="form-label">Contact Number</label>
+                              <div class="input-control-row">
+                                <input type="text" class="form-control" placeholder="Enter contact number"/>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="form-group">
+                              <label class="form-label">Place Of Work</label>
+                              <div class="input-control-row">
+                                <input type="text" class="form-control" placeholder="Enter place of work"/>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="form-group">
+                              <label class="form-label">Designation </label>
+                              <div class="input-control-row">
+                                <input type="text" class="form-control" placeholder="Enter designation"/>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="form-group">
+                              <label class="form-label">Relationship To Mentor</label>
+                              <div class="input-control-row">
+                                <input type="text" class="form-control" placeholder="Enter relationship to mentor"/>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-12 col-md-12">
+                            <div class="form-group">
+                              <label class="form-label">Address</label>
+                              <div class="input-control-row">
+                                <input type="text" class="form-control" placeholder="Enter address"/>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-12 col-md-12">
+                            <div class="form-group text-end">
+                              <a href="#" class="btn btn-black-outline btn-add-outline"><i class="fas fa-plus-circle"></i> <span class="txt">Add</span></a>
+                            </div>
+                          </div>
+                        </div>                        
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                
+                <div class="gnr-btm-card">
+                  <div class="btn-dv p-0">
+                    <a href="mentor-complete-profile-qualification-experience.html" class="btn btn-primary-common btn-w-280"> Save And Continue </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- End of Main Area -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-div footer-inner-page">
+        <div class="container">
+          <div class="footer-in-div">
+            <div class="row row-cols-lg-4">
+
+              <div class="col grid-25 col-footer01">
+                <div class="footer-logo-inner">
+                  <a href="index.html" class="footer-logo-link">
+                    <img src="assets/images/logo.png" class="img-fluid img-footer-logo" alt="logo" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="col grid-32 col-footer02">
+                <div class="footer-nav-list-inner">
+                  <h3>Quick Links</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul footer-list-50">
+                      <li><a href="index.html" class="link">Home</a></li>
+                      <li><a href="subscription.html" class="link">Subscription</a></li>
+                      <li><a href="#" class="link">About Us</a></li>
+                      <li><a href="faqs.html" class="link">FAQs</a></li>
+                      <li><a href="#" class="link">Mentoring</a></li>
+                      <li><a href="contact-us.html" class="link">Contact Us</a></li>
+                      <li><a href="#" class="link">Organizations</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col grid-25 col-footer03">
+                <div class="footer-nav-list-inner">
+                  <h3>Information</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul">
+                      <li><a href="#" class="link">Cookie Policy</a></li>
+                      <li><a href="#" class="link">Terms of Service</a></li>
+                      <li><a href="#" class="link">Privacy Policy </a></li>
+                      <li><a href="#" class="link">Child Protection Policy</a></li>
+                      <li><a href="#" class="link">Volunteer Code of Conduct</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col grid-18 col-footer04">
+                <div class="footer-nav-list-inner">
+                  <h3>Contact Information</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul footer-list-ul-cnt">
+                      <li>
+                        <a href="mailto:mentorship@vctt.org" class="link mail-link">
+                          <span class="span-icon"> <i class="icon icon-6"></i> </span>
+                          <span class="text-span">mentorship@vctt.org</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="tel:+18683908244" class="link call-link">
+                          <span class="span-icon"> <i class="icon icon-5"></i> </span>
+                          <span class="text-span">+1-868-390-8244</span>
+                        </a>
+                      </li>
+                      <li>
+                        <span class="address-link">
+                          <span class="span-icon"> <i class="icon icon-4"></i> </span>
+                          <span class="text-span">3076 Counts Lane <br> Cincinnati, KY 45203</span>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-div">
+        <div class="container">
+          <div class="footer-bottom-inner-div">
+            <div class="footer-social-div">
+              <ul class="social-list">
+                <li><a class="social-link fb-link" target="_blank" href="https://www.facebook.com/volunteercentertt"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="social-link instagram-link" target="_blank" href="https://www.instagram.com/volunteercentertt/?hl=en"><i class="fab fa-instagram"></i></a></li>
+                <li><a class="social-link linkedin-link" target="_blank" href="https://www.linkedin.com/company/the-volunteer-center-of-trinidad-and-tobago/about/?viewAsMember=true"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a class="social-link youtube-link" target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a class="social-link twitter-link" target="_blank" href="https://twitter.com/officialvctt?lang=en"><i class="fab fa-twitter"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="copyright-div">
+              <p>&copy; Copyright © 2022 <a href="#">VCTT</a>. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+  </div><!-- end of wrapper -->
+
+  <!-- Back to top -->
+  <a href="#" class="cd-top text-replace js-cd-top"><i class="fas fa-chevron-up"></i></a>
+  <!-- End of Back to top -->
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp pswp-custom-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/ion.rangeSlider.min.js"></script>
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+  <script src="assets/js/backtotop/util.js"></script>
+  <script src="assets/js/select2.full.js"></script>
+  <script src="assets/js/select2-call.js"></script>
+  <script src="assets/js/jquery-ui.min.js"></script>
+  <script src="assets/js/vanillaTextMask.js"></script>
+  <script src="assets/js/lightbox/photoswipe.min.js"></script>
+  <script src="assets/js/lightbox/photoswipe-ui-default.min.js"></script>
+  <script src="assets/js/lightbox/photoswipe-call.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script>
+    /* Input Masking */
+    var phoneMask = [
+      /[1-9]/,
+      /\d/,
+      /\d/,
+      "-",
+      /\d/,
+      /\d/,
+      /\d/,
+      "-",
+      /\d/,
+      /\d/,
+      /\d/,
+      /\d/,
+    ];
+
+    var myInput = document.querySelector(".number_mask");
+
+    var maskedInputController = vanillaTextMask.maskInput({
+      inputElement: myInput,
+      mask: phoneMask,
+    });
+    /* End of Input Masking */
+  </script>
+
+</body>
+</html>

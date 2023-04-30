@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Create Group Session | VCTT</title>
+  <meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+  <meta name="theme-color" content="#662D91">
+  <meta name="msapplication-navbutton-color" content="#662D91">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#662D91">
+  <link href='assets/images/favicon.png' rel='shortcut icon'>
+  <link href="assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/general-font.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/all.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/swiper-bundle.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/jquery-ui.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/lightbox/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/lightbox/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div id="wrapper" class="wrapper">
+
+    <!-- Header for Mentor -->
+    <header>
+      <div class="header-div header-white-div header-after-login">
+
+        <div class="inner-top-header-div">
+          <div class="container container-1760">
+
+            <div class="header-container">
+
+              <div class="logo-div">
+                <a class="logo_link clearfix" href="index.html">
+                  <img src="assets/images/logo.png" class="img-fluid img-logo-main" alt="logo" />
+                  <img src="assets/images/logo-hr.png" class="img-fluid img-logo-sticky" alt="logo" />
+                </a>
+              </div>
+
+              <nav class="nav-center-div">
+                <div class="top-nav1">
+
+                  <div class="cd-shadow-layer"></div>
+
+                  <div class="nav-m-bar">
+                    <a onclick="openNav()" class="opennav">
+                      <i class="menu-bars menu-icon fas fa-bars"></i>
+                    </a>
+                  </div>
+
+                  <div class="nav-div clearfix" id="mySidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                    <div class="row-nav-div">
+                      <div class="left-side">
+                        <ul class="nav ullist-inline" id="nav-res">
+                          <li><a href="organization-dashboard.html" class="nav-link">Dashboard</a></li>
+                          <li><a href="#" class="nav-link">Find Mentee</a></li>
+                          <li><a href="#" class="nav-link">My Sessions</a></li>
+                          <li><a href="#" class="nav-link">My Requests</a></li>
+                        </ul>
+
+                        <ul class="nav ullist-inline ullist-inline-auth">
+                          <li class="message-li"><a href="#" class="nav-link btn-message" title="Chat"> <span
+                                class="ico-round"> <img src="assets/images/icons/mail-icon.svg"
+                                  class="img-fluid img-messages" alt="message" /> </span> <span
+                                class="txt-ico-cht">Messages</span> </a></li>
+                          <li class="user-drop-down dropdown">
+                            <a class="btn-default dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                              data-bs-toggle="dropdown" aria-expanded="false">
+                              <div class="user-profile">
+                                <div class="user-img">
+                                  <img src="assets/images/profile-image01.png" class="img-fluid user-top-image"
+                                    alt="user image" />
+                                </div>
+                                <div class="user-info">
+                                  <span class="text-span">Jorge Robertson</span>
+                                </div>
+                              </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
+                              <ul class="submenu-list">
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-66 Session Guide-icon"></i></span> <span class="txt">My Session Guide</span></a></li>
+                                <li><a class="dropdown-item" href="mentor-set-availability.html"> <span class="span-icon"><i class="icon icon-44 availability-icon"></i></span> <span class="txt">My Availability</span></a></li>
+                                <li><a class="dropdown-item" href="mentor-complete-profile.html"> <span class="span-icon"><i class="icon icon-68 profile-icon"></i></span> <span class="txt">My Profile</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-69 email-icon"></i></span> <span class="txt">Email Preference</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-22 change-password-icon"></i></span> <span class="txt">Change Password</span></a></li>
+                                <li><a class="dropdown-item" href="sign-in.html"> <span class="span-icon"><i class="icon icon-23 logout-icon"></i></span> <span class="txt">Logout</span></a></li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </nav>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End of header -->
+
+    <!-- Main Area -->
+    <div class="main-middle-area">
+
+      <div class="general-page-section complete-profile-section">
+        <div class="shape-bottom-dv"> &nbsp; </div>
+
+        <div class="container container-1200">
+          <div class="general-page-div">
+
+            <div class="general-title-div">
+              <h1><span class="txt">Create Group Session</span></h1>
+            </div>
+
+            <div class="common-dt-border-card complete-profile-card mb-70">
+              <div class="common-dt-border-card-inner">
+
+                <div class="gnr-top-title-card border-bottom-01">
+                  <h4>Please select date and time and the Mentee , Mentors you wish to create group session for.</h4>
+                </div>
+
+                <div class="gnr-middle-body-card">
+                  <div class="color-gary2 font-poppins fs-16 mb-4">
+                    When the organization creates the group session, the mentee and mentors will receive the session request in their request section to accept or deny the request. upon accepting the session request they will receive the session link in the mail.
+                  </div>
+
+                  <div class="book-session-tab-content">
+                    <div class="book-session-row book-session-1to1 active" id="bookSession1To1">
+                      <div class="card-personal-mentee-bx pb-10">
+                        <div class="card-personal-mentee-tp sub-title-txt-div">
+                          <h4>Select Date And Time</h4>
+                        </div>
+                        <div class="card-personal-mentee-body">                            
+                          <div class="custom-datetime-div">
+                            <div class="custom-datetime-row">
+                              <div class="custom-date-view custom-date-view01">
+                                <div class="datepickerinline" id="datepickerinline"></div>
+                              </div>
+                              <div class="custom-time-view">
+                                <div class="timerange-header-div timerange-header-div01">
+                                  <div class="timerange-tp-left">
+                                    <a class="arrow-link date-prev"><i class="icon icon-51"></i></a>
+                                    <input type="hidden" id="viewPrevDate" size="30">
+                                  </div>
+                                  <div class="timerange-tp-center">
+                                    <input type="hidden" id="viewDate" size="30"><h3 id="viewDateh3">Wed 5th Jan, 2021</h3>
+                                  </div>
+                                  <div class="timerange-tp-right">
+                                    <a class="arrow-link date-next"><i class="icon icon-52"></i></a>
+                                  </div>
+                                </div>
+                                <div class="timerange-div scroll-call-hoverShow">
+                                  <ul class="timerange-list">
+                                    <li><a href="#" class="link selected">9:00 am to 10:00 am</a></li>
+                                    <li><a href="#" class="link">10:00 am to 11:00 am</a></li>
+                                    <li><a href="#" class="link">11:00 am to 12:00 am</a></li>
+                                    <li><a href="#" class="link">12:00 pm to 01:00 pm</a></li>
+                                    <li><a href="#" class="link">01:00 pm to 02:00 pm</a></li>
+                                    <li><a href="#" class="link">02:00 pm to 03:00 pm</a></li>
+                                    <li><a href="#" class="link">03:00 pm to 04:00 pm</a></li>
+                                    <li><a href="#" class="link">04:00 pm to 05:00 pm</a></li>
+                                    <li><a href="#" class="link">05:00 pm to 06:00 pm</a></li>
+                                    <li><a href="#" class="link">06:00 pm to 07:00 pm</a></li>
+                                    <li><a href="#" class="link">07:00 pm to 08:00 pm</a></li>
+                                    <li><a href="#" class="link">08:00 pm to 09:00 pm</a></li>
+                                    <li><a href="#" class="link">09:00 pm to 10:00 pm</a></li>
+                                    <li><a href="#" class="link">10:00 pm to 11:00 pm</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-lg-6">
+                              <div class="sub-title-txt-div mb-4">
+                                <h4>Select Mentee</h4>
+                              </div>
+                              <div class="card group-session-card mb-4">
+                                <div class="card-body">
+                                  <form class="form-div">
+                                    <div class="search-group form-group mb-3">
+                                      <div class="form-left-icon">
+                                        <i class="icon icon-15"></i>
+                                        <input type="text" class="form-control"/>
+                                      </div>
+                                    </div>
+                                  
+                                    <ul class="group-session-listing scroll-call">
+                                      <li class="list-item">
+                                        <div class="custom-checkbox-div my-2">
+                                          <label class="custom-checkbox-label">
+                                            <input type="checkbox" name="groups" checked/>
+                                            <span class="txt"></span>
+                                          </label>
+                                        </div>
+                                        <figure class="figure figure-44 me-3">
+                                          <img src="assets/images/profile/user1.png" alt="Image" class="cover">
+                                        </figure>
+                                        <h4 class="my-2">Issabella Smith</h4>                                        
+                                      </li>                                      
+                                      <li class="list-item">
+                                        <div class="custom-checkbox-div my-2">
+                                          <label class="custom-checkbox-label">
+                                            <input type="checkbox" name="groups" checked/>
+                                            <span class="txt"></span>
+                                          </label>
+                                        </div>
+                                        <figure class="figure figure-44 me-3">
+                                          <img src="assets/images/profile/user3.png" alt="Image" class="cover">
+                                        </figure>
+                                        <h4 class="my-2">Janet Wilson</h4>                                        
+                                      </li>
+                                      <li class="list-item">
+                                        <div class="custom-checkbox-div my-2">
+                                          <label class="custom-checkbox-label">
+                                            <input type="checkbox" name="groups" checked/>
+                                            <span class="txt"></span>
+                                          </label>
+                                        </div>
+                                        <figure class="figure figure-44 me-3">
+                                          <img src="assets/images/profile/user2.png" alt="Image" class="cover">
+                                        </figure>
+                                        <h4 class="my-2">Issabella Smith</h4>                                        
+                                      </li>
+                                      <li class="list-item">
+                                        <div class="custom-checkbox-div my-2">
+                                          <label class="custom-checkbox-label">
+                                            <input type="checkbox" name="groups"/>
+                                            <span class="txt"></span>
+                                          </label>
+                                        </div>
+                                        <figure class="figure figure-44 me-3">
+                                          <img src="assets/images/profile/user4.png" alt="Image" class="cover">
+                                        </figure>
+                                        <h4 class="my-2">Patrick Sheik</h4>                                        
+                                      </li>
+                                      <li class="list-item">
+                                        <div class="custom-checkbox-div my-2">
+                                          <label class="custom-checkbox-label">
+                                            <input type="checkbox" name="groups"/>
+                                            <span class="txt"></span>
+                                          </label>
+                                        </div>
+                                        <figure class="figure figure-44 me-3">
+                                          <img src="assets/images/profile/user5.png" alt="Image" class="cover">
+                                        </figure>
+                                        <h4 class="my-2">Issabella Smith</h4>                                        
+                                      </li>
+                                      <li class="list-item">
+                                        <div class="custom-checkbox-div my-2">
+                                          <label class="custom-checkbox-label">
+                                            <input type="checkbox" name="groups"/>
+                                            <span class="txt"></span>
+                                          </label>
+                                        </div>
+                                        <figure class="figure figure-44 me-3">
+                                          <img src="assets/images/profile/user6.png" alt="Image" class="cover">
+                                        </figure>
+                                        <h4 class="my-2">Patrick Sheik</h4>                                        
+                                      </li>
+                                      <li class="list-item">
+                                        <div class="custom-checkbox-div my-2">
+                                          <label class="custom-checkbox-label">
+                                            <input type="checkbox" name="groups"/>
+                                            <span class="txt"></span>
+                                          </label>
+                                        </div>
+                                        <figure class="figure figure-44 me-3">
+                                          <img src="assets/images/profile/user7.png" alt="Image" class="cover">
+                                        </figure>
+                                        <h4 class="my-2">Janet Wilson</h4>                                        
+                                      </li>
+                                      <li class="list-item">
+                                        <div class="custom-checkbox-div my-2">
+                                          <label class="custom-checkbox-label">
+                                            <input type="checkbox" name="groups"/>
+                                            <span class="txt"></span>
+                                          </label>
+                                        </div>
+                                        <figure class="figure figure-44 me-3">
+                                          <img src="assets/images/profile/user5.png" alt="Image" class="cover">
+                                        </figure>
+                                        <h4 class="my-2">Issabella Smith</h4>                                        
+                                      </li>
+                                    </ul>
+                                    <div class="text-end">
+                                      <a href="#" class="apply-btn">Apply</a>
+                                    </div>                                    
+                                  </form>
+                                </div>                                
+                              </div>
+                            </div>
+                            <div class="col-lg-6">
+                              <div class="sub-title-txt-div mb-4">
+                                <h4>Select Mentor</h4>
+                              </div>
+                              <div class="card group-session-card mb-4">
+                                <div class="card-body">
+                                  <form class="form-div">
+                                    <div class="search-group form-group mb-3">
+                                      <div class="form-left-icon">
+                                        <i class="icon icon-15"></i>
+                                        <input type="text" class="form-control"/>
+                                      </div>
+                                    </div>
+                                    <ul class="group-session-listing scroll-call">
+                                      <li class="list-item">
+                                        <div class="custom-checkbox-div my-2">
+                                          <label class="custom-checkbox-label">
+                                            <input type="checkbox" name="groups" checked/>
+                                            <span class="txt"></span>
+                                          </label>
+                                        </div>
+                                        <figure class="figure figure-44 me-3">
+                                          <img src="assets/images/profile/user1.png" alt="Image" class="cover">
+                                        </figure>
+                                        <h4 class="my-2">Issabella Smith</h4>                                        
+                                      </li>                                      
+                                      <li class="list-item">
+                                        <div class="custom-checkbox-div my-2">
+                                          <label class="custom-checkbox-label">
+                                            <input type="checkbox" name="groups" checked/>
+                                            <span class="txt"></span>
+                                          </label>
+                                        </div>
+                                        <figure class="figure figure-44 me-3">
+                                          <img src="assets/images/profile/user3.png" alt="Image" class="cover">
+                                        </figure>
+                                        <h4 class="my-2">Janet Wilson</h4>                                        
+                                      </li>
+                                      <li class="list-item">
+                                        <div class="custom-checkbox-div my-2">
+                                          <label class="custom-checkbox-label">
+                                            <input type="checkbox" name="groups" checked/>
+                                            <span class="txt"></span>
+                                          </label>
+                                        </div>
+                                        <figure class="figure figure-44 me-3">
+                                          <img src="assets/images/profile/user2.png" alt="Image" class="cover">
+                                        </figure>
+                                        <h4 class="my-2">Issabella Smith</h4>                                        
+                                      </li>
+                                      <li class="list-item">
+                                        <div class="custom-checkbox-div my-2">
+                                          <label class="custom-checkbox-label">
+                                            <input type="checkbox" name="groups"/>
+                                            <span class="txt"></span>
+                                          </label>
+                                        </div>
+                                        <figure class="figure figure-44 me-3">
+                                          <img src="assets/images/profile/user4.png" alt="Image" class="cover">
+                                        </figure>
+                                        <h4 class="my-2">Patrick Sheik</h4>                                        
+                                      </li>
+                                      <li class="list-item">
+                                        <div class="custom-checkbox-div my-2">
+                                          <label class="custom-checkbox-label">
+                                            <input type="checkbox" name="groups"/>
+                                            <span class="txt"></span>
+                                          </label>
+                                        </div>
+                                        <figure class="figure figure-44 me-3">
+                                          <img src="assets/images/profile/user5.png" alt="Image" class="cover">
+                                        </figure>
+                                        <h4 class="my-2">Issabella Smith</h4>                                        
+                                      </li>
+                                      <li class="list-item">
+                                        <div class="custom-checkbox-div my-2">
+                                          <label class="custom-checkbox-label">
+                                            <input type="checkbox" name="groups"/>
+                                            <span class="txt"></span>
+                                          </label>
+                                        </div>
+                                        <figure class="figure figure-44 me-3">
+                                          <img src="assets/images/profile/user6.png" alt="Image" class="cover">
+                                        </figure>
+                                        <h4 class="my-2">Patrick Sheik</h4>                                        
+                                      </li>
+                                      <li class="list-item">
+                                        <div class="custom-checkbox-div my-2">
+                                          <label class="custom-checkbox-label">
+                                            <input type="checkbox" name="groups"/>
+                                            <span class="txt"></span>
+                                          </label>
+                                        </div>
+                                        <figure class="figure figure-44 me-3">
+                                          <img src="assets/images/profile/user7.png" alt="Image" class="cover">
+                                        </figure>
+                                        <h4 class="my-2">Janet Wilson</h4>                                        
+                                      </li>
+                                      <li class="list-item">
+                                        <div class="custom-checkbox-div my-2">
+                                          <label class="custom-checkbox-label">
+                                            <input type="checkbox" name="groups"/>
+                                            <span class="txt"></span>
+                                          </label>
+                                        </div>
+                                        <figure class="figure figure-44 me-3">
+                                          <img src="assets/images/profile/user5.png" alt="Image" class="cover">
+                                        </figure>
+                                        <h4 class="my-2">Issabella Smith</h4>                                        
+                                      </li>
+                                    </ul>
+                                    <div class="text-end">
+                                      <a href="#" class="apply-btn">Apply</a>
+                                    </div>                                   
+                                  </form>                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="btn-bottom-dv mb-4">
+                            <a href="mentee-my-request-pending-listing.html" class="btn btn-primary-common">Create Group Session </a>
+                          </div>
+                        </div>
+                      </div>                        
+                    </div>
+
+                    <div class="book-session-row book-session-manyto1" id="bookSessionManyTo1">
+
+                      <div class="book-many-to-one-div"> 
+                        <div class="title-header-div">
+                          <h3>Select Mentor, choose their Date and Time to Book them for the Many to 1 Session</h3>
+                        </div>
+                        
+                        <div class="book-many-body-div">
+                          <div class="book-many-tp-row-div form-div">
+                            <div class="row">
+                              <div class="col-lg-5 col-md-5 book-many-col01">
+                                <div class="search-input-div">
+                                  <div class="form-group search-input-group mb-0">
+                                    <div class="input-control-row">
+                                      <input type="text" class="form-control form-search" placeholder="Search mentor by name" />
+                                      <i class="icon icon-15 search-icon"></i>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-5 col-md-5 book-many-col02">
+                                <div class="form-group date-popup-group w-100 mb-0">
+                                  <div class="input-control-row">
+                                    <input type="text" class="form-control uidatepicker mw-100" placeholder="Select Date and Time" readonly />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2 col-md-2 book-many-col03">
+                                <div class="btn-div">
+                                  <a href="#" class="btn btn-black-outline btn-add-outline"><i class="fas fa-plus-circle"></i> <span class="txt">Add</span></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="book-many-bd-row-div mb-30">
+                            <div class="row">
+                              <div class="common-dt-border-card book-many-border-card">
+                                <div class="bk-mny-bdy-rw">
+                                  <div class="custom-table mb-30">
+                                    <div class="common-dt-border-card-inner">
+                                        <table class="table" style="width: 100%;">
+                                            <thead class="bg-color-F9F5FC">
+                                                <tr>
+                                                    <th>Session ID</th>
+                                                    <th>Mentor</th>
+                                                    <th>Date</th>
+                                                    <th>Duration</th>
+                                                    <th width="130px">Type</th>
+                                                    <th width="240px"></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="mw-50" data-label="Session ID">#2365</td>
+                                                    <td class="mw-50" data-label="Mentor">Benita Morris</td>
+                                                    <td class="mw-50" data-label="Date">29 Jan, 2021</td>
+                                                    <td class="mw-50" data-label="Duration">3 Hours</td>
+                                                    <td class="mw-50" data-label="Type">1 to 1</td>
+                                                    <td class="mw-100 text-lg-end">
+                                                        <a href="mentee-sessions-detail-my-request-rejected.html" class="view-session-details" data-bs-toggle="tooltip" data-bs-placement="top" title="View Detail">
+                                                          <i class="icon icon-8"></i>
+                                                        </a>                                                            
+                                                    </td>                                    
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="btn-bottom-dv">
+                                  <a href="mentee-my-request-pending-listing.html" class="btn btn-primary-common btn-book-session"> Book Session </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- End of Main Area -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-div footer-inner-page">
+        <div class="container">
+          <div class="footer-in-div">
+            <div class="row row-cols-lg-4">
+
+              <div class="col grid-25 col-footer01">
+                <div class="footer-logo-inner">
+                  <a href="index.html" class="footer-logo-link">
+                    <img src="assets/images/logo.png" class="img-fluid img-footer-logo" alt="logo" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="col grid-32 col-footer02">
+                <div class="footer-nav-list-inner">
+                  <h3>Quick Links</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul footer-list-50">
+                      <li><a href="index.html" class="link">Home</a></li>
+                      <li><a href="subscription.html" class="link">Subscription</a></li>
+                      <li><a href="#" class="link">About Us</a></li>
+                      <li><a href="faqs.html" class="link">FAQs</a></li>
+                      <li><a href="#" class="link">Mentoring</a></li>
+                      <li><a href="contact-us.html" class="link">Contact Us</a></li>
+                      <li><a href="#" class="link">Organizations</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col grid-25 col-footer03">
+                <div class="footer-nav-list-inner">
+                  <h3>Information</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul">
+                      <li><a href="#" class="link">Cookie Policy</a></li>
+                      <li><a href="#" class="link">Terms of Service</a></li>
+                      <li><a href="#" class="link">Privacy Policy </a></li>
+                      <li><a href="#" class="link">Child Protection Policy</a></li>
+                      <li><a href="#" class="link">Volunteer Code of Conduct</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col grid-18 col-footer04">
+                <div class="footer-nav-list-inner">
+                  <h3>Contact Information</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul footer-list-ul-cnt">
+                      <li>
+                        <a href="mailto:mentorship@vctt.org" class="link mail-link">
+                          <span class="span-icon"> <i class="icon icon-6"></i> </span>
+                          <span class="text-span">mentorship@vctt.org</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="tel:+18683908244" class="link call-link">
+                          <span class="span-icon"> <i class="icon icon-5"></i> </span>
+                          <span class="text-span">+1-868-390-8244</span>
+                        </a>
+                      </li>
+                      <li>
+                        <span class="address-link">
+                          <span class="span-icon"> <i class="icon icon-4"></i> </span>
+                          <span class="text-span">3076 Counts Lane <br> Cincinnati, KY 45203</span>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-div">
+        <div class="container">
+          <div class="footer-bottom-inner-div">
+            <div class="footer-social-div">
+              <ul class="social-list">
+                <li><a class="social-link fb-link" target="_blank" href="https://www.facebook.com/volunteercentertt"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="social-link instagram-link" target="_blank" href="https://www.instagram.com/volunteercentertt/?hl=en"><i class="fab fa-instagram"></i></a></li>
+                <li><a class="social-link linkedin-link" target="_blank" href="https://www.linkedin.com/company/the-volunteer-center-of-trinidad-and-tobago/about/?viewAsMember=true"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a class="social-link youtube-link" target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a class="social-link twitter-link" target="_blank" href="https://twitter.com/officialvctt?lang=en"><i class="fab fa-twitter"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="copyright-div">
+              <p>&copy; Copyright © 2022 <a href="#">VCTT</a>. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+  </div><!-- end of wrapper -->
+
+  <!-- Back to top -->
+  <a href="#" class="cd-top text-replace js-cd-top"><i class="fas fa-chevron-up"></i></a>
+  <!-- End of Back to top -->
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp pswp-custom-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/ion.rangeSlider.min.js"></script>
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+  <script src="assets/js/backtotop/util.js"></script>
+  <script src="assets/js/select2.full.js"></script>
+  <script src="assets/js/select2-call.js"></script>
+  <script src="assets/js/jquery-ui.min.js"></script>
+  <script src="assets/js/vanillaTextMask.js"></script>
+  <script src="assets/js/lightbox/photoswipe.min.js"></script>
+  <script src="assets/js/lightbox/photoswipe-ui-default.min.js"></script>
+  <script src="assets/js/lightbox/photoswipe-call.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script>
+    /* Input Masking */
+    var phoneMask = [
+      /[1-9]/,
+      /\d/,
+      /\d/,
+      "-",
+      /\d/,
+      /\d/,
+      /\d/,
+      "-",
+      /\d/,
+      /\d/,
+      /\d/,
+      /\d/,
+    ];
+
+    var myInput = document.querySelector(".number_mask");
+
+    var maskedInputController = vanillaTextMask.maskInput({
+      inputElement: myInput,
+      mask: phoneMask,
+    });
+    /* End of Input Masking */
+  </script>
+
+</body>
+</html>

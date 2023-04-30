@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Mentor Details | VCTT</title>
+  <meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+  <meta name="theme-color" content="#662D91">
+  <meta name="msapplication-navbutton-color" content="#662D91">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#662D91">
+  <link href='assets/images/favicon.png' rel='shortcut icon'>
+  <link href="assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/general-font.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/all.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/swiper-bundle.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/lightbox/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/lightbox/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div id="wrapper" class="wrapper">
+
+    <!-- Header for Mentee -->
+    <header>
+      <div class="header-div header-white-div header-after-login">
+
+        <div class="inner-top-header-div">
+          <div class="container container-1760">
+
+            <div class="header-container">
+
+              <div class="logo-div">
+                <a class="logo_link clearfix" href="index.html">
+                  <img src="assets/images/logo.png" class="img-fluid img-logo-main" alt="logo" />
+                  <img src="assets/images/logo-hr.png" class="img-fluid img-logo-sticky" alt="logo" />
+                </a>
+              </div>
+
+              <nav class="nav-center-div">
+                <div class="top-nav1">
+
+                  <div class="cd-shadow-layer"></div>
+
+                  <div class="nav-m-bar">
+                    <a onclick="openNav()" class="opennav">
+                      <i class="menu-bars menu-icon fas fa-bars"></i>
+                    </a>
+                  </div>
+
+                  <div class="nav-div clearfix" id="mySidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                    <div class="row-nav-div">
+                      <div class="left-side">
+                        <ul class="nav ullist-inline" id="nav-res">
+                          <li><a href="#" class="nav-link">Dashboard</a></li>
+                          <li><a href="mentee-mentor-listing.html" class="nav-link">Find Mentors</a></li>
+                          <li><a href="mentee-sessions-scheduled.html" class="nav-link">My Sessions</a></li>
+                          <li><a href="mentee-my-request-pending-listing.html" class="nav-link">My Requests</a></li>
+                        </ul>
+
+                        <ul class="nav ullist-inline ullist-inline-auth">
+                          <li class="message-li"><a href="#" class="nav-link btn-message" title="Chat"> <span
+                                class="ico-round"> <img src="assets/images/icons/mail-icon.svg"
+                                  class="img-fluid img-messages" alt="message" /> </span> <span
+                                class="txt-ico-cht">Messages</span> </a></li>
+                          <li class="user-drop-down dropdown">
+                            <a class="btn-default dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                              data-bs-toggle="dropdown" aria-expanded="false">
+                              <div class="user-profile">
+                                <div class="user-img">
+                                  <img src="assets/images/profile-image01.png" class="img-fluid user-top-image"
+                                    alt="user image" />
+                                </div>
+                                <div class="user-info">
+                                  <span class="text-span">Jorge Robertson</span>
+                                </div>
+                              </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
+                              <ul class="submenu-list">
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-66 Session Guide-icon"></i></span> <span class="txt">Organization's Session Guide</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-44 availability-icon"></i></span> <span class="txt">My Availability</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-67 fellow-mentees-icon"></i></span> <span class="txt">Fellow Mentees</span></a> </li>
+                                <li><li><a class="dropdown-item" href="mentee-complete-profile.html"> <span class="span-icon"><i class="icon icon-68 profile-icon"></i></span> <span class="txt">My Profile</span></a></li></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-69 email-icon"></i></span> <span class="txt">Email Preference</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-22 change-password-icon"></i></span> <span class="txt">Change Password</span></a></li>
+                                <li><a class="dropdown-item" href="sign-in.html"> <span class="span-icon"><i class="icon icon-23 logout-icon"></i></span> <span class="txt">Logout</span></a></li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </nav>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End of header -->
+
+    <!-- Main Area -->
+    <div class="main-middle-area">
+
+      <div class="general-page-section mentor-detail-section">
+        <div class="shape-bottom-dv"> &nbsp; </div>
+      
+          <div class="container">
+            <div class="general-page-div">
+
+              <div class="title-container">
+                <div class="general-title-div title-wt-back-dv">
+                  <a href="mentee-mentor-listing.html" class="previous-page bck-link-arrow"><i class="icon icon-29"></i></a>
+                  <h1><span class="txt">Mentor Details</span></h1>
+                </div>
+              </div>
+
+              <div class="common-pst-relative-root">
+                <div class="common-dt-border-card mentor-dt-card-div mb-60">
+                  <div class="common-dt-border-card-inner">
+
+                    <div class="mnt-details-top-dv mentor-dt-top-dv">
+                      <div class="mnt-details-top-row">
+                        <div class="mnt-details-left-dv">
+                          
+                          <div class="img-div">
+                            <img src="assets/images/profile/user2.png" class="img-fluid img-user" alt="user" />
+                          </div>
+
+                          <div class="mnt-lft-info-dv">
+                            <h3>Theodore Alle</h3>
+                            <ul class="mnt-info-list">
+                              <li>
+                                <span class="address-link">
+                                  <span class="span-icon"> <i class="icon icon-4"></i> </span>
+                                  <span class="text-span">Barbados</span>
+                                </span>
+                              </li>
+                            </ul>
+
+                            <div class="star-rw-dv">
+                              <div class="star-dv">
+                                <i class="icon icon-16 active"></i>
+                                <i class="icon icon-16 active"></i>
+                                <i class="icon icon-16 active"></i>
+                                <i class="icon icon-16 active"></i>
+                                <i class="icon icon-16"></i>
+                              </div>
+                              <h5>4.00 <small>(230)</small></h5>
+                            </div>
+                            <p>Total Sessions Provided : <span class="number-txt">20</span></p>
+                            <h4 class="txt-h4 font-medium">Organization Associated : <b class="font-medium">United States of California NGO</b></h4>
+                          </div>
+                        </div>
+
+                        <div class="mnt-details-right-dv">
+                          <div class="video-bx-div">
+                            <div class="btn-overlay"> <a id="videobtn" href="#" class="btn btn-video" data-bs-toggle="modal" data-bs-target="#videoModal"> <i class="icon icon-34"></i> </a> </div>
+                            <div class="img-dv"> <img src="assets/images/mentor-video-img.png" class="img-fluid img-video-img" alt="Mentor" /> </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="mnt-details-middle-dv mentor-dt-middle-dv">
+                      
+                      <div class="mnt-right-cht-bk-dv">
+                        <a href="#" class="btn btn-message-round mr-15" title="Chat"> <span class="ico-round"> <img src="assets/images/icons/mail-icon.svg" class="img-fluid img-messages" alt="message"> </span></a>
+                        <a href="mentee-book-session-1-to-1.html" class="btn btn-primary-common">Book Session</a>
+                      </div>
+
+                      <div class="tab-custom-root">
+                        <div class="nav-pills-div">
+                          <ul class="nav nav-pills nav-pills-custom-list" id="mentee-mnt-pills-tab">
+                            <li class="nav-item">
+                              <a href="#" class="nav-link" id="mentee-pills-reviews-tab">Qualification / Experience</a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="#" class="nav-link active" id="mentee-pills-session-guide-tab">Session Guide</a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="#" class="nav-link" id="mentee-pills-reviews-tab">My Reviews</a>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <div class="tab-content tab-content-custom" id="mentee-mnt-pills-tabContent">
+                          <div class="tab-pane fade show active" id="pills-session-guide">
+                            <div class="card-personal-mentee-root">
+                              <div class="row">                    
+                                <div class="col-lg-8">
+                                  <div class="mb-4">
+                                    <h2 class="font-jost fs-26 fw-500">Module 1 - Trigonometry and Geometry</h2>
+                                    <h3 class="font-poppins fs-16">Module Length  -  <span class="text-muted">2 Hours 30 Minutes</span></h3>
+                                  </div>
+                                  <div class="accordion accordion-general accordion-gnl-mnt-v3 mb-4" id="accordionMentorLstDtl">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="general_mentor_heading01">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#general_mentor01" aria-expanded="true" aria-controls="general_mentor01">
+                                          Learning Objectives
+                                        </button>
+                                      </h2>
+                                      <div id="general_mentor01" class="accordion-collapse collapse show" aria-labelledby="general_mentor_heading01" data-bs-parent="#accordionMentorLstDtl">
+                                        <div class="accordion-body">                                
+                                          <div class="qlf-list-root">
+                                            <div class="qlf-list-row">                                  
+                                              <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu  mauris, malesuada quis ornare accumsan, blandit sed diam.</div>                                  
+                                            </div>
+            
+                                            <div class="qlf-list-row">
+                                              <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu  mauris, malesuada quis ornare accumsan, blandit sed diam.</div>                                  
+                                            </div>
+            
+                                            <div class="qlf-list-row">                                  
+                                              <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu  mauris, malesuada quis ornare accumsan, blandit sed diam.</div>                                  
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="general_mentor_heading02">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#general_mentor02" aria-expanded="true" aria-controls="general_mentor02">
+                                          Additional Links
+                                        </button>
+                                      </h2>
+                                      <div id="general_mentor02" class="accordion-collapse collapse show" aria-labelledby="general_mentor_heading02" data-bs-parent="#accordionMentorLstDtl">
+                                        <div class="accordion-body">                                
+                                          <ul class="dote-listing">
+                                            <li><a href="#" >www.worldweb.com</a></li>
+                                            <li><a href="#" >www.worldweb.com</a></li>
+                                            <li><a href="#" >www.worldweb.com</a></li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="general_mentor_heading02">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#general_mentor02" aria-expanded="true" aria-controls="general_mentor02">
+                                          Required Material
+                                        </button>
+                                      </h2>
+                                      <div id="general_mentor02" class="accordion-collapse collapse show" aria-labelledby="general_mentor_heading02" data-bs-parent="#accordionMentorLstDtl">
+                                        <div class="accordion-body">                                
+                                          <span class="d-inline-block my-2 me-3">
+                                            <button type="button" class="btn btn-primary-outline-common btn-rounded btn-sm"><i class="fas fa-file-download fs-24"></i> Download</button>
+                                          </span>
+                                          <span class="d-inline-block my-2 me-3">
+                                            <button type="button" class="btn btn-primary-outline-common btn-rounded btn-sm"><i class="fas fa-file-download fs-24"></i> Download</button>
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+            
+                                  <div class="ckeditor-content mb-4">
+                                    <div class="sub-title-txt-div">
+                                      <h4>Module Description</h4>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. </p>  
+                                    <img src="assets/images/banner-01.png" class="cover" />
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. </p>  
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. </p>  
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. </p>  
+                                  </div>                      
+                                </div>
+                                <div class="col-lg-4">
+                                  <div class="card-personal-mentee-bx ps-3">  
+                                    <div class="card-personal-mentee-tp sub-title-txt-div">
+                                      <h4>Session Guide </h4>
+                                    </div>                      
+                                    <div class="card-personal-mentee-body card-Session Guide">                                                    
+                                      <div class="card-Session card-Session-lg Guide-inner scroll-call" style="overflow: hidden; outline: currentcolor none medium;" tabindex="2">
+                                        <div class="form-group mb-2">
+                                          <label class="lbl-checkbox lbl-primary">
+                                            <input type="checkbox" name="module" disabled>
+                                            <span class="spn-checkbox">Module 1 - Trigonometry and Geometry</span>
+                                          </label>
+                                        </div>
+                                        <div class="form-group mb-2">
+                                          <label class="lbl-checkbox">
+                                            <input type="checkbox" name="module" disabled>
+                                            <span class="spn-checkbox">Module 2 - Geometry</span>
+                                          </label>
+                                        </div>
+                                        <div class="form-group mb-2">
+                                          <label class="lbl-checkbox">
+                                            <input type="checkbox" name="module" disabled>
+                                            <span class="spn-checkbox">Module 3 - Addition</span>
+                                          </label>
+                                        </div>
+                                        <div class="form-group mb-2">
+                                          <label class="lbl-checkbox">
+                                            <input type="checkbox" name="module" disabled>
+                                            <span class="spn-checkbox">Module 4 - Substation</span>
+                                          </label>
+                                        </div>
+                                        <div class="form-group mb-2">
+                                          <label class="lbl-checkbox">
+                                            <input type="checkbox" name="module" disabled>
+                                            <span class="spn-checkbox">Module 5 - Division</span>
+                                          </label>
+                                        </div>
+                                        <div class="form-group mb-2">
+                                          <label class="lbl-checkbox">
+                                            <input type="checkbox" name="module" disabled>
+                                            <span class="spn-checkbox">Module 6 - Multiplication</span>
+                                          </label>
+                                        </div>
+                                        <div class="form-group mb-2">
+                                          <label class="lbl-checkbox">
+                                            <input type="checkbox" name="module" disabled>
+                                            <span class="spn-checkbox">Module 7 - Geometry</span>
+                                          </label>
+                                        </div>
+                                        <div class="form-group mb-2">
+                                          <label class="lbl-checkbox">
+                                            <input type="checkbox" name="module" disabled>
+                                            <span class="spn-checkbox">Module 8 - Addition</span>
+                                          </label>
+                                        </div>
+                                        <div class="form-group mb-2">
+                                          <label class="lbl-checkbox">
+                                            <input type="checkbox" name="module" disabled>
+                                            <span class="spn-checkbox">Module 9 - Substation</span>
+                                          </label>
+                                        </div>
+                                        <div class="form-group mb-2">
+                                          <label class="lbl-checkbox">
+                                            <input type="checkbox" name="module" disabled>
+                                            <span class="spn-checkbox">Module 10 - Division</span>
+                                          </label>
+                                        </div>
+                                        <div class="form-group mb-2">
+                                          <label class="lbl-checkbox">
+                                            <input type="checkbox" name="module" disabled>
+                                            <span class="spn-checkbox">Module 11 - Multiplication</span>
+                                          </label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div> 
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <!-- End of Main Area -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-div footer-inner-page">
+        <div class="container">
+          <div class="footer-in-div">
+            <div class="row row-cols-lg-4">
+
+              <div class="col grid-25 col-footer01">
+                <div class="footer-logo-inner">
+                  <a href="index.html" class="footer-logo-link">
+                    <img src="assets/images/logo.png" class="img-fluid img-footer-logo" alt="logo" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="col grid-32 col-footer02">
+                <div class="footer-nav-list-inner">
+                  <h3>Quick Links</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul footer-list-50">
+                      <li><a href="index.html" class="link">Home</a></li>
+                      <li><a href="subscription.html" class="link">Subscription</a></li>
+                      <li><a href="#" class="link">About Us</a></li>
+                      <li><a href="faqs.html" class="link">FAQs</a></li>
+                      <li><a href="#" class="link">Mentoring</a></li>
+                      <li><a href="contact-us.html" class="link">Contact Us</a></li>
+                      <li><a href="#" class="link">Organizations</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col grid-25 col-footer03">
+                <div class="footer-nav-list-inner">
+                  <h3>Information</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul">
+                      <li><a href="#" class="link">Cookie Policy</a></li>
+                      <li><a href="#" class="link">Terms of Service</a></li>
+                      <li><a href="#" class="link">Privacy Policy </a></li>
+                      <li><a href="#" class="link">Child Protection Policy</a></li>
+                      <li><a href="#" class="link">Volunteer Code of Conduct</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col grid-18 col-footer04">
+                <div class="footer-nav-list-inner">
+                  <h3>Contact Information</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul footer-list-ul-cnt">
+                      <li>
+                        <a href="mailto:mentorship@vctt.org" class="link mail-link">
+                          <span class="span-icon"> <i class="icon icon-6"></i> </span>
+                          <span class="text-span">mentorship@vctt.org</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="tel:+18683908244" class="link call-link">
+                          <span class="span-icon"> <i class="icon icon-5"></i> </span>
+                          <span class="text-span">+1-868-390-8244</span>
+                        </a>
+                      </li>
+                      <li>
+                        <span class="address-link">
+                          <span class="span-icon"> <i class="icon icon-4"></i> </span>
+                          <span class="text-span">3076 Counts Lane <br> Cincinnati, KY 45203</span>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-div">
+        <div class="container">
+          <div class="footer-bottom-inner-div">
+            <div class="footer-social-div">
+              <ul class="social-list">
+                <li><a class="social-link fb-link" target="_blank" href="https://www.facebook.com/volunteercentertt"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="social-link instagram-link" target="_blank" href="https://www.instagram.com/volunteercentertt/?hl=en"><i class="fab fa-instagram"></i></a></li>
+                <li><a class="social-link linkedin-link" target="_blank" href="https://www.linkedin.com/company/the-volunteer-center-of-trinidad-and-tobago/about/?viewAsMember=true"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a class="social-link youtube-link" target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a class="social-link twitter-link" target="_blank" href="https://twitter.com/officialvctt?lang=en"><i class="fab fa-twitter"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="copyright-div">
+              <p>&copy; Copyright © 2022 <a href="#">VCTT</a>. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+  </div><!-- end of wrapper -->
+
+  <!-- Back to top -->
+  <a href="#" class="cd-top text-replace js-cd-top"><i class="fas fa-chevron-up"></i></a>
+  <!-- End of Back to top -->
+
+  <!-- videoModal -->
+  <div class="modal modal-player fade" id="videoModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"> <i class="icon icon-28"></i> </button>
+
+        <div class="modal-body">
+          <div class="video-view-div">
+            <video class="video-responsive" id="video-mentor-dt" controls>
+              <source src="assets/video/mentor-details.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of videoModal -->
+
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp pswp-custom-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/ion.rangeSlider.min.js"></script>
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+  <script src="assets/js/backtotop/util.js"></script>
+  <script src="assets/js/select2.full.js"></script>
+  <script src="assets/js/select2-call.js"></script>
+  <script src="assets/js/jquery-ui.min.js"></script>
+  <script src="assets/js/lightbox/photoswipe.min.js"></script>
+  <script src="assets/js/lightbox/photoswipe-ui-default.min.js"></script>
+  <script src="assets/js/lightbox/photoswipe-call.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+
+</body>
+</html>

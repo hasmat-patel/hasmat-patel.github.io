@@ -1,0 +1,2160 @@
+@media (min-width: 1025px) {
+  body {
+    scrollbar-color: var(--primaryColor01) var(--whiteColor);
+    scrollbar-width: thin;
+
+    &::-webkit-scrollbar {
+      width: 12px;
+      height: 12px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: #fafafa;
+      border-radius: 16px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--primaryColor01);
+      border-radius: 16px;
+    }
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1600px) {
+}
+
+@media (min-width: 1025px) and (max-width: 1300px) {
+  :root {
+    --fontSize51: 36px;
+    --fontSize40: 30px;
+    --height60: 50px;
+  }
+
+  .container-1760,
+  .container {
+    max-width: calc(100% - 30px);
+  }
+
+  .btn.btn-primary-common {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1600px) {
+  :root {
+    --fontSize51: 32px;
+    --fontSize40: 28px;
+    --fontSize30: 22px;
+    --fontSize20: 16px;
+    --height60: 46px;
+  }
+
+  .btn.btn-danger-common,
+  .btn.btn-success-common,
+  .btn.btn-primary-common,
+  .btn.btn-primary-outline-common {
+    font-size: 16px;
+    padding: 9px 24px 9px;
+    &.btn-h-60 {
+      min-height: inherit;
+      font-size: 16px;
+      padding: 9px 24px 9px;
+    }
+  }
+
+  .btn.btn-black-outline {
+    font-size: 16px;
+    padding: 9px 24px 9px;
+
+    &.mr-30 {
+      margin-right: 15px !important;
+    }
+  }
+
+  .btn.btn-secondary-txt {
+    font-size: 18px;
+  }
+
+  .btn.btn-black-outline.btn-ht50 {
+    min-height: 46px;
+    padding: 9px 24px;
+    border-color: var(--blackColor01);
+  }
+
+  p {
+    line-height: 1.6;
+  }
+
+  .footer-div {
+    padding: 40px 0 14px;
+
+    h3 {
+      margin: 0 0 20px;
+    }
+
+    .footer-nav-list-inner ul li {
+      font-size: 14px;
+      margin: 0 0 14px 0;
+
+      .link {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .footer-bottom-div {
+    .footer-bottom-inner-div {
+      padding: 10px 0;
+      min-height: 50px;
+
+      .copyright-div {
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .social-list li {
+    margin-right: 10px;
+
+    .social-link {
+      width: 32px;
+      height: 32px;
+      font-size: 14px;
+    }
+  }
+
+  .form-div {
+    .form-group {
+      margin-bottom: 15px;
+
+      .form-control {
+        padding: 10px 20px;
+        font-size: 14px;
+      }
+
+      .form-control[type="password"],
+      .form-control[type="html"] {
+        padding-right: 46px;
+      }
+
+      .pass-icon-group {
+        button {
+          font-size: 20px;
+          padding-right: 10px;
+        }
+      }
+    }
+
+    .custom-checkbox-div {
+      .custom-checkbox-label {
+        .txt {
+          font-size: 14px;
+          line-height: 26px;
+          padding-left: 26px;
+        }
+      }
+    }
+  }
+
+  .social-btn-link-full {
+    margin: 20px auto 0;
+
+    .social-btn-link {
+      padding: 6px 15px;
+      font-size: 14px;
+      min-width: 142px;
+
+      .img-icon {
+        max-height: 22px;
+        width: 22px;
+      }
+
+      .txt {
+        padding: 0 0 0 10px;
+      }
+    }
+  }
+
+  .form-div {
+    .form-group-radio-btn {
+      .radio-label {
+        font-size: 16px;
+
+        .span-root {
+          padding: 5px 20px;
+          min-height: 60px;
+          font-size: 16px;
+        }
+
+        .img {
+          width: 36px;
+
+          img {
+            width: 36px;
+            height: 36px;
+          }
+        }
+
+        .txt {
+          padding: 0 0 0 10px;
+        }
+      }
+    }
+
+    .cst-form-radio-btn {
+      .radio-card {
+        width: calc(50% - 10px);
+        margin: 0 0 5px 20px;
+      }
+    }
+
+    .form-group.file-form-group {
+      --heightFileInput: 70px;
+      margin-bottom: 17px;
+
+      .custom-file {
+        .custom-file-label {
+          padding-top: 18px;
+          padding-bottom: 18px;
+          font-size: 14px;
+          border-radius: 20px;
+        }
+
+        .browse-txt {
+          font-size: 12px;
+          padding: 5px 20px 4px;
+          min-width: 82px;
+        }
+      }
+    }
+
+    .form-group {
+      textarea.form-control {
+        height: 100px;
+        border-radius: 24px;
+      }
+    }
+
+    .custom-checkbox-div .custom-checkbox-label .txt::before {
+      width: 18px;
+      height: 18px;
+      top: 4px;
+    }
+
+    .custom-checkbox-div .custom-checkbox-label input:checked + .txt::before {
+      top: 4px;
+      font-size: 12px;
+    }
+
+    .search-input-group {
+      &.form-group {
+        margin-bottom: 0;
+      }
+
+      .form-control {
+        padding-left: 46px;
+      }
+
+      .search-icon {
+        font-size: 18px;
+        padding-left: 18px;
+      }
+    }
+  }
+
+  .select2-form-group .select-custom2 span.select2-selection.select2-selection--single {
+    padding-top: 8px;
+    font-size: 14px;
+    padding-left: 17px;
+  }
+
+  .select-custom2 .select2.select2-container .select2-selection .select2-selection__arrow {
+    width: 40px;
+  }
+
+  .select2-form-group .phone-number-row .select-custom2 span.select2-selection.select2-selection--single {
+    padding: 8px 5px 8px 5px;
+    height: 44px;
+    min-height: 44px;
+  }
+
+  .select2-form-group
+    .phone-number-row
+    .select-custom2
+    .select2-container--default
+    .select2-selection--single
+    .select2-selection__arrow
+    b::before {
+    font-size: 10px;
+  }
+
+  .select-custom2 {
+    .select2-container--default .select2-selection--multiple {
+      padding: 4px 15px 2px 17px;
+      min-height: 46px;
+    }
+
+    .select2-container--default .select2-selection--multiple .select2-selection__choice {
+      font-size: 12px;
+      padding: 3px 5px;
+      padding-right: 25px;
+    }
+
+    .select2-container--default
+      .select2-selection--multiple
+      .select2-selection__choice
+      .select2-selection__choice__remove {
+      right: 1px;
+    }
+
+    .select2-container--default
+      .select2-selection--multiple
+      .select2-selection__choice
+      .select2-selection__choice__remove::before {
+      font-size: 14px;
+    }
+
+    &.select2-multiple {
+      .select2-container--default .select2-selection--multiple {
+        padding-left: 40px;
+        background-size: 16px;
+      }
+    }
+  }
+
+  .row {
+    &.g-2 {
+      .select-custom2 {
+        .select2-container--default {
+          .select2-selection--single {
+            padding-top: 8px;
+            padding-left: 17px;
+          }
+        }
+      }
+    }
+  }
+
+  .transparent-select2 .select-custom2 span.select2-selection.select2-selection--single {
+    padding-top: 5px;
+    font-size: 24px;
+    padding-left: 0;
+  }
+
+  .transparent-select2
+    .select-custom2
+    span.select2-selection.select2-selection--single
+    .select2-selection__arrow
+    b::before {
+    font-size: 14px;
+  }
+
+  .phone-number-row .select-custom2 {
+    width: 84px;
+  }
+
+  body .mb-70 {
+    margin-bottom: 40px;
+  }
+
+  .faqs-accordion-dv {
+    padding: 20px;
+  }
+
+  .table.table-custom {
+    td {
+      font-size: 14px;
+    }
+  }
+
+  .btn.btn-icon-link {
+    font-size: 20px;
+    width: 26px;
+    height: 26px;
+  }
+
+  .btn-clear-link {
+    font-size: 14px;
+  }
+
+  .btn.btn-primary-common,
+  .btn.btn-black-outline {
+    &.mr-20 {
+      margin-right: 10px;
+    }
+  }
+
+  .nav-pills-custom-list {
+    .nav-item {
+      .nav-link {
+        font-size: 18px;
+        padding: 8px 30px;
+        min-height: 46px;
+
+        &::before {
+          height: 8px;
+        }
+
+        &.active {
+          padding-top: 13px;
+          padding-bottom: 5px;
+        }
+      }
+
+      .action-nav-link {
+        font-size: 18px;
+        top: 14px;
+      }
+
+      &.nav-item-edit {
+        .nav-link {
+          padding-right: 30px;
+
+          &.active {
+            padding-right: 64px;
+          }
+        }
+
+        .nav-link.active + .action-nav-link {
+          right: 35px;
+        }
+      }
+    }
+  }
+
+  .select2-form-group .phone-number-row .form-control {
+    padding-left: 10px;
+  }
+
+  .phone-number-row .select-custom2 {
+    width: 78px;
+    padding-right: 8px;
+  }
+
+  .form-div .form-group.location-form-group .location-icon {
+    font-size: 18px;
+    height: 46px;
+    width: 50px;
+  }
+
+  /* Assessment form */
+  .options-form-div {
+    .form-group-root {
+      .form-control {
+        padding-left: 60px;
+      }
+    }
+  }
+  /* End of Assessment form */
+
+  .card-Session.Guide {
+    .card-Session.Guide-inner {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+
+  /* DatePicker Inline */
+  .datepickerinline {
+    .ui-datepicker .ui-datepicker-title {
+      font-size: 22px;
+    }
+
+    .ui-datepicker table {
+      font-size: 18px;
+    }
+  }
+
+  .custom-time-view h3 {
+    font-size: 22px;
+  }
+
+  .custom-datetime-div {
+    .custom-datetime-row {
+      margin-bottom: 20px;
+    }
+  }
+  /* End of DatePicker Inline */
+  .detail-page-card {
+    padding: 20px 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1150px) {
+  .nav-pills-custom-list {
+    .nav-item {
+      padding: 0 0 10px 0;
+      margin-right: 10px;
+
+      .nav-link {
+        font-size: 16px;
+        padding: 8px 20px;
+
+        &::before {
+          height: 6px;
+        }
+
+        &::after {
+          bottom: -11px;
+        }
+
+        &.active {
+          padding-top: 13px;
+          padding-bottom: 5px;
+        }
+      }
+
+      .action-nav-link {
+        font-size: 18px;
+        top: 14px;
+      }
+
+      &.nav-item-edit {
+        .nav-link {
+          padding-right: 20px;
+
+          &.active {
+            padding-right: 54px;
+          }
+        }
+
+        .nav-link.active + .action-nav-link {
+          right: 25px;
+        }
+      }
+    }
+  }
+
+  body .mb-60 {
+    margin-bottom: 40px;
+  }
+
+  /* DX Changes */
+  ul.questionnaires-timeline {
+    .lbl-radio {
+      text {
+        font-size: 16px;
+      }
+    }
+  }
+  /* End of DX Changes */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  :root {
+    --fontSize51: 36px;
+    --fontSize40: 24px;
+    --fontSize30: 18px;
+    --fontSize26: 20px;
+    --fontSize24: 18px;
+    --fontSize22: 16px;
+    --fontSize20: 16px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  body.overflow-fixed {
+    overflow-y: hidden;
+  }
+
+  .position-fixed {
+    overflow: hidden;
+  }
+
+  .responsive-hidden {
+    display: none;
+  }
+
+  .row {
+    --bs-gutter-x: 20px;
+  }
+
+  .container-1760,
+  .container {
+    max-width: calc(100% - 10px);
+  }
+
+  .link-primary-arrow-btn {
+    font-size: 16px;
+  }
+
+  .table.table-custom {
+    td {
+      font-size: 14px;
+      padding: 5px 0;
+    }
+
+    th {
+      font-size: 12px;
+    }
+
+    tr {
+      &:first-child {
+        td {
+          padding-top: 10px;
+        }
+      }
+
+      &:last-child {
+        td {
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  .footer-div .footer-nav-list-inner ul li .link,
+  .footer-div .footer-nav-list-inner ul li {
+    font-size: 13px;
+  }
+
+  .footer-div h3 {
+    margin: 0 0 15px;
+    font-size: 16px;
+  }
+
+  .footer-div .footer-logo-inner .img-footer-logo {
+    width: 150px;
+  }
+
+  .img-circle-div {
+    padding-bottom: 10px;
+
+    .circle {
+      width: 84px;
+      height: 84px;
+
+      .profile-pic {
+        width: 72px;
+        height: 72px;
+      }
+
+      .filelabel-icon {
+        bottom: 3px;
+        right: 3px;
+        width: 24px;
+        height: 24px;
+        border-width: 1px;
+      }
+    }
+
+    .title-div {
+      padding-left: 10px;
+
+      label.filelabel-text {
+        h5 {
+          font-size: 14px;
+          margin: 0 0 2px;
+        }
+
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .toggle-switchy {
+    .txt {
+      font-size: 14px;
+    }
+  }
+
+  .form-group-toggle-inline .input-control-row {
+    margin-left: 15px;
+    margin-top: 0;
+  }
+
+  /* DatePicker Inline */
+  .custom-datetime-div .custom-time-view {
+    margin-left: 10px;
+  }
+
+  .custom-time-view .timerange-tp-center {
+    padding: 0 15px;
+    min-width: 260px;
+  }
+
+  .datepickerinline .ui-datepicker table {
+    font-size: 16px;
+  }
+
+  .custom-time-view .timerange-list li {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .custom-time-view h3,
+  .datepickerinline .ui-datepicker .ui-datepicker-title {
+    font-size: 20px;
+  }
+
+  .datepickerinline .ui-datepicker th,
+  .datepickerinline .ui-datepicker .ui-datepicker-prev,
+  .datepickerinline .ui-datepicker .ui-datepicker-next,
+  .custom-time-view .arrow-link {
+    font-size: 18px;
+  }
+
+  .custom-datetime-div .custom-datetime-row {
+    margin-bottom: 10px;
+  }
+
+  .custom-time-view .timerange-tp-left,
+  .custom-time-view .timerange-tp-right {
+    width: 30px;
+  }
+  /* End of DatePicker Inline */
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .nav-pills-custom-list {
+    .nav-item {
+      .nav-link {
+        font-size: 14px;
+        padding: 8px 12px;
+        min-height: 44px;
+
+        &::before {
+          height: 6px;
+        }
+
+        &::after {
+          bottom: -11px;
+        }
+
+        &.active {
+          padding-top: 13px;
+          padding-bottom: 5px;
+        }
+      }
+
+      .action-nav-link {
+        font-size: 16px;
+        top: 14px;
+      }
+
+      &.nav-item-edit {
+        .nav-link {
+          padding-right: 12px;
+
+          &.active {
+            padding-right: 36px;
+          }
+        }
+
+        .nav-link.active + .action-nav-link {
+          right: 12px;
+          font-size: 14px;
+          width: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 911px) {
+  /* DatePicker Inline */
+  .custom-time-view h3,
+  .datepickerinline .ui-datepicker .ui-datepicker-title {
+    font-size: 18px;
+  }
+
+  .datepickerinline .ui-datepicker th,
+  .datepickerinline .ui-datepicker .ui-datepicker-prev,
+  .datepickerinline .ui-datepicker .ui-datepicker-next,
+  .custom-time-view .arrow-link {
+    font-size: 16px;
+  }
+
+  .custom-time-view .timerange-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .custom-time-view .timerange-tp-left,
+  .custom-time-view .timerange-tp-right {
+    width: 22px;
+  }
+
+  .custom-time-view .timerange-tp-center {
+    padding: 0 10px;
+    min-width: 200px;
+  }
+
+  .datepickerinline .ui-state-default,
+  .datepickerinline .ui-widget-content .ui-state-default,
+  .datepickerinline .ui-widget-header .ui-state-default,
+  .datepickerinline .ui-button,
+  .datepickerinline html .ui-button.ui-state-disabled:hover,
+  .datepickerinline html .ui-button.ui-state-disabled:active {
+    min-height: 36px;
+    min-width: 36px;
+  }
+
+  .custom-datetime-div .custom-time-view {
+    margin-left: 5px;
+    width: auto;
+    padding-left: 0;
+  }
+
+  .custom-time-view .timerange-div {
+    max-height: 280px;
+  }
+
+  .custom-datetime-div .custom-time-view::before {
+    top: 30px;
+    height: calc(100% - 60px);
+  }
+  /* End of DatePicker Inline */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape),
+  (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
+}
+
+@media (max-width: 1140px) {
+  .view-session,
+  .view-session-details {
+    margin-top: -50px;
+  }
+
+  .custom-table {
+    .table {
+      th,
+      td {
+        padding: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .btn-w-210 {
+    max-width: 160px;
+  }
+
+  .custom-table {
+    margin: 0;
+    padding: 0;
+    display: block;
+
+    .table {
+      thead {
+        display: none;
+      }
+
+      tbody {
+        tr {
+          display: flex;
+          flex-wrap: wrap;
+          width: 100%;
+          border-top: 1px dashed var(--greyColor03);
+          padding: 5px 15px 0;
+          margin: 0 0 5px;
+          border-radius: 0;
+
+          &:first-child {
+            border-top: none;
+          }
+        }
+      }
+
+      td {
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 8px 0;
+        width: 100%;
+        padding-right: 10px;
+
+        &.mw-50 {
+          width: 50%;
+        }
+
+        &::before {
+          content: attr(data-label);
+          font-size: 14px;
+          line-height: 1.5;
+          color: var(--greyColor04);
+          font-weight: 400;
+          width: 100%;
+          display: block;
+        }
+      }
+    }
+
+    .view-session,
+    .view-session-details {
+      margin-top: 0;
+    }
+    table {
+      &.tranization-history-table {
+        td {
+          background-image: none;
+        }
+      }
+    }
+  }
+
+  .detail-page-card {
+    padding: 0;
+  }
+
+  .figure-66 {
+    max-width: 46px;
+    min-width: 46px;
+    max-height: 46px;
+  }
+
+  .figure-100 {
+    max-width: 60px;
+    min-width: 60px;
+    max-height: 60px;
+  }
+
+  .user-info {
+    h3 {
+      font-size: 18px;
+      font-weight: 500;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .previous-page {
+    font-size: 24px;
+  }
+
+  .rejection-detail p {
+    font-size: 14px;
+  }
+
+  ul.questionnaires-timeline {
+    li {
+      padding-left: 50px;
+      margin-bottom: 20px;
+      &::before {
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+      }
+      &::after {
+        left: 17px;
+        top: 35px;
+      }
+    }
+  }
+  .set-availability-card {
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .custom-table {
+    .table {
+      td {
+        &.mw-sd-20 {
+          width: 20%;
+        }
+
+        &.mw-sd-25 {
+          width: 25%;
+        }
+
+        &.mw-sd-30 {
+          width: 30%;
+        }
+
+        &.sd-text-right {
+          text-align: right;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .btn-w-280 {
+    max-width: 200px;
+  }
+  .btn-w-210 {
+    max-width: 120px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  body.overflow-fixed {
+    overflow-y: hidden;
+  }
+
+  .position-fixed {
+    overflow: hidden;
+  }
+
+  .mobile-hidden {
+    display: none !important;
+  }
+
+  .responsive-hidden {
+    display: none;
+  }
+
+  header .header-div.header-sticky .header-container {
+    min-height: auto;
+  }
+
+  .modal.modal-custom .modal-dialog {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: calc(100% - 40px);
+  }
+
+  .modal-custom .modal-header {
+    padding: 12px 20px 10px;
+    min-height: 54px;
+  }
+
+  .modal-custom .modal-header .modal-title {
+    font-size: 18px;
+  }
+
+  .modal-custom .modal-header .btn-close {
+    height: 32px;
+    width: 32px;
+    top: -12px;
+    right: -12px;
+  }
+
+  .modal-custom .modal-dialog {
+    transform: none;
+    padding: 0 6px;
+  }
+
+  .modal-common {
+    .modal-head-icon {
+      top: -50px;
+      width: 70px;
+      height: 52px;
+      font-size: 30px;
+      line-height: 70px;
+      &::before {
+        width: 70px;
+        height: 70px;
+        background: url(../images/circle-shape.svg) center / 70px;
+      }
+    }
+    .modal-body {
+      padding: 15px 20px;
+    }
+  }
+
+  .select-custom2-multiple .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    font-size: 12px;
+    padding: 3px 30px 0 8px;
+  }
+
+  .select-custom2-multiple .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    font-size: 10px !important;
+    width: 24px !important;
+  }
+
+  .select-custom2-multiple
+    .select2-container--default
+    .select2-selection--multiple
+    .select2-selection__choice__remove::before {
+    width: 24px !important;
+  }
+
+  :root {
+    --fontSize51: 28px;
+    --fontSize40: 24px;
+    --fontSize30: 21px;
+    --fontSize26: 20px;
+    --fontSize24: 20px;
+    --fontSize22: 16px;
+    --fontSize20: 14px;
+    --fontSize18: 14px;
+  }
+
+  .btn.btn-success-common,
+  .btn.btn-danger-common,
+  .btn.btn-primary-common,
+  .btn.btn-black-outline,
+  .btn.btn-black-outline.btn-ht50,
+  .btn.btn-primary-outline-common {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 25px;
+    min-height: 44px;
+
+    &.btn-h-60 {
+      font-size: 14px;
+      line-height: 20px;
+      padding: 10px 25px;
+      min-height: 44px;
+    }
+  }
+
+  .form-div {
+    .form-group {
+      margin-bottom: 15px;
+
+      .form-control {
+        border-radius: 25px;
+        height: 44px;
+        font-size: 14px;
+        padding: 10px 20px;
+      }
+
+      textarea.form-control {
+        height: 100px;
+      }
+
+      .pass-icon-group {
+        button {
+          font-size: 20px;
+          width: 50px;
+        }
+      }
+    }
+  }
+
+  .phone-number-row {
+    .select-custom2 {
+      width: 80px;
+      border-radius: 25px 0 0 25px;
+      padding-right: 10px;
+    }
+  }
+
+  .select2-form-group {
+    .phone-number-row {
+      .select-custom2 {
+        span.select2-selection.select2-selection--single {
+          padding: 7px 5px;
+          height: 42px;
+          min-height: 42px;
+        }
+
+        .select2-container--default .select2-selection--single .select2-selection__arrow b::before {
+          font-size: 10px;
+        }
+      }
+
+      .form-control {
+        border-radius: 0 25px 25px 0;
+        padding-left: 12px;
+      }
+    }
+  }
+
+  .cd-top {
+    opacity: 0.7;
+    bottom: 10px;
+    right: 10px;
+    width: 36px;
+    height: 36px;
+    font-size: 14px;
+  }
+
+  .form-div .custom-checkbox-div .custom-checkbox-label .txt {
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: 24px;
+
+    a {
+      display: inline-block;
+    }
+  }
+
+  .form-div .custom-checkbox-div.checkbox-cursor-point .custom-checkbox-label .span {
+    display: inline-block;
+  }
+
+  .custom-form-bottom-div .link.link-forgot {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .form-div .custom-checkbox-div .custom-checkbox-label .txt::before {
+    width: 16px;
+    height: 16px;
+    top: 4px;
+  }
+
+  .form-div .custom-checkbox-div .custom-checkbox-label input:checked + .txt::before {
+    top: 4px;
+    font-size: 10px;
+  }
+
+  .border-vline-txt-dv {
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .social-btn-link-full {
+    .social-btn-link {
+      padding: 8px 12px;
+      border-radius: 25px;
+      min-height: 44px;
+      min-width: 140px;
+      font-size: 14px;
+
+      .txt {
+        padding: 0 0 0 10px;
+      }
+
+      .img-icon {
+        max-height: 20px;
+        width: 20px;
+      }
+    }
+
+    .social-btn-list {
+      li {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .social-btn-link-full .social-btn-link.facebook-link .txt {
+    padding-left: 6px;
+  }
+
+  .form-div {
+    .form-group-radio-btn {
+      .radio-label {
+        .span-root {
+          flex-wrap: wrap;
+          text-align: center;
+          font-size: 14px;
+          padding: 10px 10px 8px;
+        }
+
+        .img {
+          flex: auto;
+          width: 100%;
+          justify-content: center;
+          margin: 0 0 5px;
+
+          img {
+            width: 32px;
+            height: 32px;
+          }
+        }
+
+        .txt {
+          flex: 1;
+          padding: 0;
+          text-align: center;
+          width: 100%;
+        }
+      }
+    }
+
+    .cst-form-radio-btn {
+      .radio-card {
+        width: calc(50% - 8px);
+        margin: 0 0 5px 16px;
+      }
+    }
+
+    .form-group {
+      .form-label {
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      &.mb-15 {
+        margin-bottom: 10px;
+      }
+    }
+
+    .form-group.file-form-group {
+      --heightFileInput: 62px;
+
+      .custom-file {
+        .custom-file-label {
+          font-size: 14px;
+          padding: 12px 12px 15px 12px;
+          border-radius: 16px;
+
+          &::before {
+            font-size: 24px;
+            top: -5px;
+            margin-right: 6px;
+            display: block;
+            width: 100%;
+            text-align: center;
+          }
+        }
+
+        .browse-txt {
+          font-size: 12px;
+          min-width: auto;
+          padding: 0;
+          min-height: auto;
+          background: transparent;
+          color: var(--secondaryColor03);
+          margin-left: 6px;
+          line-height: 1;
+          border-radius: 0;
+          top: auto;
+        }
+      }
+    }
+
+    .search-input-group {
+      .form-control {
+        padding-left: 44px;
+      }
+
+      .search-icon {
+        font-size: 18px;
+        padding: 0 0 0 15px;
+        width: 44px;
+      }
+    }
+
+    .custom-checkbox-div .custom-checkbox-label {
+      min-height: 21px;
+    }
+
+    .form-group-checkbox-btn {
+      .checkbox-label {
+        .span-root::before {
+          width: 20px;
+          height: 20px;
+          left: -5px;
+          top: -5px;
+        }
+
+        .checkbox-inline:checked + .span-root::after {
+          background: transparent;
+          color: var(--primaryColor01);
+          width: 20px;
+          height: 20px;
+          font-size: 13px;
+        }
+
+        .span-root {
+          padding: 10px 15px;
+          font-size: 14px;
+          min-height: 60px;
+        }
+      }
+    }
+
+    .form-group.location-form-group {
+      .form-control {
+        padding-right: 40px;
+      }
+
+      .location-icon {
+        height: 43px;
+        width: 44px;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .form-group-toggle-inline {
+    .input-control-row {
+      margin-left: 20px;
+      margin-top: -1px;
+    }
+  }
+
+  .toggle-switchy {
+    .txt {
+      font-size: 14px;
+    }
+
+    input + .toggle {
+      margin: 0 5px;
+    }
+  }
+
+  .form-group-toggle-inline {
+    .toggle-switchy {
+      margin-top: 1px;
+    }
+  }
+
+  .img-circle-div {
+    padding-bottom: 10px;
+
+    .circle {
+      width: 80px;
+      height: 80px;
+
+      .profile-pic {
+        width: 70px;
+        height: 70px;
+      }
+
+      .filelabel-icon {
+        bottom: 3px;
+        right: 3px;
+        width: 24px;
+        height: 24px;
+        border-width: 1px;
+      }
+    }
+
+    .title-div {
+      padding-left: 10px;
+
+      label.filelabel-text {
+        h5 {
+          font-size: 14px;
+          margin: 0 0 2px;
+        }
+
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .table.table-custom {
+    margin: 0;
+    border: 1px dashed var(--greyColor03);
+    border-radius: 16px;
+    padding: 0;
+    display: block;
+
+    thead {
+      display: none;
+    }
+
+    tbody {
+      tr {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        border-top: 1px dashed var(--greyColor03);
+        padding: 5px 15px 0;
+        margin: 0 0 5px;
+        border-radius: 0;
+
+        &:first-child {
+          border-top: none;
+        }
+      }
+    }
+
+    td {
+      font-size: 14px;
+      line-height: 1.5;
+      padding: 8px 0;
+      width: 100%;
+      padding-right: 10px;
+
+      &.mw-50 {
+        width: 50%;
+      }
+
+      &::before {
+        content: attr(data-label);
+        font-size: 12px;
+        line-height: 1.5;
+        color: var(--greyColor04);
+        font-weight: 400;
+        width: 100%;
+        display: block;
+      }
+
+      &.action-td {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        &::before {
+          width: auto;
+        }
+      }
+
+      .btn-span {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: -2px 0 0 15px;
+      }
+    }
+  }
+
+  .btn.btn-icon-link {
+    width: 26px;
+    height: 26px;
+    background: var(--lightColor04);
+    font-size: 20px;
+  }
+
+  h2 {
+    line-height: 1.4;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .header-title-center-dv {
+    h2 {
+      margin: 0 auto 15px;
+    }
+  }
+
+  .social-list {
+    li {
+      margin: 0 10px 0 0;
+
+      .social-link {
+        width: 34px;
+        height: 34px;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .link-back-arrow-btn {
+    font-size: 14px;
+  }
+
+  .general-page-section.signup-section {
+    .form-div .custom-checkbox-div .custom-checkbox-label input:checked + .txt::before,
+    .form-div .custom-checkbox-div .custom-checkbox-label .txt::before {
+      top: 2px;
+    }
+  }
+
+  body {
+    .mb-30 {
+      margin-bottom: 15px;
+    }
+    .mb-70 {
+      margin-bottom: 40px;
+    }
+  }
+
+  .border-vline-txt-dv {
+    margin-top: 15px;
+  }
+
+  .form-group.select2-form-group {
+    margin-bottom: 10px;
+  }
+
+  .btn-clear-link {
+    font-size: 14px;
+
+    i {
+      margin-right: 8px;
+      font-size: 14px;
+      top: -1px;
+    }
+  }
+
+  .nav-pills-custom-list {
+    .nav-item {
+      padding: 0 0 10px 0;
+      margin-right: 10px;
+
+      .nav-link {
+        font-size: 14px;
+        padding: 6px 12px;
+        min-height: 46px;
+        border-radius: 6px;
+
+        &::before {
+          height: 6px;
+          border-radius: 6px 6px 0 0;
+        }
+
+        &::after {
+          bottom: -11px;
+          display: none;
+        }
+
+        &.active {
+          padding-top: 10px;
+          padding-bottom: 5px;
+          border-radius: 6px;
+          border: 1px solid var(--greyColor06);
+        }
+      }
+
+      .action-nav-link {
+        font-size: 16px;
+        top: 14px;
+        width: 21px;
+        height: 21px;
+      }
+
+      &.nav-item-edit {
+        .nav-link {
+          padding-right: 12px;
+
+          &.active {
+            padding-right: 34px;
+          }
+        }
+
+        .nav-link.active + .action-nav-link {
+          right: 11px;
+        }
+      }
+    }
+  }
+
+  body .mb-60 {
+    margin-bottom: 40px;
+  }
+
+  .select-custom2 {
+    .select2-container--default .select2-selection--multiple {
+      padding: 3px 15px 1px 17px;
+      min-height: 44px;
+    }
+
+    .select2-container--default .select2-selection--multiple .select2-selection__choice {
+      font-size: 12px;
+      padding: 3px 5px;
+      padding-right: 25px;
+    }
+
+    .select2-container--default
+      .select2-selection--multiple
+      .select2-selection__choice
+      .select2-selection__choice__remove {
+      right: 1px;
+    }
+
+    .select2-container--default
+      .select2-selection--multiple
+      .select2-selection__choice
+      .select2-selection__choice__remove::before {
+      font-size: 14px;
+    }
+
+    &.select2-multiple {
+      .select2-container--default .select2-selection--multiple {
+        padding-left: 40px;
+        background-size: 16px;
+      }
+    }
+  }
+
+  .row {
+    &.g-2 {
+      .select-custom2 {
+        .select2-container--default {
+          .select2-selection--single {
+            padding: 7px 35px 13px 17px;
+          }
+        }
+      }
+    }
+  }
+
+  .card-Session.Guide {
+    .card-Session.Guide-inner {
+      margin-left: 0px;
+      margin-right: 0px;
+
+      &.card-Session-lg {
+        padding-left: 0;
+      }
+    }
+  }
+
+  .custom-pagination {
+    .pagination {
+      .page-item {
+        &.mob-none {
+          display: none;
+        }
+
+        &:first-child,
+        &:last-child {
+          .page-link {
+            width: 42px;
+            padding: 0 10px;
+            font-size: 0px;
+            span {
+              font-size: 20px;
+              margin: 0px !important;
+            }
+          }
+        }
+
+        .page-link {
+          width: 42px;
+          height: 42px;
+          line-height: 44px;
+        }
+      }
+    }
+  }
+
+  .set-availability-box {
+    min-height: 280px;
+
+    p {
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+
+  .date-time-modal {
+    .modal-body {
+      padding: 15px 15px 10px;
+    }
+
+    .modal-footer {
+      padding-bottom: 15px;
+    }
+  }
+
+  /* DX Changes */
+  ul.questionnaires-timeline {
+    .lbl-radio {
+      text {
+        font-size: 16px;
+      }
+    }
+  }
+  .saved-card-info {
+    .card-details {
+      padding: 15px 20px 10px;
+    }
+    .card-btn {
+      padding: 10px 20px;
+    }
+  }
+  /* End of DX Changes */
+
+  /* Page Loader */
+  .preloader .head {
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 290px;
+    margin: 0 auto;
+  }
+
+  .preloader .round_spinner {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 40px;
+  }
+
+  .preloader .spinner:before {
+    border-width: 3px;
+    right: 12px;
+    top: 16px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .preloader .img-logo-loader {
+    width: 100px;
+    height: 100px;
+  }
+
+  .preloader .spinner {
+    border-width: 2px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    top: -20px;
+  }
+
+  /* End of Page Loader */
+
+  /* 404 */
+  .page-not-found-div {
+    padding: 30px 0;
+
+    .page-not-found-inner {
+      padding: 30px 15px 40px;
+    }
+
+    h1 {
+      font-size: 76px;
+      letter-spacing: 4px;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+    }
+
+    p {
+      font-size: 12px;
+
+      br {
+        display: none;
+      }
+    }
+
+    .desc-div {
+      margin-bottom: 20px;
+    }
+  }
+  /* End of 404 */
+}
+
+@media (max-width: 580px) {
+  .card-custom-common {
+    .card-add-items {
+      padding: 15px;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  .group-session-card {
+    border-radius: 20px;
+    border: 0;
+    box-shadow: none;
+    .card-body {
+      padding: 0;
+    }
+    .group-session-listing {
+      .list-item {
+        h4 {
+          font-size: var(--fontSize18);
+        }
+      }
+    }
+  }
+
+  /* DatePicker Inline */
+
+  .custom-time-view h3,
+  .datepickerinline .ui-datepicker .ui-datepicker-title {
+    font-size: 18px;
+  }
+
+  .datepickerinline .ui-datepicker th,
+  .datepickerinline .ui-datepicker .ui-datepicker-prev,
+  .datepickerinline .ui-datepicker .ui-datepicker-next,
+  .custom-time-view .arrow-link {
+    font-size: 16px;
+  }
+
+  .custom-time-view .timerange-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .custom-time-view .timerange-tp-left,
+  .custom-time-view .timerange-tp-right {
+    width: 22px;
+  }
+
+  .custom-time-view .timerange-tp-center {
+    padding: 0 10px;
+    min-width: 200px;
+    flex: 1;
+  }
+
+  .datepickerinline .ui-state-default,
+  .datepickerinline .ui-widget-content .ui-state-default,
+  .datepickerinline .ui-widget-header .ui-state-default,
+  .datepickerinline .ui-button,
+  .datepickerinline html .ui-button.ui-state-disabled:hover,
+  .datepickerinline html .ui-button.ui-state-disabled:active {
+    min-height: 36px;
+    min-width: 36px;
+  }
+
+  .custom-datetime-div .custom-time-view {
+    margin-left: 0;
+    margin-top: 30px;
+    width: auto;
+    padding: 0;
+  }
+
+  .custom-time-view .timerange-div {
+    max-height: 234px;
+  }
+
+  .custom-datetime-div .custom-time-view::before {
+    top: 30px;
+    height: calc(100% - 60px);
+  }
+
+  .datepickerinline .ui-datepicker table {
+    font-size: 16px;
+  }
+
+  .custom-datetime-div .custom-datetime-row {
+    border: none;
+    padding: 0;
+  }
+
+  .custom-datetime-div .custom-time-view::before {
+    border: none;
+    top: -20px;
+    left: auto;
+    height: 1px;
+    border-top: 1px solid var(--greyColor03);
+    width: 100%;
+    opacity: 0.4;
+  }
+
+  .custom-time-view .timerange-header-div {
+    margin: 0 auto 20px;
+  }
+
+  .datepickerinline .ui-datepicker .ui-datepicker-header {
+    width: 100%;
+    margin: 0 auto 10px;
+  }
+
+  /* End of DatePicker Inline */
+  .custom-timeline {
+    margin-bottom: 30px;
+    li {
+      a {
+        display: block;
+        padding: 10px 10px;
+      }
+      &.current {
+        a {
+          &::before {
+            border-top: 20px solid #fff;
+            border-left: 12px solid #e8dded;
+            border-bottom: 20px solid #fff;
+          }
+        }
+      }
+      &.done {
+        a {
+          &::before {
+            border-top: 20px solid #e8dded;
+            border-left: 12px solid var(--primaryColor01);
+            border-bottom: 20px solid #e8dded;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .custom-timeline {
+    flex-direction: column;
+    li {
+      width: 100%;
+      a {
+        &::before {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 361px) {
+  :root {
+    --fontSize51: 24px;
+    --fontSize40: 18px;
+    --fontSize20: 14px;
+    --fontSize30: 16px;
+    --fontSize18: 14px;
+  }
+
+  .figure-44 {
+    max-width: 38px;
+    min-width: 38px;
+    max-height: 38px;
+  }
+  .general-page-section .general-title-div h1::before {
+    height: 13px;
+  }
+
+  .custom-table {
+    .table {
+      td {
+        &.mw-50 {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .nav-pills-custom-list {
+    .nav-item {
+      flex: 1;
+      .nav-link {
+        padding: 6px 12px;
+        min-height: 42px;
+        width: 100%;
+      }
+
+      &.nav-item-edit {
+        .nav-link {
+          &.active {
+            padding-right: 36px;
+          }
+        }
+
+        .nav-link.active + .action-nav-link {
+          right: 11px;
+        }
+      }
+    }
+  }
+  .custom-nav-pills {
+    .nav-pills {
+      .nav-link {
+        padding: 10px 20px;
+      }
+    }
+  }
+
+  .btn.btn-danger-common,
+  .btn.btn-success-common {
+    &.btn-sm {
+      padding: 10px 20px;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  :root {
+    --fontSize51: 22px;
+    --fontSize40: 18px;
+    --fontSize20: 13px;
+    --fontSize30: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .social-btn-link-full .social-btn-link {
+    padding: 8px 12px;
+    min-width: 116px;
+    font-size: 14px;
+  }
+
+  .social-btn-link-full .social-btn-link .img-icon {
+    max-height: 21px;
+    width: 21px;
+  }
+
+  .social-btn-link-full .social-btn-link .txt {
+    padding: 0 0 0 8px;
+  }
+
+  .social-btn-link-full .social-btn-link.facebook-link .txt {
+    padding-left: 4px;
+  }
+
+  .social-btn-link-full .social-btn-link.facebook-link {
+    padding-left: 8px;
+  }
+
+  .form-div .form-group.file-form-group .custom-file .custom-file-label {
+    font-size: 12px;
+    padding: 12px 12px 10px 12px;
+  }
+
+  .form-div .form-group.file-form-group .custom-file .custom-file-label::before {
+    top: -3px;
+  }
+
+  .form-group-toggle-inline .input-control-row {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .home-banner-root {
+    min-height: calc(100vh - 60px);
+    margin-top: 60px;
+  }
+
+  .nav-pills-custom-list {
+    .nav-item {
+      padding: 0 0 6px 0;
+      margin-right: 6px;
+
+      .nav-link {
+        padding: 6px 10px;
+        min-height: 40px;
+        font-size: 13px;
+      }
+
+      &.nav-item-edit {
+        .nav-link {
+          &.active {
+            padding-right: 36px;
+          }
+        }
+
+        .nav-link.active + .action-nav-link {
+          right: 10px;
+          font-size: 14px;
+          top: 12px;
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+
+  /* DatePicker Inline */
+
+  .book-session-root {
+    .card-personal-mentee-bx {
+      padding: 10px 10px;
+    }
+  }
+
+  .datepickerinline .ui-datepicker th,
+  .datepickerinline .ui-datepicker .ui-datepicker-prev,
+  .datepickerinline .ui-datepicker .ui-datepicker-next,
+  .custom-time-view .arrow-link {
+    font-size: 14px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  .datepickerinline .ui-state-default,
+  .datepickerinline .ui-widget-content .ui-state-default,
+  .datepickerinline .ui-widget-header .ui-state-default,
+  .datepickerinline .ui-button,
+  .datepickerinline html .ui-button.ui-state-disabled:hover,
+  .datepickerinline html .ui-button.ui-state-disabled:active {
+    min-height: 28px;
+    min-width: 28px;
+  }
+
+  .datepickerinline .ui-datepicker table {
+    font-size: 14px;
+  }
+
+  .custom-time-view h3,
+  .datepickerinline .ui-datepicker .ui-datepicker-title {
+    font-size: 16px;
+  }
+
+  .custom-time-view .timerange-tp-center {
+    min-width: 180px;
+  }
+  /* End of DatePicker Inline */
+}

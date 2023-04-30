@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>My Subscription | VCTT</title>
+  <meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+  <meta name="theme-color" content="#662D91">
+  <meta name="msapplication-navbutton-color" content="#662D91">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#662D91">
+  <link href='assets/images/favicon.png' rel='shortcut icon'>
+  
+  
+  <link href="assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/general-font.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/all.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/swiper-bundle.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/jquery-ui.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+  <div id="wrapper" class="wrapper">
+
+    <!-- Header for Organization -->
+    <header>
+      <div class="header-div header-white-div header-after-login">
+
+        <div class="inner-top-header-div">
+          <div class="container container-1760">
+
+            <div class="header-container">
+
+              <div class="logo-div">
+                <a class="logo_link clearfix" href="index.html">
+                  <img src="assets/images/logo.png" class="img-fluid img-logo-main" alt="logo" />
+                  <img src="assets/images/logo-hr.png" class="img-fluid img-logo-sticky" alt="logo" />
+                </a>
+              </div>
+
+              <nav class="nav-center-div">
+                <div class="top-nav1">
+
+                  <div class="cd-shadow-layer"></div>
+
+                  <div class="nav-m-bar">
+                    <a onclick="openNav()" class="opennav">
+                      <i class="menu-bars menu-icon fas fa-bars"></i>
+                    </a>
+                  </div>
+
+                  <div class="nav-div clearfix" id="mySidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                    <div class="row-nav-div">
+                      <div class="left-side">
+                        <ul class="nav ullist-inline" id="nav-res">
+                          <li><a href="organization-dashboard.html" class="nav-link">Dashboard</a></li>
+                          <li><a href="organization-my-mentee.html" class="nav-link">My Mentee</a></li>
+                          <li><a href="organization-mentor-listing.html" class="nav-link">My Mentors</a></li>
+                          <li class="dropdown">
+                            <a class="nav-link-dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                              <span class="txt">Sessions</span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
+                              <ul class="submenu-list">
+                                <li><a class="dropdown-item" href="organization-sessions-pending.html">1 to 1</a></li>
+                                <li><a class="dropdown-item" href="#">Many to 1</a></li>
+                                <li><a class="dropdown-item" href="#">Group Sessions</a></li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+
+                        <ul class="nav ullist-inline ullist-inline-auth">
+                          <li><a href="#" class="nav-link btn btn-primary-common btn-switch-nav">Switch To Mentorship</a></li>
+                          <li class="message-li"><a href="#" class="nav-link btn-message" title="Chat"> <span class="ico-round"> <img src="assets/images/icons/mail-icon.svg" class="img-fluid img-messages" alt="message" /> </span> <span class="txt-ico-cht">Messages</span> </a></li>
+                          <li class="user-drop-down dropdown">
+                            <a class="btn-default dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                              <div class="user-profile">
+                                <div class="user-img">
+                                  <img src="assets/images/profile-image01.png" class="img-fluid user-top-image" alt="user image" />
+                                </div>
+                                <div class="user-info">
+                                  <span class="text-span">Organization</span>
+                                </div>
+                              </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
+                              <ul class="submenu-list">
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-17"></i></span> <span class="txt">Account Info</span></a></li>
+                                <li><a class="dropdown-item" href="organization-assessment-form.html"> <span class="span-icon"><i class="icon icon-65 assessment-icon"></i></span><span class="txt">Assessment Form</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-66 Session Guide-icon"></i></span> <span class="txt">My Session Guide</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-18"></i></span> <span class="txt">My Subscription</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-19"></i></span> <span class="txt">Transaction History</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-20 payment-info-icon"></i></span> <span class="txt">Payment Info</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-21 billing-info-icon"></i></span> <span class="txt">Billing Info</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-22 change-password-icon"></i></span> <span class="txt">Change Password</span></a></li>
+                                <li><a class="dropdown-item" href="sign-in.html"> <span class="span-icon"><i class="icon icon-23 logout-icon"></i></span> <span class="txt">Logout</span></a></li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </nav>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End of header -->
+
+    <!-- Main Area -->
+    <div class="main-middle-area">
+
+      <div class="general-page-section sessions-detail-sec">
+        <div class="shape-bottom-dv"> &nbsp; </div>
+
+        <div class="container container-1300">
+          <div class="general-page-div">
+            <div class="general-title-div">              
+              <h1><span class="txt">My Subscription</span></h1>
+            </div>
+            <div class="common-dt-border-card mb-30 detail-page-card">
+              <div class="common-dt-border-card-inner">
+                  <div class="gnr-middle-body-card pb-3"> 
+                    <div class="gnr-top-title-card border-bottom-01 pt-0 m-0 mb-4 w-100">
+                      <div class="d-flex align-items-center justify-content-between flex-wrap">
+                        <h4 class="text-start my-2">Current Subscription</h4>
+                        <button type="button" class="btn btn-primary-common btn-sm">Buy New Subscription</button>
+                      </div>                        
+                    </div> 
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6">
+                        <div class="card card-subscription mb-4">
+                          <div class="card-body">
+                            <div class="sub-title-txt-div title-white">
+                              <h4>3 Months</h4>
+                            </div>
+                            <div class="d-flex align-items-center">
+                              <label class="form-label mb-0">Purchased On <span class="mx-2">:</span></label>
+                              <div class="txt">01 Jan, 2022</div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                              <label class="form-label mb-0">Expires On <span class="mx-2">:</span></label>
+                              <div class="txt">30 Mar, 2022</div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                              <label class="form-label mb-0">Number of Mentee <span class="mx-2">:</span></label>
+                              <div class="txt">15 Mentee</div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                              <label class="form-label mb-0">Calculation <span class="mx-2">:</span></label>
+                              <div class="txt">$5*3Month*15Mentee</div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                              <label class="form-label mb-0">Total <span class="mx-2">:</span></label>
+                              <div class="txt fs-18 color-primary2">$225</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6">
+                        <div class="card card-subscription mb-4">
+                          <div class="card-body">
+                            <div class="sub-title-txt-div title-white">
+                              <h4>1 Months</h4>
+                            </div>
+                            <div class="d-flex align-items-center">
+                              <label class="form-label mb-0">Purchased On <span class="mx-2">:</span></label>
+                              <div class="txt">01 Jan, 2022</div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                              <label class="form-label mb-0">Expires On <span class="mx-2">:</span></label>
+                              <div class="txt">30 Mar, 2022</div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                              <label class="form-label mb-0">Number of Mentee <span class="mx-2">:</span></label>
+                              <div class="txt">15 Mentee</div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                              <label class="form-label mb-0">Calculation <span class="mx-2">:</span></label>
+                              <div class="txt">$5*3Month*15Mentee</div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                              <label class="form-label mb-0">Total <span class="mx-2">:</span></label>
+                              <div class="txt fs-18 color-primary2">$75</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-12">
+                        <h2 class="fs-24 font-jost mb-3">Please write your feedback here and <br>give review to VCTT</h2>
+                        <button type="button" class="btn btn-primary-common btn-sm">Review</button>
+                      </div>
+                    </div>                
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="common-dt-border-card mb-70 detail-page-card">
+                <div class="common-dt-border-card-inner">
+                    <div class="gnr-middle-body-card pb-3"> 
+                      <div class="gnr-top-title-card border-bottom-01 m-0 mb-4 pt-0 w-100">
+                        <h4 class="text-start">Past Subscription</h4>
+                      </div>                       
+                      <form class="form-div">
+                        <div class="row">
+                            <div class="col-lg-auto col-md-6 col-sm-6 col-12">
+                              <div class="form-group search-input-group">
+                                <div class="input-control-row">
+                                  <input type="text" class="form-control form-search" placeholder="Search by keyword">
+                                  <i class="icon icon-15 search-icon"></i>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-auto col-md-6 col-sm-6 col-12 ms-auto">
+                                <div class="form-group mb-4 mb-3">
+                                    <input type="text" class="form-control uidatepicker" placeholder="" readonly/>
+                                </div>
+                            </div>
+                            <div class="col-lg-auto col-md-6 col-sm-6 col-12">
+                                <div class="form-group mb-4 mb-3">
+                                    <input type="text" class="form-control uidatepicker" placeholder="" readonly/>
+                                </div>
+                            </div>
+                            <div class="col-lg-auto col-md col-sm col-12">
+                                <div class="form-group mb-4 mb-3 d-flex align-items-center justify-content-end">
+                                    <button type="submit" class="btn btn-primary-common px-4 btn-h-60">GO</button>
+                                    <a href="#" class="color-gray ms-3 fs-18"><i class="icon icon-28"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                      </form>
+                      <div class="custom-table mb-4">
+                        <div class="common-dt-border-card-inner">
+                            <table class="table" style="width: 100%;">
+                                <thead class="bg-color-F9F5FC">
+                                    <tr>
+                                      <th>Plan Type</th>
+                                      <th>Purchased On</th>
+                                      <th>Expires On</th>
+                                      <th>Calculation</th>
+                                      <th width="120px">Total</th>
+                                      <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                      <td class="mw-50" data-label="Plan Type">3 Months</td>
+                                      <td class="mw-50" data-label="Purchased On">01 Jan, 2021</td>
+                                      <td class="mw-50" data-label="Expires On">30 Mar, 2021</td>
+                                      <td class="mw-50" data-label="Calculation">$5*3Month*15Mentee</td>
+                                      <td class="mw-50" data-label="Total"><span class="color-primary">$275</span></td>
+                                      <td class="mw-50">
+                                        <a href="organization-sessions-pending-details.html" class="view-session-details" data-bs-toggle="tooltip" data-bs-placement="top" title="View Detail">
+                                          <i class="icon icon-8"></i>
+                                        </a>
+                                      </td>                                    
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                      </div>
+                      <div class="custom-table mb-4">
+                        <div class="common-dt-border-card-inner">
+                            <table class="table" style="width: 100%;">
+                                <thead class="bg-color-F9F5FC">
+                                    <tr>
+                                      <th>Plan Type</th>
+                                      <th>Purchased On</th>
+                                      <th>Expires On</th>
+                                      <th>Calculation</th>
+                                      <th width="120px">Total</th>
+                                      <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                      <td class="mw-50" data-label="Plan Type">1 Months</td>
+                                      <td class="mw-50" data-label="Purchased On">01 Jan, 2021</td>
+                                      <td class="mw-50" data-label="Expires On">30 Mar, 2021</td>
+                                      <td class="mw-50" data-label="Calculation">$5*3Month*15Mentee</td>
+                                      <td class="mw-50" data-label="Total"><span class="color-primary">$75</span></td>
+                                      <td class="mw-50">
+                                        <a href="organization-sessions-pending-details.html" class="view-session-details" data-bs-toggle="tooltip" data-bs-placement="top" title="View Detail">
+                                          <i class="icon icon-8"></i>
+                                        </a>
+                                      </td>                                    
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                      </div>
+                      <div class="custom-table mb-4">
+                        <div class="common-dt-border-card-inner">
+                            <table class="table" style="width: 100%;">
+                                <thead class="bg-color-F9F5FC">
+                                    <tr>
+                                      <th>Plan Type</th>
+                                      <th>Purchased On</th>
+                                      <th>Expires On</th>
+                                      <th>Calculation</th>
+                                      <th width="120px">Total</th>
+                                      <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                      <td class="mw-50" data-label="Plan Type">3 Months</td>
+                                      <td class="mw-50" data-label="Purchased On">01 Jan, 2021</td>
+                                      <td class="mw-50" data-label="Expires On">30 Mar, 2021</td>
+                                      <td class="mw-50" data-label="Calculation">$5*3Month*15Mentee</td>
+                                      <td class="mw-50" data-label="Total"><span class="color-primary">$275</span></td>
+                                      <td class="mw-50">
+                                        <a href="organization-sessions-pending-details.html" class="view-session-details" data-bs-toggle="tooltip" data-bs-placement="top" title="View Detail">
+                                          <i class="icon icon-8"></i>
+                                        </a>
+                                      </td>                                    
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                      </div>
+                      <nav class="custom-pagination mt-5">
+                        <ul class="pagination justify-content-center">
+                          <li class="page-item">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><span class="me-2"><i class="fas fa-angle-left"></i></span>PREV</a>
+                          </li>
+                          <li class="page-item"><a class="page-link active" href="#">01</a></li>
+                          <li class="page-item"><a class="page-link" href="#">02</a></li>
+                          <li class="page-item mob-none"><a class="page-link" href="#">03</a></li>
+                          <li class="page-item"><a class="page-link" href="#">...</a></li>
+                          <li class="page-item mob-none"><a class="page-link" href="#">06</a></li>
+                          <li class="page-item"><a class="page-link" href="#">07</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="#">NEXT <span class="ms-2"><i class="fas fa-angle-right"></i></span></a>
+                          </li>
+                        </ul>
+                      </nav>                        
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- End of Main Area -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-div footer-inner-page">
+        <div class="container">
+          <div class="footer-in-div">
+            <div class="row row-cols-lg-4">
+
+              <div class="col grid-25 col-footer01">
+                <div class="footer-logo-inner">
+                  <a href="index.html" class="footer-logo-link">
+                    <img src="assets/images/logo.png" class="img-fluid img-footer-logo" alt="logo" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="col grid-32 col-footer02">
+                <div class="footer-nav-list-inner">
+                  <h3>Quick Links</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul footer-list-50">
+                      <li><a href="index.html" class="link">Home</a></li>
+                      <li><a href="subscription.html" class="link">Subscription</a></li>
+                      <li><a href="#" class="link">About Us</a></li>
+                      <li><a href="faqs.html" class="link">FAQs</a></li>
+                      <li><a href="#" class="link">Mentoring</a></li>
+                      <li><a href="contact-us.html" class="link">Contact Us</a></li>
+                      <li><a href="#" class="link">Organizations</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col grid-25 col-footer03">
+                <div class="footer-nav-list-inner">
+                  <h3>Information</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul">
+                      <li><a href="#" class="link">Cookie Policy</a></li>
+                      <li><a href="#" class="link">Terms of Service</a></li>
+                      <li><a href="#" class="link">Privacy Policy </a></li>
+                      <li><a href="#" class="link">Child Protection Policy</a></li>
+                      <li><a href="#" class="link">Volunteer Code of Conduct</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col grid-18 col-footer04">
+                <div class="footer-nav-list-inner">
+                  <h3>Contact Information</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul footer-list-ul-cnt">
+                      <li>
+                        <a href="mailto:mentorship@vctt.org" class="link mail-link">
+                          <span class="span-icon"> <i class="icon icon-6"></i> </span>
+                          <span class="text-span">mentorship@vctt.org</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="tel:+18683908244" class="link call-link">
+                          <span class="span-icon"> <i class="icon icon-5"></i> </span>
+                          <span class="text-span">+1-868-390-8244</span>
+                        </a>
+                      </li>
+                      <li>
+                        <span class="address-link">
+                          <span class="span-icon"> <i class="icon icon-4"></i> </span>
+                          <span class="text-span">3076 Counts Lane <br> Cincinnati, KY 45203</span>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-div">
+        <div class="container">
+          <div class="footer-bottom-inner-div">
+            <div class="footer-social-div">
+              <ul class="social-list">
+                <li><a class="social-link fb-link" target="_blank" href="https://www.facebook.com/volunteercentertt"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="social-link instagram-link" target="_blank" href="https://www.instagram.com/volunteercentertt/?hl=en"><i class="fab fa-instagram"></i></a></li>
+                <li><a class="social-link linkedin-link" target="_blank" href="https://www.linkedin.com/company/the-volunteer-center-of-trinidad-and-tobago/about/?viewAsMember=true"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a class="social-link youtube-link" target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a class="social-link twitter-link" target="_blank" href="https://twitter.com/officialvctt?lang=en"><i class="fab fa-twitter"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="copyright-div">
+              <p>&copy; Copyright © 2022 <a href="#">VCTT</a>. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+  </div><!-- end of wrapper -->
+
+  <!-- Back to top -->
+  <a href="#" class="cd-top text-replace js-cd-top"><i class="fas fa-chevron-up"></i></a>
+  <!-- End of Back to top -->
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/ion.rangeSlider.min.js"></script>
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+  <script src="assets/js/backtotop/util.js"></script>
+  <script src="assets/js/select2.full.js"></script>
+  <script src="assets/js/select2-call.js"></script>
+  <script src="assets/js/jquery-ui.min.js"></script>
+  <script src="assets/js/vanillaTextMask.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script>
+    /* Input Masking */
+    var phoneMask = [
+      /[1-9]/,
+      /\d/,
+      /\d/,
+      "-",
+      /\d/,
+      /\d/,
+      /\d/,
+      "-",
+      /\d/,
+      /\d/,
+      /\d/,
+      /\d/,
+    ];
+
+    var myInput = document.querySelector(".number_mask");
+
+    var maskedInputController = vanillaTextMask.maskInput({
+      inputElement: myInput,
+      mask: phoneMask,
+    });
+    /* End of Input Masking */
+  </script>
+
+</body>
+</html>

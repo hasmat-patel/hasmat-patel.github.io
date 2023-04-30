@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Account Information  | VCTT</title>
+  <meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+  <meta name="theme-color" content="#662D91">
+  <meta name="msapplication-navbutton-color" content="#662D91">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#662D91">
+  <link href='assets/images/favicon.png' rel='shortcut icon'>
+  <link href="assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/general-font.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/all.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/swiper-bundle.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div id="wrapper" class="wrapper">
+
+    <!-- Header for Organization -->
+    <header>
+      <div class="header-div header-white-div header-after-login">
+
+        <div class="inner-top-header-div">
+          <div class="container container-1760">
+
+            <div class="header-container">
+
+              <div class="logo-div">
+                <a class="logo_link clearfix" href="index.html">
+                  <img src="assets/images/logo.png" class="img-fluid img-logo-main" alt="logo" />
+                  <img src="assets/images/logo-hr.png" class="img-fluid img-logo-sticky" alt="logo" />
+                </a>
+              </div>
+
+              <nav class="nav-center-div">
+                <div class="top-nav1">
+
+                  <div class="cd-shadow-layer"></div>
+
+                  <div class="nav-m-bar">
+                    <a onclick="openNav()" class="opennav">
+                      <i class="menu-bars menu-icon fas fa-bars"></i>
+                    </a>
+                  </div>
+
+                  <div class="nav-div clearfix" id="mySidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                    <div class="row-nav-div">
+                      <div class="left-side">
+                        <ul class="nav ullist-inline" id="nav-res">
+                          <li><a href="organization-dashboard.html" class="nav-link">Dashboard</a></li>
+                          <li><a href="organization-my-mentee.html" class="nav-link">My Mentee</a></li>
+                          <li><a href="organization-mentor-listing.html" class="nav-link">My Mentors</a></li>
+                          <li class="dropdown">
+                            <a class="nav-link-dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                              <span class="txt">Sessions</span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
+                              <ul class="submenu-list">
+                                <li><a class="dropdown-item" href="organization-sessions-pending.html">1 to 1</a></li>
+                                <li><a class="dropdown-item" href="#">Many to 1</a></li>
+                                <li><a class="dropdown-item" href="#">Group Sessions</a></li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+
+                        <ul class="nav ullist-inline ullist-inline-auth">
+                          <li><a href="#" class="nav-link btn btn-primary-common btn-switch-nav">Switch To Mentorship</a></li>
+                          <li class="message-li"><a href="#" class="nav-link btn-message" title="Chat"> <span class="ico-round"> <img src="assets/images/icons/mail-icon.svg" class="img-fluid img-messages" alt="message" /> </span> <span class="txt-ico-cht">Messages</span> </a></li>
+                          <li class="user-drop-down dropdown">
+                            <a class="btn-default dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                              <div class="user-profile">
+                                <div class="user-img">
+                                  <img src="assets/images/profile-image01.png" class="img-fluid user-top-image" alt="user image" />
+                                </div>
+                                <div class="user-info">
+                                  <span class="text-span">Organization</span>
+                                </div>
+                              </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
+                              <ul class="submenu-list">
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-17"></i></span> <span class="txt">Account Info</span></a></li>
+                                <li><a class="dropdown-item" href="organization-assessment-form.html"> <span class="span-icon"><i class="icon icon-65 assessment-icon"></i></span><span class="txt">Assessment Form</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-66 Session Guide-icon"></i></span> <span class="txt">My Session Guide</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-18"></i></span> <span class="txt">My Subscription</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-19"></i></span> <span class="txt">Transaction History</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-20 payment-info-icon"></i></span> <span class="txt">Payment Info</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-21 billing-info-icon"></i></span> <span class="txt">Billing Info</span></a></li>
+                                <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-22 change-password-icon"></i></span> <span class="txt">Change Password</span></a></li>
+                                <li><a class="dropdown-item" href="sign-in.html"> <span class="span-icon"><i class="icon icon-23 logout-icon"></i></span> <span class="txt">Logout</span></a></li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </nav>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End of header -->
+
+    <!-- Main Area -->
+    <div class="main-middle-area">
+
+      <div class="general-page-section complete-profile-section">
+        <div class="shape-bottom-dv"> &nbsp; </div>
+
+        <div class="container container-1200">
+          <div class="general-page-div">
+
+            <div class="general-title-div">
+              <h1><span class="txt">Account Information</span></h1>
+            </div>
+
+            <div class="common-dt-border-card complete-profile-card mb-70">
+              <div class="common-dt-border-card-inner">
+                <div class="gnr-middle-body-card">
+                  
+                  <div class="form-div">
+                    <div class="row">
+
+                      <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3">
+                        <div class="img-circle-div">
+                          <div class="circle">
+                            <img class="profile-pic" src="assets/images/organization-image.png" alt="organization" />
+                            <label class="filelabel-icon" for="file-uploadpic">
+                              <span class="icon icon-10"></span>
+                            </label>
+                            <input class="file-upload d-none" id="file-uploadpic" type="file" accept="image/*">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl col-lg col-md col-sm">
+                        <div class="form-group">
+                          <label class="form-label">Organization Name </label>
+                          <div class="input-control-row">
+                            <input type="text" class="form-control" placeholder="Enter organization name" value="VCTT" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                          <label class="form-label">Email Address </label>
+                          <div class="input-control-row">
+                            <input type="email" class="form-control" placeholder="Enter email address" value="vctt.org@gmail.com" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-6 col-md-6">
+                        <div class="form-group select2-form-group">
+                          <label class="form-label">Contact Number </label>
+                          <div class="input-control-row phone-number-row">
+                            <div class="select-custom2">
+                              <select class="js-select2 js-select2-custom" id="phone-number-select2">
+                                <option> </option>
+                                <option selected value="+1">+1</option>
+                                <option value="+91">+91</option>
+                                <option value="+92">+92</option>
+                              </select>
+                            </div>
+                            <input type="text" class="form-control number_mask" placeholder="000-000-0000" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12 col-md-12">
+                        <div class="form-group">
+                          <label class="form-label">About Us </label>
+                          <div class="input-control-row">
+                            <textarea type="text" class="form-control textarea-160" placeholder="Enter about organization" cols="30" rows="6"></textarea>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-6 col-md-6">
+                        <div class="form-group select2-form-group">
+                          <label class="form-label">Country </label>
+                          <div class="input-control-row">
+                            <div class="select-custom2">
+                              <select class="js-select2 js-select2-custom select2-open-search" id="country-select2" data-placeholder="Select country">
+                                <option selected> </option>
+                                <option value="India">India</option>
+                                <option value="US">US</option>
+                                <option value="UK">UK</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                          <label class="form-label">Website URL </label>
+                          <div class="input-control-row">
+                            <input type="text" class="form-control" placeholder="Enter organization website URL" />
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="col-lg-12 col-md-12">
+                        <div class="form-group">
+                          <label class="form-label">Address </label>
+                          <div class="input-control-row">
+                            <textarea type="text" class="form-control" placeholder="Enter organization address" cols="30" rows="4"></textarea>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12 col-md-12">
+                        <div class="form-group mb-15">
+                          <label class="form-label mb-10">Interested In Type Of Sessions </label>
+                          <div class="form-group-checkbox-btn cst-form-checkbox-btn">
+                            <div class="checkbox-card">
+                              <label class="checkbox-label">
+                                <input type="checkbox" id="user-type-radio" class="checkbox-inline" value="1 To 1" checked="">
+                                <span class="span-root">
+                                  <span class="img">
+                                    <img src="assets/images/icons/sessions-1-to-1-01.svg" alt="icon" class="img-fluid img-color-active" />
+                                    <img src="assets/images/icons/sessions-1-to-1-02.svg" alt="icon" class="img-fluid img-color" />
+                                  </span>
+                                  <span class="txt">1 To 1</span>
+                                </span>
+                              </label>
+                            </div>
+
+                            <div class="checkbox-card">
+                              <label class="checkbox-label">
+                                <input type="checkbox" id="user-type-radio" class="checkbox-inline" value="Many To 1" checked="">
+                                <span class="span-root">
+                                  <span class="img">
+                                    <img src="assets/images/icons/sessions-many-to-1-01.svg" alt="icon" class="img-fluid img-color-active" />
+                                    <img src="assets/images/icons/sessions-many-to-1-02.svg" alt="icon" class="img-fluid img-color" />
+                                  </span>
+                                  <span class="txt">Many To 1</span>
+                                </span>
+                              </label>
+                            </div>
+
+                            <div class="checkbox-card">
+                              <label class="checkbox-label">
+                                <input type="checkbox" id="user-type-radio" class="checkbox-inline" value="Group Sessions">
+                                <span class="span-root">
+                                  <span class="img">
+                                    <img src="assets/images/icons/sessions-group-sessions-01.svg" alt="icon" class="img-fluid img-color-active" />
+                                    <img src="assets/images/icons/sessions-group-sessions-02.svg" alt="icon" class="img-fluid img-color" />
+                                  </span>
+                                  <span class="txt">Group Sessions</span>
+                                </span>
+                              </label>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12 col-md-12">
+                        <div class="form-group form-group-toggle-inline">
+                          <label class="form-label">Recommend Mentor </label>
+                          <div class="input-control-row">
+                            <label class="toggle-switchy" for="recommend_mentor">
+                              <input type="checkbox" id="recommend_mentor" />
+                              <span class="toggle">
+                                <span class="switch"></span>
+                              </span>
+                              <span class="txt left-txt">No</span>
+                              <span class="txt right-txt">Yes</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  
+                </div>
+                
+                <div class="gnr-btm-card">
+                  <div class="btn-dv p-0">
+                    <button type="submit" class="btn btn-primary-common btn-w-280"> Update Profile </button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- End of Main Area -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-div footer-inner-page">
+        <div class="container">
+          <div class="footer-in-div">
+            <div class="row row-cols-lg-4">
+
+              <div class="col grid-25 col-footer01">
+                <div class="footer-logo-inner">
+                  <a href="index.html" class="footer-logo-link">
+                    <img src="assets/images/logo.png" class="img-fluid img-footer-logo" alt="logo" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="col grid-32 col-footer02">
+                <div class="footer-nav-list-inner">
+                  <h3>Quick Links</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul footer-list-50">
+                      <li><a href="index.html" class="link">Home</a></li>
+                      <li><a href="subscription.html" class="link">Subscription</a></li>
+                      <li><a href="#" class="link">About Us</a></li>
+                      <li><a href="faqs.html" class="link">FAQs</a></li>
+                      <li><a href="#" class="link">Mentoring</a></li>
+                      <li><a href="contact-us.html" class="link">Contact Us</a></li>
+                      <li><a href="#" class="link">Organizations</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col grid-25 col-footer03">
+                <div class="footer-nav-list-inner">
+                  <h3>Information</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul">
+                      <li><a href="#" class="link">Cookie Policy</a></li>
+                      <li><a href="#" class="link">Terms of Service</a></li>
+                      <li><a href="#" class="link">Privacy Policy </a></li>
+                      <li><a href="#" class="link">Child Protection Policy</a></li>
+                      <li><a href="#" class="link">Volunteer Code of Conduct</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col grid-18 col-footer04">
+                <div class="footer-nav-list-inner">
+                  <h3>Contact Information</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul footer-list-ul-cnt">
+                      <li>
+                        <a href="mailto:mentorship@vctt.org" class="link mail-link">
+                          <span class="span-icon"> <i class="icon icon-6"></i> </span>
+                          <span class="text-span">mentorship@vctt.org</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="tel:+18683908244" class="link call-link">
+                          <span class="span-icon"> <i class="icon icon-5"></i> </span>
+                          <span class="text-span">+1-868-390-8244</span>
+                        </a>
+                      </li>
+                      <li>
+                        <span class="address-link">
+                          <span class="span-icon"> <i class="icon icon-4"></i> </span>
+                          <span class="text-span">3076 Counts Lane <br> Cincinnati, KY 45203</span>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-div">
+        <div class="container">
+          <div class="footer-bottom-inner-div">
+            <div class="footer-social-div">
+              <ul class="social-list">
+                <li><a class="social-link fb-link" target="_blank" href="https://www.facebook.com/volunteercentertt"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="social-link instagram-link" target="_blank" href="https://www.instagram.com/volunteercentertt/?hl=en"><i class="fab fa-instagram"></i></a></li>
+                <li><a class="social-link linkedin-link" target="_blank" href="https://www.linkedin.com/company/the-volunteer-center-of-trinidad-and-tobago/about/?viewAsMember=true"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a class="social-link youtube-link" target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a class="social-link twitter-link" target="_blank" href="https://twitter.com/officialvctt?lang=en"><i class="fab fa-twitter"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="copyright-div">
+              <p>&copy; Copyright © 2022 <a href="#">VCTT</a>. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+  </div><!-- end of wrapper -->
+
+  <!-- Back to top -->
+  <a href="#" class="cd-top text-replace js-cd-top"><i class="fas fa-chevron-up"></i></a>
+  <!-- End of Back to top -->
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/ion.rangeSlider.min.js"></script>
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+  <script src="assets/js/backtotop/util.js"></script>
+  <script src="assets/js/select2.full.js"></script>
+  <script src="assets/js/select2-call.js"></script>
+  <script src="assets/js/jquery-ui.min.js"></script>
+  <script src="assets/js/vanillaTextMask.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script>
+    /* Input Masking */
+    var phoneMask = [
+      /[1-9]/,
+      /\d/,
+      /\d/,
+      "-",
+      /\d/,
+      /\d/,
+      /\d/,
+      "-",
+      /\d/,
+      /\d/,
+      /\d/,
+      /\d/,
+    ];
+
+    var myInput = document.querySelector(".number_mask");
+
+    var maskedInputController = vanillaTextMask.maskInput({
+      inputElement: myInput,
+      mask: phoneMask,
+    });
+    /* End of Input Masking */
+  </script>
+
+</body>
+</html>

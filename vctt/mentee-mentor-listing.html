@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Find Mentors | VCTT</title>
+  <meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+  <meta name="theme-color" content="#662D91">
+  <meta name="msapplication-navbutton-color" content="#662D91">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#662D91">
+  <link href='assets/images/favicon.png' rel='shortcut icon'>
+  <link href="assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/general-font.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/all.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/swiper-bundle.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div id="wrapper" class="wrapper">
+
+      <!-- Header for Mentee -->
+      <header>
+        <div class="header-div header-white-div header-after-login">
+
+          <div class="inner-top-header-div">
+            <div class="container container-1760">
+
+              <div class="header-container">
+
+                <div class="logo-div">
+                  <a class="logo_link clearfix" href="index.html">
+                    <img src="assets/images/logo.png" class="img-fluid img-logo-main" alt="logo" />
+                    <img src="assets/images/logo-hr.png" class="img-fluid img-logo-sticky" alt="logo" />
+                  </a>
+                </div>
+
+                <nav class="nav-center-div">
+                  <div class="top-nav1">
+
+                    <div class="cd-shadow-layer"></div>
+
+                    <div class="nav-m-bar">
+                      <a onclick="openNav()" class="opennav">
+                        <i class="menu-bars menu-icon fas fa-bars"></i>
+                      </a>
+                    </div>
+
+                    <div class="nav-div clearfix" id="mySidenav">
+                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                      <div class="row-nav-div">
+                        <div class="left-side">
+                          <ul class="nav ullist-inline" id="nav-res">
+                            <li><a href="#" class="nav-link">Dashboard</a></li>
+                            <li><a href="mentee-mentor-listing.html" class="nav-link">Find Mentors</a></li>
+                            <li><a href="mentee-sessions-scheduled.html" class="nav-link">My Sessions</a></li>
+                            <li><a href="mentee-my-request-pending-listing.html" class="nav-link">My Requests</a></li>
+                          </ul>
+
+                          <ul class="nav ullist-inline ullist-inline-auth">
+                            <li class="message-li"><a href="#" class="nav-link btn-message" title="Chat"> <span
+                                  class="ico-round"> <img src="assets/images/icons/mail-icon.svg"
+                                    class="img-fluid img-messages" alt="message" /> </span> <span
+                                  class="txt-ico-cht">Messages</span> </a></li>
+                            <li class="user-drop-down dropdown">
+                              <a class="btn-default dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <div class="user-profile">
+                                  <div class="user-img">
+                                    <img src="assets/images/profile-image01.png" class="img-fluid user-top-image"
+                                      alt="user image" />
+                                  </div>
+                                  <div class="user-info">
+                                    <span class="text-span">Jorge Robertson</span>
+                                  </div>
+                                </div>
+                              </a>
+                              <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
+                                <ul class="submenu-list">
+                                  <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-66 Session Guide-icon"></i></span> <span class="txt">Organization's Session Guide</span></a></li>
+                                  <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-44 availability-icon"></i></span> <span class="txt">My Availability</span></a></li>
+                                  <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-67 fellow-mentees-icon"></i></span> <span class="txt">Fellow Mentees</span></a> </li>
+                                  <li><li><a class="dropdown-item" href="mentee-complete-profile.html"> <span class="span-icon"><i class="icon icon-68 profile-icon"></i></span> <span class="txt">My Profile</span></a></li></li>
+                                  <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-69 email-icon"></i></span> <span class="txt">Email Preference</span></a></li>
+                                  <li><a class="dropdown-item" href="#"> <span class="span-icon"><i class="icon icon-22 change-password-icon"></i></span> <span class="txt">Change Password</span></a></li>
+                                  <li><a class="dropdown-item" href="sign-in.html"> <span class="span-icon"><i class="icon icon-23 logout-icon"></i></span> <span class="txt">Logout</span></a></li>
+                                </ul>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </nav>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- End of header -->
+
+      <!-- Main Area -->
+      <div class="main-middle-area">
+
+        <div class="general-page-section mentors-listing-section">
+          <div class="shape-bottom-dv"> &nbsp; </div>
+
+            <div class="general-page-div">
+
+              <div class="container title-container">
+                <div class="general-title-div">
+                  <h1><span class="txt">Find Mentors</span></h1>
+                </div>  
+              </div>
+              
+              <section class="search-filter-white-section mentor-filter-section">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-5 col-md-5 search-filter-left">
+                      <div class="search-input-div form-div">
+                        <div class="form-group search-input-group">
+                          <div class="input-control-row">
+                            <input type="text" class="form-control form-search" placeholder="Search by keyword" />
+                            <i class="icon icon-15 search-icon"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-7 col-md-7 search-filter-right">
+                      <div class="search-filter-right-div">
+                        <div class="form-div form-mtr-div">
+                          <div class="form-group select2-form-group mb-0 mr-20 mbs-w50">
+                            <div class="select-custom2">
+                              <select class="js-select2 js-select2-custom select2-open-search" id="language-select2" data-placeholder="Language">
+                                <option selected> </option>
+                                <option value="English">English</option>
+                                <option value="French">French</option>
+                                <option value="Hindi">Hindi</option>
+                              </select>
+                            </div>
+                          </div>
+
+                          <div class="form-group select2-form-group mb-0 mr-30 mbs-w50">
+                            <div class="select-custom2">
+                              <select class="js-select2 js-select2-custom select2-open-search" id="skill-select2" data-placeholder="Skills">
+                                <option selected> </option>
+                                <option value="Skill 01">Skill 01</option>
+                                <option value="Skill 02">Skill 02</option>
+                                <option value="Skill 03">Skill 03</option>
+                              </select>
+                            </div>
+                          </div>
+
+                          <div class="btn-dv">
+                            <a href="#" class="btn-clear-link"> <i class="icon icon-25"></i> <span class="txt">Clear Filters</span> </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="my-card-listing-section my-mentee-mentor-listing-section">
+                <div class="container">
+                  <div class="my-card-listing-div">
+                    
+                    <div class="title-border-div">
+                      <h3><b>90 </b> Mentors Found</h3>
+                    </div>
+
+                    <div class="row mentee-card-row mm-with-btm-button-row">
+
+                      <div class="col-xl-3 col-lg-4 col-md-4 my-card-col4">
+                        <div class="my-card-bx-dv my-card-bx-with-btn-dv">
+                          <a href="mentee-mentor-detail.html" class="my-card-bx-inner">
+                            <div class="user-img-dv">
+                              <div class="img-div">
+                                <div class="abs-img">
+                                  <picture>
+                                    <source media="(max-width:1500px)" srcset="assets/images/patterns/round-dashed-shape-100.svg">
+                                    <img src="assets/images/patterns/round-dashed-shape.svg" class="img-animation-round" alt="round" />
+                                  </picture>
+                                </div>
+                                <img src="assets/images/profile/user2.png" class="img-fluid img-user" alt="user" />
+                              </div>
+                            </div>
+
+                            <div class="my-card-bx-body">
+                              <div class="my-card-bx-body-in">
+                                <div class="badge-star-dv ps-relative">
+                                  <div class="star-dv">
+                                    <h5>4 <small>out of 5</small></h5>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16"></i>
+                                  </div>
+                                </div>
+                                <div class="content-dv ps-relative">
+                                  <h5><span class="user-txt">Issabella Jen</span> </h5>
+                                  <div class="txt-location-dv">
+                                    <i class="icon icon-4"></i>
+                                    <span class="txt">Trinadad</span>
+                                  </div>
+                                </div>
+                                <div class="total-bg-dv ps-relative">
+                                  <p>Total Sessions Provided : <b>20</b></p>
+                                </div>
+                                <div class="total-bg-dv language-bg-dv ps-relative">
+                                  <p>Languages : <b>English, French, Spanish</b></p>
+                                </div>
+                                <div class="category-list-dv">
+                                  <ul class="category-ul">
+                                    <li class="list"><span class="txt">Mental Health</span></li>
+                                    <li class="list"><span class="txt">Ligaments</span></li>
+                                    <li class="list"><span class="txt">Public Speaking</span></li>
+                                    <li class="list"><span class="txt">Mental Health</span></li>
+                                  </ul>
+                                </div>
+                                <div class="desc-dv ps-relative">
+                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                          <div class="mm-button-btm-div">
+                            <a href="#" class="btn btn-black-outline btn-ht42 mr-10">Message</a>
+                            <a href="mentee-book-session-1-to-1.html" class="btn btn-primary-common btn-ht42"> Book Session </a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-3 col-lg-4 col-md-4 my-card-col4">
+                        <div class="my-card-bx-dv my-card-bx-with-btn-dv">
+                          <a href="mentee-mentor-detail.html" class="my-card-bx-inner">
+                            <div class="user-img-dv">
+                              <div class="img-div">
+                                <div class="abs-img">
+                                  <picture>
+                                    <source media="(max-width:1500px)" srcset="assets/images/patterns/round-dashed-shape-100.svg">
+                                    <img src="assets/images/patterns/round-dashed-shape.svg" class="img-animation-round" alt="round" />
+                                  </picture>
+                                </div>
+                                <img src="assets/images/profile/user4.png" class="img-fluid img-user" alt="user" />
+                              </div>
+                            </div>
+
+                            <div class="my-card-bx-body">
+                              <div class="my-card-bx-body-in">
+                                <div class="badge-star-dv ps-relative">
+                                  <div class="star-dv">
+                                    <h5>4 <small>out of 5</small></h5>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16"></i>
+                                  </div>
+                                </div>
+                                <div class="content-dv ps-relative">
+                                  <h5><span class="user-txt">Delores Gonzales</span> </h5>
+                                  <div class="txt-location-dv">
+                                    <i class="icon icon-4"></i>
+                                    <span class="txt">Trinadad</span>
+                                  </div>
+                                </div>
+                                <div class="total-bg-dv ps-relative">
+                                  <p>Total Sessions Provided : <b>20</b></p>
+                                </div>
+                                <div class="total-bg-dv language-bg-dv ps-relative">
+                                  <p>Languages : <b>English, French, Spanish</b></p>
+                                </div>
+                                <div class="category-list-dv">
+                                  <ul class="category-ul">
+                                    <li class="list"><span class="txt">Mental Health</span></li>
+                                    <li class="list"><span class="txt">Ligaments</span></li>
+                                    <li class="list"><span class="txt">Public Speaking</span></li>
+                                    <li class="list"><span class="txt">Mental Health</span></li>
+                                  </ul>
+                                </div>
+                                <div class="desc-dv ps-relative">
+                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                          <div class="mm-button-btm-div">
+                            <a href="#" class="btn btn-black-outline btn-ht42 mr-10">Message</a>
+                            <a href="mentee-book-session-1-to-1.html" class="btn btn-primary-common btn-ht42"> Book Session </a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-3 col-lg-4 col-md-4 my-card-col4">
+                        <div class="my-card-bx-dv my-card-bx-with-btn-dv">
+                          <a href="mentee-mentor-detail.html" class="my-card-bx-inner">
+                            <div class="user-img-dv">
+                              <div class="img-div">
+                                <div class="abs-img">
+                                  <picture>
+                                    <source media="(max-width:1500px)" srcset="assets/images/patterns/round-dashed-shape-100.svg">
+                                    <img src="assets/images/patterns/round-dashed-shape.svg" class="img-animation-round" alt="round" />
+                                  </picture>
+                                </div>
+                                <img src="assets/images/profile/user6.png" class="img-fluid img-user" alt="user" />
+                              </div>
+                            </div>
+
+                            <div class="my-card-bx-body">
+                              <div class="my-card-bx-body-in">
+                                <div class="badge-star-dv ps-relative">
+                                  <div class="star-dv">
+                                    <h5>4 <small>out of 5</small></h5>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16"></i>
+                                  </div>
+                                </div>
+                                <div class="content-dv ps-relative">
+                                  <h5><span class="user-txt">Kim Williams</span> </h5>
+                                  <div class="txt-location-dv">
+                                    <i class="icon icon-4"></i>
+                                    <span class="txt">Trinadad</span>
+                                  </div>
+                                </div>
+                                <div class="total-bg-dv ps-relative">
+                                  <p>Total Sessions Provided : <b>20</b></p>
+                                </div>
+                                <div class="total-bg-dv language-bg-dv ps-relative">
+                                  <p>Languages : <b>English, French, Spanish</b></p>
+                                </div>
+                                <div class="category-list-dv">
+                                  <ul class="category-ul">
+                                    <li class="list"><span class="txt">Mental Health</span></li>
+                                    <li class="list"><span class="txt">Ligaments</span></li>
+                                    <li class="list"><span class="txt">Public Speaking</span></li>
+                                    <li class="list"><span class="txt">Mental Health</span></li>
+                                  </ul>
+                                </div>
+                                <div class="desc-dv ps-relative">
+                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                          <div class="mm-button-btm-div">
+                            <a href="#" class="btn btn-black-outline btn-ht42 mr-10">Message</a>
+                            <a href="mentee-book-session-1-to-1.html" class="btn btn-primary-common btn-ht42"> Book Session </a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-3 col-lg-4 col-md-4 my-card-col4">
+                        <div class="my-card-bx-dv my-card-bx-with-btn-dv">
+                          <a href="mentee-mentor-detail.html" class="my-card-bx-inner">
+                            <div class="user-img-dv">
+                              <div class="img-div">
+                                <div class="abs-img">
+                                  <picture>
+                                    <source media="(max-width:1500px)" srcset="assets/images/patterns/round-dashed-shape-100.svg">
+                                    <img src="assets/images/patterns/round-dashed-shape.svg" class="img-animation-round" alt="round" />
+                                  </picture>
+                                </div>
+                                <img src="assets/images/profile/user8.png" class="img-fluid img-user" alt="user" />
+                              </div>
+                            </div>
+
+                            <div class="my-card-bx-body">
+                              <div class="my-card-bx-body-in">
+                                <div class="badge-star-dv ps-relative">
+                                  <div class="star-dv">
+                                    <h5>4 <small>out of 5</small></h5>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16"></i>
+                                  </div>
+                                </div>
+                                <div class="content-dv ps-relative">
+                                  <h5><span class="user-txt">William Carroll</span> </h5>
+                                  <div class="txt-location-dv">
+                                    <i class="icon icon-4"></i>
+                                    <span class="txt">Trinadad</span>
+                                  </div>
+                                </div>
+                                <div class="total-bg-dv ps-relative">
+                                  <p>Total Sessions Provided : <b>20</b></p>
+                                </div>
+                                <div class="total-bg-dv language-bg-dv ps-relative">
+                                  <p>Languages : <b>English, French, Spanish</b></p>
+                                </div>
+                                <div class="category-list-dv">
+                                  <ul class="category-ul">
+                                    <li class="list"><span class="txt">Mental Health</span></li>
+                                    <li class="list"><span class="txt">Ligaments</span></li>
+                                    <li class="list"><span class="txt">Public Speaking</span></li>
+                                    <li class="list"><span class="txt">Mental Health</span></li>
+                                  </ul>
+                                </div>
+                                <div class="desc-dv ps-relative">
+                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                          <div class="mm-button-btm-div">
+                            <a href="#" class="btn btn-black-outline btn-ht42 mr-10">Message</a>
+                            <a href="mentee-book-session-1-to-1.html" class="btn btn-primary-common btn-ht42"> Book Session </a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-3 col-lg-4 col-md-4 my-card-col4">
+                        <div class="my-card-bx-dv my-card-bx-with-btn-dv">
+                          <a href="mentee-mentor-detail.html" class="my-card-bx-inner">
+                            <div class="user-img-dv">
+                              <div class="img-div">
+                                <div class="abs-img">
+                                  <picture>
+                                    <source media="(max-width:1500px)" srcset="assets/images/patterns/round-dashed-shape-100.svg">
+                                    <img src="assets/images/patterns/round-dashed-shape.svg" class="img-animation-round" alt="round" />
+                                  </picture>
+                                </div>
+                                <img src="assets/images/profile/user5.png" class="img-fluid img-user" alt="user" />
+                              </div>
+                            </div>
+
+                            <div class="my-card-bx-body">
+                              <div class="my-card-bx-body-in">
+                                <div class="badge-star-dv ps-relative">
+                                  <div class="star-dv">
+                                    <h5>4 <small>out of 5</small></h5>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16"></i>
+                                  </div>
+                                </div>
+                                <div class="content-dv ps-relative">
+                                  <h5><span class="user-txt">Issabella Jen</span> </h5>
+                                  <div class="txt-location-dv">
+                                    <i class="icon icon-4"></i>
+                                    <span class="txt">Trinadad</span>
+                                  </div>
+                                </div>
+                                <div class="total-bg-dv ps-relative">
+                                  <p>Total Sessions Provided : <b>20</b></p>
+                                </div>
+                                <div class="total-bg-dv language-bg-dv ps-relative">
+                                  <p>Languages : <b>English, French, Spanish</b></p>
+                                </div>
+                                <div class="category-list-dv">
+                                  <ul class="category-ul">
+                                    <li class="list"><span class="txt">Mental Health</span></li>
+                                    <li class="list"><span class="txt">Ligaments</span></li>
+                                    <li class="list"><span class="txt">Public Speaking</span></li>
+                                    <li class="list"><span class="txt">Mental Health</span></li>
+                                  </ul>
+                                </div>
+                                <div class="desc-dv ps-relative">
+                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                          <div class="mm-button-btm-div">
+                            <a href="#" class="btn btn-black-outline btn-ht42 mr-10">Message</a>
+                            <a href="mentee-book-session-1-to-1.html" class="btn btn-primary-common btn-ht42"> Book Session </a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-3 col-lg-4 col-md-4 my-card-col4">
+                        <div class="my-card-bx-dv my-card-bx-with-btn-dv">
+                          <a href="mentee-mentor-detail.html" class="my-card-bx-inner">
+                            <div class="user-img-dv">
+                              <div class="img-div">
+                                <div class="abs-img">
+                                  <picture>
+                                    <source media="(max-width:1500px)" srcset="assets/images/patterns/round-dashed-shape-100.svg">
+                                    <img src="assets/images/patterns/round-dashed-shape.svg" class="img-animation-round" alt="round" />
+                                  </picture>
+                                </div>
+                                <img src="assets/images/profile/user7.png" class="img-fluid img-user" alt="user" />
+                              </div>
+                            </div>
+
+                            <div class="my-card-bx-body">
+                              <div class="my-card-bx-body-in">
+                                <div class="badge-star-dv ps-relative">
+                                  <div class="star-dv">
+                                    <h5>4 <small>out of 5</small></h5>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16"></i>
+                                  </div>
+                                </div>
+                                <div class="content-dv ps-relative">
+                                  <h5><span class="user-txt">Issabella Jen</span> </h5>
+                                  <div class="txt-location-dv">
+                                    <i class="icon icon-4"></i>
+                                    <span class="txt">Trinadad</span>
+                                  </div>
+                                </div>
+                                <div class="total-bg-dv ps-relative">
+                                  <p>Total Sessions Provided : <b>20</b></p>
+                                </div>
+                                <div class="total-bg-dv language-bg-dv ps-relative">
+                                  <p>Languages : <b>English, French, Spanish</b></p>
+                                </div>
+                                <div class="category-list-dv">
+                                  <ul class="category-ul">
+                                    <li class="list"><span class="txt">Mental Health</span></li>
+                                    <li class="list"><span class="txt">Ligaments</span></li>
+                                    <li class="list"><span class="txt">Public Speaking</span></li>
+                                    <li class="list"><span class="txt">Mental Health</span></li>
+                                  </ul>
+                                </div>
+                                <div class="desc-dv ps-relative">
+                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                          <div class="mm-button-btm-div">
+                            <a href="#" class="btn btn-black-outline btn-ht42 mr-10">Message</a>
+                            <a href="mentee-book-session-1-to-1.html" class="btn btn-primary-common btn-ht42"> Book Session </a>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="col-xl-3 col-lg-4 col-md-4 my-card-col4">
+                        <div class="my-card-bx-dv my-card-bx-with-btn-dv">
+                          <a href="mentee-mentor-detail.html" class="my-card-bx-inner">
+                            <div class="user-img-dv">
+                              <div class="img-div">
+                                <div class="abs-img">
+                                  <picture>
+                                    <source media="(max-width:1500px)" srcset="assets/images/patterns/round-dashed-shape-100.svg">
+                                    <img src="assets/images/patterns/round-dashed-shape.svg" class="img-animation-round" alt="round" />
+                                  </picture>
+                                </div>
+                                <img src="assets/images/profile/user2.png" class="img-fluid img-user" alt="user" />
+                              </div>
+                            </div>
+
+                            <div class="my-card-bx-body">
+                              <div class="my-card-bx-body-in">
+                                <div class="badge-star-dv ps-relative">
+                                  <div class="star-dv">
+                                    <h5>4 <small>out of 5</small></h5>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16"></i>
+                                  </div>
+                                </div>
+                                <div class="content-dv ps-relative">
+                                  <h5><span class="user-txt">Issabella Jen</span> </h5>
+                                  <div class="txt-location-dv">
+                                    <i class="icon icon-4"></i>
+                                    <span class="txt">Trinadad</span>
+                                  </div>
+                                </div>
+                                <div class="total-bg-dv ps-relative">
+                                  <p>Total Sessions Provided : <b>20</b></p>
+                                </div>
+                                <div class="total-bg-dv language-bg-dv ps-relative">
+                                  <p>Languages : <b>English, French, Spanish</b></p>
+                                </div>
+                                <div class="category-list-dv">
+                                  <ul class="category-ul">
+                                    <li class="list"><span class="txt">Mental Health</span></li>
+                                    <li class="list"><span class="txt">Ligaments</span></li>
+                                    <li class="list"><span class="txt">Public Speaking</span></li>
+                                    <li class="list"><span class="txt">Mental Health</span></li>
+                                  </ul>
+                                </div>
+                                <div class="desc-dv ps-relative">
+                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                          <div class="mm-button-btm-div">
+                            <a href="#" class="btn btn-black-outline btn-ht42 mr-10">Message</a>
+                            <a href="mentee-book-session-1-to-1.html" class="btn btn-primary-common btn-ht42"> Book Session </a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-3 col-lg-4 col-md-4 my-card-col4">
+                        <div class="my-card-bx-dv my-card-bx-with-btn-dv">
+                          <a href="mentee-mentor-detail.html" class="my-card-bx-inner">
+                            <div class="user-img-dv">
+                              <div class="img-div">
+                                <div class="abs-img">
+                                  <picture>
+                                    <source media="(max-width:1500px)" srcset="assets/images/patterns/round-dashed-shape-100.svg">
+                                    <img src="assets/images/patterns/round-dashed-shape.svg" class="img-animation-round" alt="round" />
+                                  </picture>
+                                </div>
+                                <img src="assets/images/profile/user2.png" class="img-fluid img-user" alt="user" />
+                              </div>
+                            </div>
+
+                            <div class="my-card-bx-body">
+                              <div class="my-card-bx-body-in">
+                                <div class="badge-star-dv ps-relative">
+                                  <div class="star-dv">
+                                    <h5>4 <small>out of 5</small></h5>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16 active"></i>
+                                    <i class="icon icon-16"></i>
+                                  </div>
+                                </div>
+                                <div class="content-dv ps-relative">
+                                  <h5><span class="user-txt">Issabella Jen</span> </h5>
+                                  <div class="txt-location-dv">
+                                    <i class="icon icon-4"></i>
+                                    <span class="txt">Trinadad</span>
+                                  </div>
+                                </div>
+                                <div class="total-bg-dv ps-relative">
+                                  <p>Total Sessions Provided : <b>20</b></p>
+                                </div>
+                                <div class="total-bg-dv language-bg-dv ps-relative">
+                                  <p>Languages : <b>English, French, Spanish</b></p>
+                                </div>
+                                <div class="category-list-dv">
+                                  <ul class="category-ul">
+                                    <li class="list"><span class="txt">Mental Health</span></li>
+                                    <li class="list"><span class="txt">Ligaments</span></li>
+                                    <li class="list"><span class="txt">Public Speaking</span></li>
+                                    <li class="list"><span class="txt">Mental Health</span></li>
+                                  </ul>
+                                </div>
+                                <div class="desc-dv ps-relative">
+                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                          <div class="mm-button-btm-div">
+                            <a href="#" class="btn btn-black-outline btn-ht42 mr-10">Message</a>
+                            <a href="mentee-book-session-1-to-1.html" class="btn btn-primary-common btn-ht42"> Book Session </a>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12">
+                        <div class="loader-dv">
+                          <img src="assets/images/loader.svg" class="img-fluid img-loader" alt="Loader" />
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </section>
+              
+            </div>
+          </div>
+      </div>
+
+    </div>
+    <!-- End of Main Area -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-div footer-inner-page">
+        <div class="container">
+          <div class="footer-in-div">
+            <div class="row row-cols-lg-4">
+
+              <div class="col grid-25 col-footer01">
+                <div class="footer-logo-inner">
+                  <a href="index.html" class="footer-logo-link">
+                    <img src="assets/images/logo.png" class="img-fluid img-footer-logo" alt="logo" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="col grid-32 col-footer02">
+                <div class="footer-nav-list-inner">
+                  <h3>Quick Links</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul footer-list-50">
+                      <li><a href="index.html" class="link">Home</a></li>
+                      <li><a href="subscription.html" class="link">Subscription</a></li>
+                      <li><a href="#" class="link">About Us</a></li>
+                      <li><a href="faqs.html" class="link">FAQs</a></li>
+                      <li><a href="#" class="link">Mentoring</a></li>
+                      <li><a href="contact-us.html" class="link">Contact Us</a></li>
+                      <li><a href="#" class="link">Organizations</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col grid-25 col-footer03">
+                <div class="footer-nav-list-inner">
+                  <h3>Information</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul">
+                      <li><a href="#" class="link">Cookie Policy</a></li>
+                      <li><a href="#" class="link">Terms of Service</a></li>
+                      <li><a href="#" class="link">Privacy Policy </a></li>
+                      <li><a href="#" class="link">Child Protection Policy</a></li>
+                      <li><a href="#" class="link">Volunteer Code of Conduct</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col grid-18 col-footer04">
+                <div class="footer-nav-list-inner">
+                  <h3>Contact Information</h3>
+                  <div class="footer-list-info-div">
+                    <ul class="footer-list-ul footer-list-ul-cnt">
+                      <li>
+                        <a href="mailto:mentorship@vctt.org" class="link mail-link">
+                          <span class="span-icon"> <i class="icon icon-6"></i> </span>
+                          <span class="text-span">mentorship@vctt.org</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="tel:+18683908244" class="link call-link">
+                          <span class="span-icon"> <i class="icon icon-5"></i> </span>
+                          <span class="text-span">+1-868-390-8244</span>
+                        </a>
+                      </li>
+                      <li>
+                        <span class="address-link">
+                          <span class="span-icon"> <i class="icon icon-4"></i> </span>
+                          <span class="text-span">3076 Counts Lane <br> Cincinnati, KY 45203</span>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-div">
+        <div class="container">
+          <div class="footer-bottom-inner-div">
+            <div class="footer-social-div">
+              <ul class="social-list">
+                <li><a class="social-link fb-link" target="_blank" href="https://www.facebook.com/volunteercentertt"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="social-link instagram-link" target="_blank" href="https://www.instagram.com/volunteercentertt/?hl=en"><i class="fab fa-instagram"></i></a></li>
+                <li><a class="social-link linkedin-link" target="_blank" href="https://www.linkedin.com/company/the-volunteer-center-of-trinidad-and-tobago/about/?viewAsMember=true"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a class="social-link youtube-link" target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a class="social-link twitter-link" target="_blank" href="https://twitter.com/officialvctt?lang=en"><i class="fab fa-twitter"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="copyright-div">
+              <p>&copy; Copyright © 2022 <a href="#">VCTT</a>. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+  </div><!-- end of wrapper -->
+
+  <!-- Back to top -->
+  <a href="#" class="cd-top text-replace js-cd-top"><i class="fas fa-chevron-up"></i></a>
+  <!-- End of Back to top -->
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/ion.rangeSlider.min.js"></script>
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+  <script src="assets/js/backtotop/util.js"></script>
+  <script src="assets/js/select2.full.js"></script>
+  <script src="assets/js/select2-call.js"></script>
+  <script src="assets/js/jquery-ui.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+</body>
+</html>
