@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="150" viewBox="0 0 150 150">
+  <defs>
+    <filter id="Ellipse_61">
+      <feOffset dy="-20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#0470ba" flood-opacity="0.149" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="call-icon-01" transform="translate(-885 -4753)">
+    <g data-type="innerShadowGroup">
+      <circle id="Ellipse_61-2" data-name="Ellipse 61" cx="43" cy="43" r="43" transform="translate(917 4785)" fill="#fff"/>
+      <g transform="matrix(1, 0, 0, 1, 885, 4753)" filter="url(#Ellipse_61)">
+        <circle id="Ellipse_61-3" data-name="Ellipse 61" cx="43" cy="43" r="43" transform="translate(32 32)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Ellipse_62" data-name="Ellipse 62" transform="translate(903 4771)" fill="none" stroke="#fff" stroke-width="1">
+      <circle cx="57" cy="57" r="57" stroke="none"/>
+      <circle cx="57" cy="57" r="56.5" fill="none"/>
+    </g>
+    <g id="Ellipse_63" data-name="Ellipse 63" transform="translate(885 4753)" fill="none" stroke="#fff" stroke-width="1" opacity="0.2">
+      <circle cx="75" cy="75" r="75" stroke="none"/>
+      <circle cx="75" cy="75" r="74.5" fill="none"/>
+    </g>
+    <g id="call-svgrepo-com" transform="translate(936.017 4804)">
+      <path id="Path_21622" data-name="Path 21622" d="M29.4,48a17.48,17.48,0,0,1-5.9-1.16A37.64,37.64,0,0,1,9.68,37.27,37.63,37.63,0,0,1,.85,23c-1.58-5.21-1-9.49,1.75-12.06L7,6.79A6,6,0,0,1,15.44,7l4.13,4.35a6,6,0,0,1-.23,8.48L17,22.08l8.26,8.71,2.35-2.24a6,6,0,0,1,8.49.22l4.13,4.35a6,6,0,0,1-.23,8.5l-4.35,4.13A8.78,8.78,0,0,1,29.4,48ZM11.08,9.14a2,2,0,0,0-1.37.55L5.36,13.82h0c-1.53,1.45-1.78,4.37-.67,8a33.61,33.61,0,0,0,7.9,12.71A33.61,33.61,0,0,0,24.86,43.1c3.56,1.29,6.49,1.2,8-.25l4.35-4.13a2,2,0,0,0,.07-2.83l-4.13-4.35a2,2,0,0,0-2.83-.08l-3.8,3.62a1.93,1.93,0,0,1-1.43.55,2,2,0,0,1-1.4-.62l-11-11.62a2,2,0,0,1,.08-2.83l3.81-3.61a2,2,0,0,0,.08-2.83L12.54,9.76a2,2,0,0,0-1.4-.62Z" fill="#0470ba"/>
+      <rect id="Rectangle_135" data-name="Rectangle 135" width="6" height="16" rx="1" transform="translate(27 16) rotate(-90)" fill="#2ca7df"/>
+      <rect id="Rectangle_136" data-name="Rectangle 136" width="6" height="16" rx="1" transform="translate(38 21) rotate(180)" fill="#2ca7df"/>
+      <rect id="Rectangle_137" data-name="Rectangle 137" width="48" height="48" fill="none"/>
+    </g>
+  </g>
+</svg>

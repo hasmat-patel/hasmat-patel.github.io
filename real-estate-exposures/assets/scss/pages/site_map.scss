@@ -1,0 +1,55 @@
+.site_map{
+    padding:20px 0 50px;
+}
+.site_map h2{
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--blackColor02);
+    font-weight: 700;
+    padding-top: 30px;
+}
+.site_map hr{
+    margin-top: 9px;
+    margin-bottom: 20px;
+}
+.site_map ul {
+    width: 100%;
+    float: left;
+}
+.site_map ul li{
+    font-size: 16px;
+    display: block;
+    margin: 10px 0 0px 0;
+    padding-left: 25px;
+    position: relative;
+    width: 100%;
+    float: left;
+}
+.site_map ul li a{
+    color: inherit;
+}
+.site_map ul li::before {
+    content: "\e909";
+    position: absolute;
+    left: 0;
+    font-family: "icomoon" !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--primaryColor01);
+    top: 5px;
+    font-size: 11px;
+}
+.pricing_ul a{
+    font-size: 14px;
+    color: #6c6f74;
+    font-weight: 400;
+    padding-left: 35px;
+    width: 100%;
+    float: left;
+}

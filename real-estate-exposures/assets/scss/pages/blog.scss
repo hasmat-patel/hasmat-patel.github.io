@@ -1,0 +1,129 @@
+.rex_blog_section{
+    padding: 50px 0;
+}
+.blog{
+    border-radius: 6px;
+    box-shadow: 0 0 1px #606060;
+    background-color: #ffffff;
+    height: 400px;
+    margin-bottom: 30px;
+}
+.blog img{
+    width: 100%;
+}
+.blog_img {
+    position: relative;
+}
+.blog_date{
+    position: absolute;
+    bottom: 30px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(3 3 3 / 41%);
+    font-size: 14px;
+    color: #fff;
+    padding: 5px 20px;
+}
+.blog_date i{
+    font-weight: 700;
+    padding-right: 4px;
+}
+.blog h3{
+    padding: 10px;
+}
+.blog h3 a{
+    font-size: 23px;
+    color: #232323;
+    font-weight: 600;
+}
+
+.blog p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #666666;
+    font-weight: 400;
+    padding: 0 10px 15px;
+}
+.blog_detail input{
+    font-size: 14px;
+    color: #878787;
+    font-weight: 400;
+    border-radius: 6px;
+    box-shadow: 0 0 1px #606060;
+}
+.blog_detail button{
+    padding: 4.5px 17px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    box-shadow: 1px 0px 1px 0.5px #dadada;
+}
+.blog_detail button i{
+    color: #036fb9;
+}
+.blog_qus {
+    border-radius: 6px;
+    box-shadow: 0 0 1px #606060;
+    margin: 10px 0 25px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+.blog_qus h3{
+    font-size: 16px;
+    color: #252525;
+    font-weight: 700;
+}
+.blog_qus p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #878787;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.blog_qus a{
+    border-radius: 4px;
+    background-color: #ececec;
+    font-size: 18px;
+    color: #1b94e6;
+    font-weight: 700;
+    width: 100%;
+    float: left;
+    padding: 8px 0;
+}
+.blog_real_estate{
+    width: 100%;
+}
+.blog_real_estate h3{
+    font-size: 17px;
+    color: #232323;
+    font-weight: 700;
+    border-bottom: 1px solid #d4cfcf;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.blog_real_estate img{
+    width: 100%;
+    padding-bottom: 15px;
+    height: 100%;
+    border-radius: 6px;
+    object-fit: cover;
+}
+.blog_real_estate p{
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+.blog_real_estate h5{
+    font-weight: 600;
+    font-size: 14px;
+    padding-bottom: 15px;
+    line-height: 25px;
+}
+.blog_real_estate h5 a{
+    color: #232323;
+}
+.blog_real_estate .row .col-lg-3, .blog_real_estate .row .col-md-3{
+    padding-right: 0;
+}

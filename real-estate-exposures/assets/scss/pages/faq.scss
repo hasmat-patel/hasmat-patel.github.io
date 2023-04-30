@@ -1,0 +1,51 @@
+.faq_section .accordion-item{
+    margin-bottom: 20px;
+    border-radius: 6px;
+    background-color: #f3f9ff;
+    border: 1px solid #b6b6b6;
+}
+.faq_section .accordion-button{
+    font-size: 16px;
+    font-weight: 500;
+    color: #023e66;
+    background-color: #f3f9ff;
+    border-radius: 6px;
+}
+.faq_section .accordion-button:not(.collapsed){
+    background-color: #2ca7df;
+    color: #ffffff;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.faq_section .accordion-button:not(.collapsed)::after{
+    color: #ffffff;
+}
+.faq_section .accordion-button::after{
+    content: "\e90d";
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    color: #0470ba;
+    font-family: "icomoon" !important;
+    background: transparent;
+}
+.faq_section .accordion-body{
+    background-color: #fcfeff;
+    border-radius: 6px;
+}
+.faq_section .accordion-body p{
+    font-size: 15px;
+    color: #333333;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.faq_section .tab-nav-dv .custom-nav-pills .nav-link.active{
+    background-color: #0470ba;
+}
+.faq_section .tab-nav-dv .custom-nav-pills li {
+    border-bottom: 1px solid #c3c3c3;
+}
+.faq_section ul.nav{
+    border-radius: 8px;
+    border: 1px solid #e4e4e4;
+}

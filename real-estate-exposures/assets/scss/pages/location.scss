@@ -1,0 +1,177 @@
+.location_photo{
+    padding: 50px 0;
+}
+.location_photo h2{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.schedule_btn{
+    border: 1px solid #0470ba;
+    color: #0470ba;
+    padding: 10px 20px 9px;
+    height: 50px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+.schedule_btn:hover{
+    color: #0470ba;
+}
+.duble_sec{
+    background: linear-gradient(to bottom,#EFFFFE 40%, #fff 15%);
+}
+.real_estate_photo{
+    background-color: #EFFFFE;
+    padding: 50px 0;
+}
+.real_estate_photo h2{
+    font-size: 30px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.real_estate_photo li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+}
+.real_estate_photo li:before{
+    content: "\e909";
+    position: absolute;
+    left: 0;
+    font-family: "icomoon" !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--primaryColor01);
+    top: 5px;
+    font-size: 11px;
+}
+.invest_real_estate_photo{
+    box-shadow: 1px 3px 20px 0px #0000001c;
+    background: #fff;
+    border-radius: 8px;
+    padding: 40px 0;
+    margin-bottom: 80px;
+}
+.invest_real_estate_photo h2{
+    text-align: center;
+    padding-bottom:40px;
+}
+.invest_real_estate_photo .row{
+    padding: 0 50px;
+}
+.in_icon_text{
+    display: flex;
+    align-items: flex-start;
+}
+.in_icon_text i{
+    color: #0470ba;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.in_txt{
+    margin-left: 20px;
+}
+.in_txt h5{
+    font-weight: 500;
+}
+.in_txt p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.location_banner_section{
+    padding: 80px 0;
+}
+.location_banner_section .home-banner-div{
+    min-height:300px;
+    background: rgba(0, 0, 0, 50%);
+    padding: 130px 0;
+    border: 3px solid #fff;
+}
+.location_banner_section .home-banner-inner-div h1{
+    font-weight: 700;
+    text-align: center;
+}
+.location_banner_section .home-banner-inner-div h4{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+.invest_real_estate_photo_blue_section{
+    background-color: #EFFFFE;
+    margin: 30px 0;
+    padding: 50px 0 30px;
+}
+.in_para {
+    padding: 0 50px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.price_loction_section .rex-service-hm-card .rex-service-inner-card-bx .image-div{
+    height: 250px;
+}
+.price_loction_section .rex-service-hm-card .rex-service-inner-card-bx .text-div{
+    border-top: 2px solid #fff;
+}
+.price_loction_section .rex-service-hm-card .rex-service-inner-card-bx .text-div h4{
+    padding: 25px 10px;
+}
+.location_price_div{
+    position: absolute;
+    background: #fff;
+    z-index: 9;
+    box-shadow: 1px 7px 20px 0px #00000066;
+    bottom: 60px;
+    right: 25px;
+    padding: 5px 30px;
+    border-radius: 6px;
+    text-align: center;
+}
+.location_price_div h1{
+    font-size: 18px;
+    color: #0368AC;
+}
+.location_price_div p{
+    color: #8F8F8F;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+.loction_provider {
+    position: relative;
+    margin-bottom: 60px;
+}
+.loction_provider img{
+    width: 100%;
+    height: 285px;
+    object-fit: fill;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.provider_name{
+    background: var(--primaryColor02);
+    width: 95%;
+    margin: 0 auto;
+    border: 3px solid #fff;
+    box-shadow: 0 1px 7px #0000002e;
+    position: absolute;
+    bottom: -25px;
+    left: 2.5%;
+    border-radius: 6px;
+}
+.provider_name h2{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+}
+.provider_name h2 span{
+    font-weight: 700;
+}

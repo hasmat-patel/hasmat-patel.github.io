@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="126" height="44" viewBox="0 0 126 44">
+  <defs>
+    <filter id="pattern-before-01">
+      <feOffset dx="-10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.18" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <g id="pattern-before-01-2" data-name="pattern-before-01" transform="translate(-10)" fill="#f0996a">
+      <path d="M 135.5 43.5 L 10.89031887054443 43.5 L 37.09917831420898 0.5 L 135.5 0.5 L 135.5 43.5 Z" stroke="none"/>
+      <path d="M 37.37994384765625 1 L 11.78060913085938 43 L 135 43 L 135 1 L 37.37994384765625 1 M 36.81835174560547 0 L 136 0 L 136 44 L 10 44 L 36.81835174560547 0 Z" stroke="none"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#pattern-before-01)">
+      <g id="pattern-before-01-3" data-name="pattern-before-01" transform="translate(-10)" fill="#fff">
+        <path d="M 135.5 43.5 L 10.89031887054443 43.5 L 37.09917831420898 0.5 L 135.5 0.5 L 135.5 43.5 Z" stroke="none"/>
+        <path d="M 37.37994384765625 1 L 11.78060913085938 43 L 135 43 L 135 1 L 37.37994384765625 1 M 36.81835174560547 0 L 136 0 L 136 44 L 10 44 L 36.81835174560547 0 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="pattern-before-01-4" data-name="pattern-before-01" transform="translate(-10)" fill="none">
+      <path d="M 135.5 43.5 L 10.89031887054443 43.5 L 37.09917831420898 0.5 L 135.5 0.5 L 135.5 43.5 Z" stroke="none"/>
+      <path d="M 37.37994384765625 1 L 11.78060913085938 43 L 135 43 L 135 1 L 37.37994384765625 1 M 36.81835174560547 0 L 136 0 L 136 44 L 10 44 L 36.81835174560547 0 Z" stroke="none" fill="#fff"/>
+    </g>
+  </g>
+</svg>

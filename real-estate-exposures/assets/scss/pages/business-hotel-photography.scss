@@ -1,0 +1,317 @@
+.business_hotel h3 {
+  color: var(--blackColor02);
+  font-size: 22px;
+  font-weight: 600;
+  padding: 25px 0;
+  line-height: 30px;
+}
+.business_hotel .btn-dv {
+  justify-content: flex-start;
+}
+.business_hotel_blue .featured-grid-card-bx .custom-img-card {
+  background: transparent;
+}
+.business_hotel_blue .featured-grid-card-bx:hover .slider-div {
+  box-shadow: none;
+}
+.business_hotel_blue .featured-grid-card-bx .owl-nav {
+  opacity: 1;
+}
+.business_hotel_blue .featured-grid-card-bx .owl-dots {
+  display: none;
+}
+.business_hotel_blue {
+  .featured-grid-card-bx .owl-nav .owl-prev,
+  .featured-grid-card-bx .owl-nav .owl-next {
+    top: 50%;
+  }
+}
+.business_hotel_blue .featured-grid-card-bx .img-slider {
+  height: 400px;
+}
+.business_hotel_blue h1 {
+  font-size: 30px;
+  text-align: center;
+  color: var(--whiteColor);
+}
+.business_hotel_blue p {
+  text-align: center;
+  color: var(--whiteColor);
+  padding: 10px 0 30px;
+}
+.business_hotel_blue .title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--whiteColor);
+  padding-top: 25px;
+}
+.business_hotel_blue .desc-dv p {
+  text-align: left;
+  padding-bottom: 0;
+  margin-bottom: 5px;
+  line-height: 30px;
+}
+.professional_photo {
+  padding: 80px 0;
+  background: #f6f6f6;
+}
+.professional_photo_width_box {
+  width: 80%;
+  margin: 0 auto;
+}
+.professional_photo h2 {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+.professional_photo p {
+  color: #6c6f74;
+}
+.professional_photo p a {
+  color: #0470ba;
+}
+.professional_photo h4 {
+  font-size: 20px;
+  color: var(--blackColor02);
+  font-weight: 600;
+  padding: 10px 0 10px;
+}
+.professional_photo .btn-dv {
+  justify-content: center;
+  display: flex;
+  margin-top: 35px;
+}
+.red_price_box {
+  background: var(--whiteColor);
+  border-radius: 8px;
+  margin: 50px 0;
+  position: relative;
+  width: 100%;
+  float: left;
+}
+.red_price_box h2 {
+  background: var(--primaryColor02);
+  width: 90%;
+  border-radius: 8px;
+  position: absolute;
+  left: 18px;
+  top: -20px;
+  font-size: 22px !important;
+  padding: 13px 10px;
+}
+.red_price_tex {
+  margin-top: 90px;
+  float: left;
+  padding: 0 15px;
+  width: 100%;
+}
+.red_price_tex h4 {
+  color: var(--blackColor02);
+  font-weight: 600;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0 25px;
+}
+.red_price_tex h4 span {
+  color: var(--primaryColor02);
+}
+.red_price_tex p {
+  border-bottom: 1px solid #ebebeb;
+  color: #6c6f74;
+  padding-bottom: 10px;
+}
+.red_price_tex p i {
+  float: right;
+  color: var(--primaryColor03);
+  font-size: 25px;
+}
+.red_price_tex .btn_red_btn {
+  background: var(--primaryColor02);
+  width: 100%;
+  border: 1px solid var(--primaryColor02);
+  margin: 20px 0;
+  padding: 13px 0 25px;
+  font-weight: 700;
+  height: 56px;
+}
+
+.yellow_price_box {
+  background: var(--whiteColor);
+  border-radius: 8px;
+  margin: 50px 0;
+  position: relative;
+  width: 100%;
+  float: left;
+}
+.yellow_price_box h2 {
+  background: #f3ce39;
+  width: 90%;
+  border-radius: 8px;
+  position: absolute;
+  left: 18px;
+  top: -20px;
+  font-size: 22px !important;
+  padding: 13px 10px;
+}
+.yellow_price_tex {
+  margin-top: 90px;
+  float: left;
+  padding: 0 15px;
+  width: 100%;
+}
+.yellow_price_tex h4 {
+  color: var(--blackColor02);
+  font-weight: 600;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0 25px;
+}
+.yellow_price_tex h4 span {
+  color: #f3ce39;
+}
+.yellow_price_tex p {
+  border-bottom: 1px solid #ebebeb;
+  color: #6c6f74;
+  padding-bottom: 10px;
+}
+.yellow_price_tex p i {
+  float: right;
+  color: var(--primaryColor03);
+  font-size: 25px;
+}
+.yellow_price_tex .btn_yellow_btn {
+  background: #f3ce39;
+  width: 100%;
+  border: 1px solid #f3ce39;
+  margin: 20px 0;
+  padding: 13px 0 25px;
+  font-weight: 700;
+  height: 56px;
+}
+
+.green_price_box {
+  background: var(--whiteColor);
+  border-radius: 8px;
+  margin: 50px 0;
+  position: relative;
+  width: 100%;
+  float: left;
+}
+.green_price_box h2 {
+  background: var(--primaryColor03);
+  width: 90%;
+  border-radius: 8px;
+  position: absolute;
+  left: 18px;
+  top: -20px;
+  font-size: 22px !important;
+  padding: 13px 10px;
+}
+.green_price_tex {
+  margin-top: 90px;
+  float: left;
+  padding: 0 15px;
+  width: 100%;
+}
+.green_price_tex h4 {
+  color: var(--blackColor02);
+  font-weight: 600;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0 25px;
+}
+.green_price_tex h4 span {
+  color: var(--primaryColor03);
+}
+.green_price_tex p {
+  border-bottom: 1px solid #ebebeb;
+  color: #6c6f74;
+  padding-bottom: 10px;
+}
+.green_price_tex p i {
+  float: right;
+  color: var(--primaryColor03);
+  font-size: 25px;
+}
+.green_price_tex .btn_green_btn {
+  background: var(--primaryColor03);
+  width: 100%;
+  border: 1px solid var(--primaryColor03);
+  margin: 20px 0;
+  padding: 13px 0 25px;
+  font-weight: 700;
+  height: 56px;
+}
+
+.photo_busniess {
+  background: linear-gradient(176deg, #2cc2df 38.64%, #0e75a4 92.28%);
+  padding: 80px 0 0;
+  text-align: center;
+}
+.photo_busniess h2 {
+  width: 80%;
+  margin: 0 auto;
+  color: var(--whiteColor);
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+.photo_busniess p {
+  color: #f5f7fb;
+  padding-bottom: 30px;
+  width: 80%;
+  margin: 0 auto;
+}
+.photo_busniess img {
+  margin-bottom: -130px;
+  width: 70%;
+  margin: 0 auto -130px;
+}
+.photo_busniess_google_search {
+  text-align: center;
+  padding-top: 180px;
+  padding-bottom: 50px;
+}
+.photo_busniess_google_search h2 {
+  width: 65%;
+  font-size: 30px;
+  margin: 0 auto;
+}
+.photo_busniess_google_search h4 {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 10px 0 20px;
+}
+.photo_busniess_google_search img {
+  width: 80%;
+  margin: 0 auto;
+}
+.photo_right {
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+  .photo_busniess h2 {
+    width: 100%;
+  }
+  .photo_busniess p {
+    width: 100%;
+  }
+  .photo_busniess img {
+    width: 100%;
+  }
+  .photo_busniess_google_search h2 {
+    width: 100%;
+  }
+  .photo_busniess_google_search p {
+    width: 100%;
+  }
+  .photo_busniess_google_search img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .business_hotel_blue .content-div .title .icon {
+    top: 30px;
+  }
+}
