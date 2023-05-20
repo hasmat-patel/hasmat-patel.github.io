@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1276px" height="343px" viewBox="0 0 1276 343" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-102.219466%" y1="40.466119%" x2="100%" y2="53.6129079%" id="linearGradient-1">
+            <stop stop-color="#D2E9F6" offset="0%"></stop>
+            <stop stop-color="#EBF6FB" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="0 0 1276 0 1276 343 0 343"></polygon>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#185F8D" stop-opacity="0.365548514" offset="0%"></stop>
+            <stop stop-color="#3598C1" stop-opacity="0.746940559" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#185F8D" stop-opacity="0.365548514" offset="0%"></stop>
+            <stop stop-color="#3598C1" stop-opacity="0.746940559" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-6" points="0 0 1276 0 1276 343 0 343"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <g id="Group-15">
+                <g id="Group-29">
+                    <g id="Mask" transform="translate(638.000000, 171.500000) scale(-1, 1) rotate(-180.000000) translate(-638.000000, -171.500000) " fill="url(#linearGradient-1)" fill-opacity="0.4" fill-rule="nonzero">
+                        <polygon id="path-2" points="0 0 1276 0 1276 343 0 343"></polygon>
+                    </g>
+                    <g id="Clipped">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <g id="path-2"></g>
+                        <g id="Group" opacity="0.2" mask="url(#mask-3)">
+                            <g transform="translate(-262.000000, -314.000000)">
+                                <g>
+                                    <circle id="Oval" stroke="url(#linearGradient-5)" cx="353" cy="353" r="353"></circle>
+                                    <circle id="Oval-Copy-6" stroke="url(#linearGradient-5)" cx="372" cy="353" r="353"></circle>
+                                    <circle id="Oval-Copy-7" stroke="url(#linearGradient-5)" cx="391" cy="353" r="353"></circle>
+                                    <circle id="Oval-Copy-8" stroke="url(#linearGradient-5)" cx="409" cy="353" r="353"></circle>
+                                    <circle id="Oval-Copy-9" stroke="url(#linearGradient-5)" cx="428" cy="353" r="353"></circle>
+                                    <circle id="Oval-Copy-10" stroke="url(#linearGradient-5)" cx="447" cy="353" r="353"></circle>
+                                    <circle id="Oval-Copy-11" stroke="url(#linearGradient-5)" cx="466" cy="353" r="353"></circle>
+                                    <circle id="Oval-Copy-12" stroke="url(#linearGradient-5)" cx="485" cy="353" r="353"></circle>
+                                    <circle id="Oval-Copy-13" stroke="url(#linearGradient-5)" cx="503" cy="353" r="353"></circle>
+                                    <circle id="Oval-Copy-14" stroke="url(#linearGradient-5)" cx="522" cy="353" r="353"></circle>
+                                    <circle id="Oval-Copy-15" stroke="url(#linearGradient-5)" cx="541" cy="353" r="353"></circle>
+                                    <circle id="Oval-Copy-16" stroke="url(#linearGradient-5)" cx="560" cy="353" r="353"></circle>
+                                    <circle id="Oval-Copy-17" stroke="url(#linearGradient-5)" cx="579" cy="353" r="353"></circle>
+                                    <circle id="Oval-Copy-18" stroke="url(#linearGradient-5)" cx="597" cy="353" r="353"></circle>
+                                    <circle id="Oval-Copy-19" stroke="url(#linearGradient-5)" cx="616" cy="353" r="353"></circle>
+                                    <circle id="Oval-Copy-20" stroke="url(#linearGradient-5)" cx="635" cy="353" r="353"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-29-Copy-Clipped">
+                        <mask id="mask-7" fill="white">
+                            <use xlink:href="#path-6"></use>
+                        </mask>
+                        <g id="path-2"></g>
+                        <g id="Group-29-Copy" opacity="0.2" mask="url(#mask-7)">
+                            <g transform="translate(1020.000000, 9.000000)" id="Group" opacity="0.8">
+                                <g>
+                                    <circle id="Oval" stroke="#185F8D" cx="470.5" cy="470.5" r="470.5"></circle>
+                                    <circle id="Oval-Copy-6" stroke="#185F8D" cx="495.5" cy="470.5" r="470.5"></circle>
+                                    <circle id="Oval-Copy-7" stroke="#185F8D" cx="521.5" cy="470.5" r="470.5"></circle>
+                                    <circle id="Oval-Copy-8" stroke="#185F8D" cx="545.5" cy="470.5" r="470.5"></circle>
+                                    <circle id="Oval-Copy-9" stroke="#185F8D" cx="570.5" cy="470.5" r="470.5"></circle>
+                                    <circle id="Oval-Copy-10" stroke="#185F8D" cx="595.5" cy="470.5" r="470.5"></circle>
+                                    <circle id="Oval-Copy-11" stroke="#185F8D" cx="621.5" cy="470.5" r="470.5"></circle>
+                                    <circle id="Oval-Copy-12" stroke="#185F8D" cx="646.5" cy="470.5" r="470.5"></circle>
+                                    <circle id="Oval-Copy-13" stroke="#185F8D" cx="670.5" cy="470.5" r="470.5"></circle>
+                                    <circle id="Oval-Copy-14" stroke="#185F8D" cx="695.5" cy="470.5" r="470.5"></circle>
+                                    <circle id="Oval-Copy-15" stroke="#185F8D" cx="721.5" cy="470.5" r="470.5"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

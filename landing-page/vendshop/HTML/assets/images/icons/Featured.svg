@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Featured</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-screen" transform="translate(-960.000000, -1352.000000)">
+            <g id="Item-Copy-2" transform="translate(730.000000, 1342.000000)">
+                <g id="Featured" transform="translate(230.000000, 10.000000)">
+                    <polygon id="Star" fill="#D3161C" points="27 50.2972935 21.3863843 53.4099852 17.524137 48.2831367 11.1297982 48.8434588 9.68673687 42.5889321 3.6173141 40.5 4.84295718 34.1992596 0.147908825 29.8222685 3.83033148 24.5647697 1.32147406 18.6565412 6.82395197 15.3513532 6.93508971 8.93347363 13.3061944 8.15209361 16.0181106 2.33427264 22.1562203 4.21180823 27 0 31.8437797 4.21180823 37.9818894 2.33427264 40.6938056 8.15209361 47.0649103 8.93347363 47.176048 15.3513532 52.6785259 18.6565412 50.1696685 24.5647697 53.8520912 29.8222685 49.1570428 34.1992596 50.3826859 40.5 44.3132631 42.5889321 42.8702018 48.8434588 36.475863 48.2831367 32.6136157 53.4099852"></polygon>
+                    <text font-family="BebasNeueBold, Bebas Neue" font-size="12" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="9" y="31">FEATURED</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content="" />
+<meta name="author" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Listing - Vend Shop</title>
+<meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+<meta content='yes' name='apple-mobile-web-app-capable'>
+<meta content='translucent-black' name='apple-mobile-web-app-status-bar-style'>
+<link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,300;0,400;0,500;0,577;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,577;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href='assets/images/favicon.ico' rel='shortcut icon'>
+<link href="assets/css/animate.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+<script src="assets/js/modernizr.js"></script>
+<!--[if IE]>
+<script src="assets/js/html5.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div id="wrapper" class="wrapper home-wrapper">
+    
+	<header>
+        <div class="header-div clearfix" >
+            <div class="inner-top-header-div clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="header-container">
+
+                                <div class="logo-div">
+                                    <a class="logo_link clearfix" href="index.html">
+                                        <img src="assets/images/logo.svg" class="img-fluid logo_img main-logo" alt="logo" />
+                                    </a>
+                                </div>
+
+                                <div class="header-right-div" id="header-right-div">
+                                    
+                                    <div class="user-details-div">
+
+                                        <div class="dropdown dropdown-50 dropdown-custom-top mr-10">
+                                            <a class="btn btn-default btn-flat dropdown-toggle no-arrow" href="#">
+                                                <div class="user-profile">
+                                                    <div class="user-img">
+                                                        <i class="fe fe-shopping-cart fe-custom"></i>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <h3>My cart</h3>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="dropdown dropdown-50 dropdown-custom-top mr-10">
+                                            <a class="btn btn-default btn-flat dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <div class="user-profile">
+                                                    <div class="user-img">
+                                                        <i class="fe fe-user fe-custom"></i>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <h3>My account</h3>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <div class="dropdown-user-panel hide-panel">
+                                                    <ul>
+                                                        <li><a class="dropdown-item" href="#">My Account</a></li>
+                                                        <li><a class="dropdown-item" href="#">Checkout</a></li>
+                                                        <li><a class="dropdown-item" href="#">Register / Log In</a></li>
+                                                        <!-- <li class="logout-li"><a class="dropdown-item" href="#"> <span class="logout-icon"> <i class="fe fe-log-out"></i> </span> Sign out</a></li> -->
+                                                    </ul>  
+                                                </div>                 
+                                            </div>
+                                        </div>
+
+                                        <div class="contact-btn">
+                                            <a href="#" class="btn btn-primary">Contact</a>
+                                        </div>
+
+                                    </div>
+                            
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 p0">
+                            <div class="category-view-div" id="view-category-root">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>	
+            <div class="full-navigation">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <nav class="nav-center-div">
+                                <div class="top-nav1">
+
+                                    <div class="cd-shadow-layer"></div>
+                                    <div class="nav-m-bar"><a onclick="openNav()" class="opennav" data-placement="bottom" title="" data-original-title="Menu">
+                                        <i class="menu-bars"><img src="assets/images/icons/menu-white.svg" alt="menu" /></i></a>
+                                    </div>
+                                    <div class="nav-div clearfix" id="mySidenav" >
+                                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                        <div class="mobile-view-data"></div>
+                                        <ul class="nav ullist-inline" id="nav-res" >
+                                            <li class="active"><a href="#" class="nav-link">About</a></li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                                    Water filters
+                                                </a>
+                                                <div class="dropdown-menu">
+                                                    <ul>
+                                                        <li><a href="#">View All Water filters</a></li>
+                                                        <li><a href="#">BRITA Products </a></li>
+                                                        <li><a href="#">Other</a></li>
+                                                        <li><a href="#">Filter capacity calculator</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li> 
+                                            <li><a href="#" class="nav-link">Machine Components</a></li>
+                                            <li><a href="#" class="nav-link">Hoses & Fittings</a></li>
+                                            <li><a href="#" class="nav-link">Misc</a></li>
+                                            <li><a href="#" class="nav-link">Pumps & Motors</a></li>
+                                        </ul>
+                                        <div class="searching-div">
+                                            <div class="form-group form-searching-group">
+                                                <input type="text" placeholder="Search" class="form-control form-search display-none" id="searching-input">
+                                                <button type="button" class="btn-cancle display-none" id="searching-cancel">
+                                                    <i class="fe fe-x"></i> 
+                                                </button>
+                                                <button type="button" class="btn-saerch" id="searching-top">
+                                                    <i class="fe fe-search searching-img"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        </div><!--  End of header with navigation div  -->
+
+    </header>
+	
+    <section class="inner-banner-section">
+        <div class="inner-banner-div">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12 col-md-12">        
+
+                        <div class="title-div">
+                            <h2> <a href="#" class="back-link"> <img src="assets/images/icons/back-arrow-right.svg" alt="back" class="back-icon" /> </a> Machines Components</h2>
+                        </div>
+
+                    </div>
+                    
+                </div>        
+            </div>
+        </div>
+    </section><!--  end of banner  -->
+    
+    <div class="main-middle-area">
+    
+        <section class="products-section">
+            <div class="products-div">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">      
+                            <div class="heading-div text-center">
+                                <h2 class="text-center">Popular and Featured products</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="products-container">
+
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#product1">Water filters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#product2">Machine Components</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#product3">Hoses & Fittings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#product4">Misc</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#product5">Pumps & Motors</a>
+                            </li>
+                        </ul>
+
+
+                        <div class="tab-content">
+
+                            <div id="product1" class="container tab-pane active">
+                                
+                                <div class="row">
+
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="product-card">
+                                            <div class="product-thumb">
+                                                <img src="assets/images/product01.png" alt="product" class="product-img" />
+                                            </div>
+                                            <div class="product-content">
+                                                <a href="#"><h3>Brita Aquagusto 250 Water Tank Filter</h3></a>
+                                                <p>BBW2000A</p>
+                                            </div>
+                                            <div class="product-bottom">
+                                                <div class="left-bottom">
+                                                    <a href="#" class="btn btn-link">Compare</a>
+                                                </div>
+                                                <div class="right-bottom">
+                                                    <a href="#" class="btn btn-icon">
+                                                        <img src="assets/images/icons/shopping-cart2.svg" class="img-cart" alt="shopping cart" />
+                                                        Add to cart
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="product-card">
+                                            <img src="assets/images/icons/Featured.svg" alt="Featured" class="featured-img" />
+                                            <div class="product-thumb">
+                                                <img src="assets/images/product02.png" alt="product" class="product-img" />
+                                            </div>
+                                            <div class="product-content">
+                                                <a href="#"><h3>Brita Aquagusto 250 Water Tank Filter</h3></a>
+                                                <p>BBW2000A</p>
+                                            </div>
+                                            <div class="product-bottom">
+                                                <div class="left-bottom">
+                                                    <a href="#" class="btn btn-link">Compare</a>
+                                                </div>
+                                                <div class="right-bottom">
+                                                    <a href="#" class="btn btn-icon">
+                                                        <img src="assets/images/icons/shopping-cart2.svg" class="img-cart" alt="shopping cart" />
+                                                        Add to cart
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="product-card">
+                                            <div class="product-thumb">
+                                                <img src="assets/images/product03.png" alt="product" class="product-img" />
+                                            </div>
+                                            <div class="product-content">
+                                                <a href="#"><h3>Brita Aquagusto 250 Water Tank Filter</h3></a>
+                                                <p>BBW2000A</p>
+                                            </div>
+                                            <div class="product-bottom">
+                                                <div class="left-bottom">
+                                                    <a href="#" class="btn btn-link">Compare</a>
+                                                </div>
+                                                <div class="right-bottom">
+                                                    <a href="#" class="btn btn-icon">
+                                                        <img src="assets/images/icons/shopping-cart2.svg" class="img-cart" alt="shopping cart" />
+                                                        Add to cart
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="product-card">
+                                            <div class="product-thumb">
+                                                <img src="assets/images/product04.png" alt="product" class="product-img" />
+                                            </div>
+                                            <div class="product-content">
+                                                <a href="#"><h3>Brita Aquagusto 250 Water Tank Filter</h3></a>
+                                                <p>BBW2000A</p>
+                                            </div>
+                                            <div class="product-bottom">
+                                                <div class="left-bottom">
+                                                    <a href="#" class="btn btn-link">Compare</a>
+                                                </div>
+                                                <div class="right-bottom">
+                                                    <a href="#" class="btn btn-icon">
+                                                        <img src="assets/images/icons/shopping-cart2.svg" class="img-cart" alt="shopping cart" />
+                                                        Add to cart
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="product-card">
+                                            <div class="product-thumb">
+                                                <img src="assets/images/product05.png" alt="product" class="product-img" />
+                                            </div>
+                                            <div class="product-content">
+                                                <a href="#"><h3>Brita Aquagusto 250 Water Tank Filter</h3></a>
+                                                <p>BBW2000A</p>
+                                            </div>
+                                            <div class="product-bottom">
+                                                <div class="left-bottom">
+                                                    <a href="#" class="btn btn-link">Compare</a>
+                                                </div>
+                                                <div class="right-bottom">
+                                                    <a href="#" class="btn btn-icon">
+                                                        <img src="assets/images/icons/shopping-cart2.svg" class="img-cart" alt="shopping cart" />
+                                                        Add to cart
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="product-card">
+                                            <div class="product-thumb">
+                                                <img src="assets/images/product06.png" alt="product" class="product-img" />
+                                            </div>
+                                            <div class="product-content">
+                                                <a href="#"><h3>Brita Aquagusto 250 Water Tank Filter</h3></a>
+                                                <p>BBW2000A</p>
+                                            </div>
+                                            <div class="product-bottom">
+                                                <div class="left-bottom">
+                                                    <a href="#" class="btn btn-link">Compare</a>
+                                                </div>
+                                                <div class="right-bottom">
+                                                    <a href="#" class="btn btn-icon">
+                                                        <img src="assets/images/icons/shopping-cart2.svg" class="img-cart" alt="shopping cart" />
+                                                        Add to cart
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="product-card">
+                                            <div class="product-thumb">
+                                                <img src="assets/images/product07.png" alt="product" class="product-img" />
+                                            </div>
+                                            <div class="product-content">
+                                                <a href="#"><h3>Brita Aquagusto 250 Water Tank Filter</h3></a>
+                                                <p>BBW2000A</p>
+                                            </div>
+                                            <div class="product-bottom">
+                                                <div class="left-bottom">
+                                                    <a href="#" class="btn btn-link">Compare</a>
+                                                </div>
+                                                <div class="right-bottom">
+                                                    <a href="#" class="btn btn-icon">
+                                                        <img src="assets/images/icons/shopping-cart2.svg" class="img-cart" alt="shopping cart" />
+                                                        Add to cart
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="product-card">
+                                            <div class="product-thumb">
+                                                <img src="assets/images/product08.png" alt="product" class="product-img" />
+                                            </div>
+                                            <div class="product-content">
+                                                <a href="#"><h3>Brita Aquagusto 250 Water Tank Filter</h3></a>
+                                                <p>BBW2000A</p>
+                                            </div>
+                                            <div class="product-bottom">
+                                                <div class="left-bottom">
+                                                    <a href="#" class="btn btn-link">Compare</a>
+                                                </div>
+                                                <div class="right-bottom">
+                                                    <a href="#" class="btn btn-icon">
+                                                        <img src="assets/images/icons/shopping-cart2.svg" class="img-cart" alt="shopping cart" />
+                                                        Add to cart
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12">     
+                                        <div class="view-more-div">
+                                            <a href="#" class="btn btn-view-arrow">View all products <img src="assets/images/icons/arrow-right.svg" class="img-arrow" alt="arrow" /> </a>
+                                        </div>
+                                    </div>
+                                </div>    
+
+                            </div>
+
+                            <div id="product2" class="container tab-pane fade">
+
+                                <div class="row">
+
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="product-card">
+                                            <div class="product-thumb">
+                                                <img src="assets/images/product01.png" alt="product" class="product-img" />
+                                            </div>
+                                            <div class="product-content">
+                                                <a href="#"><h3>Brita Aquagusto 250 Water Tank Filter</h3></a>
+                                                <p>BBW2000A</p>
+                                            </div>
+                                            <div class="product-bottom">
+                                                <div class="left-bottom">
+                                                    <a href="#" class="btn btn-link">Compare</a>
+                                                </div>
+                                                <div class="right-bottom">
+                                                    <a href="#" class="btn btn-icon">
+                                                        <img src="assets/images/icons/shopping-cart2.svg" class="img-cart" alt="shopping cart" />
+                                                        Add to cart
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                                   
+                            </div>
+                            <div id="product3" class="container tab-pane fade">
+                                
+                                <div class="row">
+
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="product-card">
+                                            <div class="product-thumb">
+                                                <img src="assets/images/product03.png" alt="product" class="product-img" />
+                                            </div>
+                                            <div class="product-content">
+                                                <a href="#"><h3>Brita Aquagusto 250 Water Tank Filter</h3></a>
+                                                <p>BBW2000A</p>
+                                            </div>
+                                            <div class="product-bottom">
+                                                <div class="left-bottom">
+                                                    <a href="#" class="btn btn-link">Compare</a>
+                                                </div>
+                                                <div class="right-bottom">
+                                                    <a href="#" class="btn btn-icon">
+                                                        <img src="assets/images/icons/shopping-cart2.svg" class="img-cart" alt="shopping cart" />
+                                                        Add to cart
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+
+                            </div>
+
+                            <div id="product4" class="container tab-pane fade">
+                                
+                                <div class="row">
+
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="product-card">
+                                            <div class="product-thumb">
+                                                <img src="assets/images/product04.png" alt="product" class="product-img" />
+                                            </div>
+                                            <div class="product-content">
+                                                <a href="#"><h3>Brita Aquagusto 250 Water Tank Filter</h3></a>
+                                                <p>BBW2000A</p>
+                                            </div>
+                                            <div class="product-bottom">
+                                                <div class="left-bottom">
+                                                    <a href="#" class="btn btn-link">Compare</a>
+                                                </div>
+                                                <div class="right-bottom">
+                                                    <a href="#" class="btn btn-icon">
+                                                        <img src="assets/images/icons/shopping-cart2.svg" class="img-cart" alt="shopping cart" />
+                                                        Add to cart
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+
+                            </div>
+
+                            <div id="product5" class="container tab-pane fade">
+                                
+                                <div class="row">
+
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="product-card">
+                                            <div class="product-thumb">
+                                                <img src="assets/images/product05.png" alt="product" class="product-img" />
+                                            </div>
+                                            <div class="product-content">
+                                                <a href="#"><h3>Brita Aquagusto 250 Water Tank Filter</h3></a>
+                                                <p>BBW2000A</p>
+                                            </div>
+                                            <div class="product-bottom">
+                                                <div class="left-bottom">
+                                                    <a href="#" class="btn btn-link">Compare</a>
+                                                </div>
+                                                <div class="right-bottom">
+                                                    <a href="#" class="btn btn-icon">
+                                                        <img src="assets/images/icons/shopping-cart2.svg" class="img-cart" alt="shopping cart" />
+                                                        Add to cart
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                </div>    
+            </div>
+        </section> 
+
+        <section class="conversion-section">
+            <div class="conversion-div">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">      
+                            <div class="conversion-card">
+                                <h3>
+                                    <span class="span-block"> Can’t find what your looking for? </span>
+                                    <span class="font-w800">Call us on</span>
+                                    <a href="tel:01243523130">01243 523130</a>
+                                    <span class="font-w800">or</span>
+                                    <a href="mailto:sales@becktech.co.uk">sales@becktech.co.uk</a>
+                                </h3>
+                                <div class="btn-row">
+                                    <a href="#" class="btn btn-view-primary btn-view-arrow-primary">View our conversion tools <i class="fe fe-arrow-right"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>    
+            </div>
+        </section> 
+
+    </div>
+
+    <footer>
+        <div class="footer-root">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="footer-div">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-3">
+                                    <div class="logo-footer">
+                                        <a href="index.html" class="footerlogo-link"><img src="assets/images/footer-logo.svg" alt="logo" class="img-fluid img-footerlogo" /></a>
+                                    </div>
+                                    <div class="footer-list-root">
+                                        <div class="list-row ">
+                                            <h5>Address </h5>
+                                            <div class="footer-ul-list pr-20">
+                                                <p>Becktech Ltd Terminus Road Chichester West Sussex PO19 8DW</p>
+                                            </div>   
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-5 col-md-5">
+
+                                    <div class="footer-list-root footer-list-root2">
+
+                                        <div class="list-row">
+                                            <h5>Company </h5>
+                                            <div class="footer-ul-list">
+                                                <ul class="footer-ul">
+                                                    <li><a href="#" class="link-footer">About </a></li>
+                                                    <li><a href="#" class="link-footer">Account </a></li>
+                                                    <li><a href="#" class="link-footer">Cart </a></li>
+                                                    <li><a href="#" class="link-footer">Login </a></li>
+                                                    <li><a href="#" class="link-footer">Sign up</a></li>
+                                                </ul>
+                                            </div>   
+                                        </div>
+
+                                        <div class="list-row">
+                                            <h5>Product </h5>
+                                            <div class="footer-ul-list">
+                                                <ul class="footer-ul">
+                                                    <li><a href="#" class="link-footer">Water filters</a></li>
+                                                    <li><a href="#" class="link-footer">Machine Components </a></li>
+                                                    <li><a href="#" class="link-footer">Hoses & Fittings </a></li>
+                                                    <li><a href="#" class="link-footer">Misc </a></li>
+                                                    <li><a href="#" class="link-footer">Pumps & Motors</a></li>
+                                                </ul>
+                                            </div>   
+                                        </div>
+                                        
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-3 col-md-4">
+                               
+                                    <div class="footer-list-root contact-list-root">
+                                        <ul class="footer-ul">
+                                            <li>
+                                                <a href="mailto:sales@becktech.co.uk" class="contact-link">
+                                                    <div class="icon-div">
+                                                        <span class="icon-round"><span class="material-icons">mail</span></span>
+                                                    </div>
+                                                    <div class="desc-text">
+                                                        <h4>Send us an email</h4>
+                                                        <p>sales@becktech.co.uk</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="tel:01243523130" class="contact-link">
+                                                    <div class="icon-div">
+                                                        <span class="icon-round"><span class="material-icons">phone</span></span>
+                                                    </div>
+                                                    <div class="desc-text">
+                                                        <h4>Call on</h4>
+                                                        <p>01243 523130</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="contact-link">
+                                                    <div class="icon-div">
+                                                        <span class="icon-round"><i class="fab fa-linkedin-in"></i></span>
+                                                    </div>
+                                                    <div class="desc-text">
+                                                        <h4> <span class="span-block"> Get in </span>
+                                                            Touch and keep follow</h4>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+
+                            </div>    
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-9 col-md-8">
+                            <p>© Becktech Ltd. Terms and Conditions. Privacy and Cookie Policy. All Rights Reserved. Designed by Brave Thinking.</p>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4">
+                            <div class="card-icon-div-root">
+                                <ul class="footer-social-ul">
+                                    <li> 
+                                        <a href="#" class="card-link">
+                                            <img src="assets/images/icons/card/Visa-light.svg" alt="visa" class="card-icon" />
+                                        </a> 
+                                    </li>
+                                    <li>
+                                        <a href="#" class="card-link">
+                                            <img src="assets/images/icons/card/MasterCard-light.svg" alt="MasterCard" class="card-icon" />
+                                        </a> 
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>    
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer> 
+    
+
+    <a href="javascript:" class="return-to-top"><i class="fas fa-chevron-up"></i></a>
+	
+</div><!-- end of wrapper -->
+
+<script src="assets/js/jquery-3.3.1.slim.min.js" ></script>
+<script src="assets/js/jquery.min.js" ></script>
+<script src="assets/js/owl.carousel.min.js"></script> 
+<script src="assets/js/popper.min.js" ></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/select2.full.js"></script>
+<script src="assets/js/custom.js"></script> 
+
+<script>
+    $(document).ready(function(){ 
+        $(".js-select2").select2();
+        
+        if ($('body').width() >= 768 ){
+            $('#banner-owl').owlCarousel({
+                loop:true,
+                nav:false,
+                dots: true,
+                dotsContainer: '#owl-custom-dots',
+                stagePadding: 0,
+                autoPlay: 1000,
+                smartSpeed:2000,
+                vertical:false,
+                slideSpeed : 300,
+                paginationSpeed : 400,
+                responsive:{
+                    0:{
+                        items: 1,
+                        
+                    },
+                    600:{
+                        items: 1,
+                    },
+                    1000:{
+                        items:1
+                    }
+                }
+            });
+        }
+
+        if ($('body').width() <= 767 ){
+            $('#banner-owl').owlCarousel({
+                loop:true,
+                dots: true,
+                dotsContainer: '#owl-custom-dots',
+                stagePadding: 0,
+                autoPlay: 1000,
+                smartSpeed:2000,
+                slideSpeed : 300,
+                paginationSpeed : 4000,
+                nav: false,
+                vertical:true,
+                animateOut: 'slideOutUp',
+                animateIn: 'slideInUp',
+                items: 1,
+            }); 
+        }
+
+        /* search box header */
+        $("#searching-top").click(function(){
+            $(".form-searching-group").addClass("active");
+            $("#searching-cancel").click(function(){
+                $(".form-searching-group").removeClass("active");
+            });
+        });
+
+    });
+</script>
+
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet" />	
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</body>
+</html>

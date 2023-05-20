@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99" height="99" viewBox="0 0 99 99">
+  <defs>
+    <filter id="Oval" x="0" y="0" width="99" height="99" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="circle_dropbox" data-name="circle/dropbox" transform="translate(4.5 4.5)">
+    <g id="circle_dropbox-2" data-name="circle/dropbox">
+      <g id="Oval-2" data-name="Oval">
+        <g transform="matrix(1, 0, 0, 1, -4.5, -4.5)" filter="url(#Oval)">
+          <circle id="Oval-3" data-name="Oval" cx="45" cy="45" r="45" transform="translate(4.5 4.5)" fill="#0061ff"/>
+        </g>
+        <circle id="Oval-4" data-name="Oval" cx="45" cy="45" r="45" fill="none"/>
+      </g>
+      <path id="Shape" d="M26.964,45h0L13.446,36.536l13.518-8.465,13.518,8.465L26.965,45ZM40.482,33.856h0L27.036,25.322l13.518-8.465L27.036,8.464,40.482,0,54,8.464,40.482,16.928,54,25.392,40.483,33.856Zm-26.964,0h0L0,25.322l13.518-8.465L0,8.464,13.518,0,27.036,8.464,13.518,16.928l13.518,8.464L13.519,33.856Z" transform="translate(18 22.5)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

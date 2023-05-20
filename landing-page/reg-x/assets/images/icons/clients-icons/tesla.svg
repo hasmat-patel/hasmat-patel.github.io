@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99" height="99" viewBox="0 0 99 99">
+  <defs>
+    <filter id="Oval" x="0" y="0" width="99" height="99" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="circle_tesla" data-name="circle/tesla" transform="translate(4.5 4.5)">
+    <g id="circle_tesla-2" data-name="circle/tesla">
+      <g transform="matrix(1, 0, 0, 1, -4.5, -4.5)" filter="url(#Oval)">
+        <circle id="Oval-2" data-name="Oval" cx="45" cy="45" r="45" transform="translate(4.5 4.5)" fill="#d03832"/>
+      </g>
+      <path id="Combined_Shape" data-name="Combined Shape" d="M17.449,10.067c-6.438,0-8.479.709-8.776,3.586,0,0-4.35-1.607-6.54-4.873a48.392,48.392,0,0,1,17.153-4.11L24.3,10.724,29.309,4.67A48.4,48.4,0,0,1,46.462,8.78c-2.192,3.266-6.539,4.873-6.539,4.873-.3-2.877-2.34-3.582-8.821-3.582L24.3,48ZM24.3,2.92h0A56.415,56.415,0,0,0,1.361,7.485,23.216,23.216,0,0,1,0,4.7,66.987,66.987,0,0,1,24.3,0,67,67,0,0,1,48.6,4.7a18.353,18.353,0,0,1-1.362,2.789A56.423,56.423,0,0,0,24.3,2.92Z" transform="translate(21 21)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

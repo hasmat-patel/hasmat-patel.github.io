@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="105" height="105" viewBox="0 0 105 105">
+  <defs>
+    <filter id="Oval" x="0" y="0" width="105" height="105" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="circle_zendesk" data-name="circle/zendesk" transform="translate(7.5 7.5)">
+    <g id="circle_zendesk-2" data-name="circle/zendesk">
+      <g transform="matrix(1, 0, 0, 1, -7.5, -7.5)" filter="url(#Oval)">
+        <circle id="Oval-2" data-name="Oval" cx="45" cy="45" r="45" transform="translate(7.5 7.5)" fill="#02363d"/>
+      </g>
+      <g id="Group_5" data-name="Group 5" transform="translate(21.6 27)">
+        <path id="Path" d="M21.485,0a10.84,10.84,0,0,1-3.17,7.641A10.681,10.681,0,0,1,10.7,10.774,10.761,10.761,0,0,1,0,0Z" transform="translate(0 0)" fill="#fff"/>
+        <path id="Path-2" data-name="Path" d="M0,10.521a10.745,10.745,0,0,1,21.485,0Z" transform="translate(25.025 24.845)" fill="#fff"/>
+        <path id="Path-3" data-name="Path" d="M21.485,0V26.023H0L21.485,0Z" transform="translate(0 9.343)" fill="#fff"/>
+        <path id="Path-4" data-name="Path" d="M0,0V26.023L21.485,0Z" transform="translate(25.025 0)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
