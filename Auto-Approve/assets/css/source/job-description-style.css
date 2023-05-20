@@ -1,0 +1,142 @@
+.jd-banner-section {
+  @apply bg-blue relative m-0;
+}
+
+.jd-banner-section .jd-banner-div {
+  padding: 90px 0 140px 0;
+  @apply relative m-0;
+}
+
+.job-desc-content-section {
+  @apply pb-12 m-0 relative bg-custom-color3;
+}
+
+.job-desc-content-section .job-desc-content-div {
+  padding: 45px 100px;
+  top: -100px;
+  margin-bottom: -100px;
+  @apply relative;
+}
+
+.job-desc-content-section .job-desc-content-div .job-desc-top-div {
+  margin: 0 0 44px 0;
+}
+
+.job-desc-content-section .job-desc-content-div .job-desc-top-div .btn-primary-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.job-desc-content-section .job-desc-content-div .job-desc-top-div .btn-primary-link .bg-custom-icon {
+  margin-right: 14px;
+}
+
+.job-desc-content-section .job-desc-content-div .job-desc-top-div .right-btn-jd-btn-col {
+  right: -60px;
+  position: relative;
+}
+
+.job-desc-content-section .job-desc-content-div .job-desc-body-div .title-heading-icon-div {
+  @apply relative;
+}
+
+.job-desc-content-section .job-desc-content-div .job-desc-body-div .title-heading-icon-div .img-div {
+  @apply w-16;
+}
+
+.job-desc-content-section .job-desc-content-div .job-desc-body-div .title-heading-icon-div .img-div .rounded-full {
+  @apply bg-blue h-16 w-16 flex flex-wrap items-center justify-center;
+}
+
+.job-desc-content-section .job-desc-content-div .job-desc-body-div .title-heading-icon-div .right-title-div {
+  width: calc(100% - 64px);
+  @apply pl-6;
+}
+
+.job-desc-content-section .job-desc-content-div .job-desc-body-div .text-color01 {
+  color: #232529;
+}
+
+.job-desc-content-section .job-desc-content-div .job-desc-body-div .text-color02 {
+  @apply text-blue-dark;
+}
+
+.job-desc-content-section .job-desc-content-div .job-desc-body-div .fs-28 {
+  font-size: 28px;
+}
+
+.job-desc-content-section .job-desc-content-div .job-desc-body-div .font-400 {
+  @apply font-normal;
+}
+
+@media (max-width: 767px) {
+  .jd-banner-section .jd-banner-div {
+    padding: 60px 0 110px 0;
+  }
+  .job-desc-content-section .job-desc-content-div {
+    padding: 30px 20px;
+    top: -80px;
+    margin-bottom: -80px;
+  }
+  .job-desc-content-section .job-desc-content-div .job-desc-top-div {
+    margin: 0 0 40px 0;
+  }
+  .job-desc-content-section .job-desc-content-div .job-desc-top-div .right-btn-jd-btn-col {
+    @apply right-0 mt-7;
+  }
+  .job-desc-content-section .job-desc-content-div .job-desc-body-div .title-heading-icon-div .img-div {
+    @apply w-10;
+  }
+  .job-desc-content-section .job-desc-content-div .job-desc-body-div .title-heading-icon-div .img-div .rounded-full {
+    @apply h-10 w-10;
+  }
+  .job-desc-content-section .job-desc-content-div .job-desc-body-div .title-heading-icon-div .img-div .rounded-full .img-fluid {
+    max-width: 20px;
+  }
+  .job-desc-content-section .job-desc-content-div .job-desc-body-div .title-heading-icon-div .right-title-div {
+    width: calc(100% - 40px);
+    @apply pl-3;
+  }
+  .job-desc-content-section .job-desc-content-div .job-desc-body-div .mb-6 {
+    margin-bottom: 24px;
+  }
+  .job-desc-content-section .job-desc-content-div .job-desc-body-div .mb-3 {
+    margin-bottom: 12px;
+  }
+  .job-desc-content-section .job-desc-content-div .job-desc-body-div .fs-28 {
+    font-size: 20px;
+  }
+  .job-desc-content-section .job-desc-content-div .job-desc-body-div p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .jd-banner-section .jd-banner-div {
+    padding: 60px 0 110px 0;
+  }
+  .job-desc-content-section .job-desc-content-div {
+    padding: 40px 40px;
+    top: -80px;
+    margin-bottom: -80px;
+  }
+  .job-desc-content-section .job-desc-content-div .job-desc-top-div {
+    margin: 0 0 32px 0;
+  }
+  .job-desc-content-section .job-desc-content-div .job-desc-top-div .right-btn-jd-btn-col {
+    @apply right-0;
+  }
+  .job-desc-content-section .job-desc-content-div .job-desc-body-div .fs-28 {
+    font-size: 22px;
+  }
+  .job-desc-content-section .job-desc-content-div .job-desc-body-div p {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=job-description-style.css.map */

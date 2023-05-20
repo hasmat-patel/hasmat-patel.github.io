@@ -1,0 +1,72 @@
+
+/* Scroll tab default css*/
+
+.ui-scroll-tabs-view {
+    z-index: 1;
+    overflow: hidden;
+    padding: 0 45px 0 45px;
+  }
+
+  .ui-scroll-tabs-view .ui-widget-header {
+    border: none;
+    background: transparent;
+  }
+  
+  .ui-scroll-tabs-header {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .ui-scroll-tabs-header .stNavMain {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    height: 100%;
+    opacity: 0;
+    transition: left .5s, right .5s, opacity .8s;
+    transition-timing-function: swing;
+  }
+  li.nav-item.ui-tabs-tab.ui-tab.ui-tabs-active a { color: #5AB9E9; border-color: #5AB9E9; }
+  .ui-scroll-tabs-header .stNavMain button { height: 100%; }
+  
+  .ui-scroll-tabs-header .stNavMainLeft { left: 0px; opacity: 1; }
+  .ui-scroll-tabs-header .stNavMainLeft button{ color: rgba(31, 32, 39, 0.4) !important; }
+  
+  .ui-scroll-tabs-header .stNavMainLeft.stNavVisible {
+    left: 0;
+    opacity: 1;
+  }
+  .ui-scroll-tabs-header .stNavMainLeft.stNavVisible button{     color: rgba(31, 32, 39, 1) !important; }
+  
+  .ui-scroll-tabs-header .stNavMainRight { right: -250px; }
+  
+  .ui-scroll-tabs-header .stNavMainRight.stNavVisible {
+    right: 0;
+    opacity: 1;
+  }
+  
+  .ui-scroll-tabs-header ul.ui-tabs-nav {
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  .ui-scroll-tabs-header ul.ui-tabs-nav li {
+    display: inline-block;
+    float: none;
+  }
+  
+  .ui-scroll-tabs-header ul.ui-tabs-nav li.stHasCloseBtn a { padding-right: 0.5em; }
+  
+  .ui-scroll-tabs-header ul.ui-tabs-nav li span.stCloseBtn {
+    float: left;
+    padding: 4px 2px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  @media screen and (max-width:767px){
+    .nav-scroll-container .ui-scroll-tabs-header .stNavMain button { height: 43px; width: 40px;}
+    .ui-scroll-tabs-view { padding: 0 40px 0 40px; }
+    
+  }

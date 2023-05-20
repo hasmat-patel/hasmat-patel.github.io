@@ -1,0 +1,1010 @@
+.main-half-banner-section {
+  padding: 100px 0 0 0;
+  min-height: 750px;
+  z-index: 999;
+  margin: 0px;
+  position: relative;
+}
+
+.main-half-banner-section .half-banner-div {
+  padding: 70px 0;
+  z-index: 99;
+  height: 100%;
+  margin: 0px;
+  position: relative;
+}
+
+.main-half-banner-section .half-banner-div.auto-refinance-banner-img-01 {
+  background: #fff url(../images/background/auto-refinance-banner02.svg) no-repeat;
+  background-size: 900px;
+  background-position: calc(100% - 50px) center;
+}
+
+.main-half-banner-section .half-banner-div.auto-refinance-banner-img-02 {
+  background: #fff url(../images/background/auto-lease-purchase-banner01.svg) no-repeat;
+  background-size: contain;
+  background-position: 100% 0;
+}
+
+.main-half-banner-section .half-banner-div.auto-refinance-banner-img-03 {
+  background: #fff url(../images/background/auto-lease-purchase-banner02.svg) no-repeat;
+  background-size: 900px;
+  background-position: calc(100% - 50px) center;
+}
+
+.main-half-banner-section .content-banner-root {
+  padding: 60px 0 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  position: relative;
+  width: 100%;
+}
+
+.main-half-banner-section .content-banner-root .text-content {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 600px;
+}
+
+.main-half-banner-section .content-banner-root .text-content h4 {
+  font-size: 21px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  margin: 0 0 5px 0;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(82, 48, 162, var(--tw-text-opacity));
+  text-transform: uppercase;
+}
+
+.main-half-banner-section .content-banner-root .text-content h1 {
+  font-size: 58px;
+  line-height: 1.3;
+  margin: 0 0 5px 0;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgba(24, 26, 29, var(--tw-text-opacity));
+}
+
+.main-half-banner-section .content-banner-root .text-content h1 .span-color {
+  display: block;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(68, 224, 183, var(--tw-text-opacity));
+}
+
+.main-half-banner-section .content-banner-root .text-content p {
+  font-size: 21px;
+  line-height: 35px;
+  margin: 0 0 10px 0;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgba(24, 26, 29, var(--tw-text-opacity));
+  font-style: normal;
+}
+
+.main-half-banner-section .content-banner-root .text-content .btn-div {
+  margin: 30px 0 0 0;
+  font-family: "Typo Grotesk", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.saving-today-section {
+  padding: 20px 0 40px 0;
+}
+
+.saving-today-section .heading-div {
+  max-width: 895px;
+  padding: 0 0 20px 0;
+  z-index: 2;
+  margin: 0 auto 15px auto;
+  position: relative;
+}
+
+.saving-today-section .heading-div h2 {
+  font-size: 36px;
+  line-height: 1.5;
+  margin: 0 0 15px 0;
+  position: relative;
+}
+
+.saving-today-section .saving-today-div {
+  padding: 110px 50px 85px 50px;
+  margin: 0 auto;
+  border-radius: 16px;
+  --tw-bg-opacity: 1;
+  background-color: rgba(249, 248, 251, var(--tw-bg-opacity));
+  position: relative;
+}
+
+.saving-today-section .saving-today-div::before {
+  content: "";
+  width: 31px;
+  height: 30px;
+  background: url("data:image/svg+xml,%3Csvg width='31' height='30' viewBox='0 0 31 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M29.9133 8.95273L10.898 29.4734C10.5145 29.8904 9.9471 30.0652 9.4068 29.9329C8.8665 29.8005 8.43402 29.3807 8.27007 28.8294L0.413422 2.58425C0.247561 2.03393 0.374289 1.43348 0.74655 1.00584C1.11881 0.578204 1.68101 0.387251 2.2244 0.503884L29.1031 6.24259C29.6567 6.36554 30.1033 6.78942 30.2712 7.35125C30.4392 7.91308 30.3023 8.52538 29.9133 8.95273Z' fill='%237F61CD'/%3E%3C/svg%3E%0A") no-repeat;
+  background-size: contain;
+  display: inline-block;
+  position: absolute;
+}
+
+.saving-today-section .saving-today-div::after {
+  content: "";
+  width: 61px;
+  height: 61px;
+  background: url("data:image/svg+xml,%3Csvg width='61' height='61' viewBox='0 0 61 61' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='61' height='59.9958' rx='29.9979' transform='matrix(-1 0 0 1 61 0.287598)' fill='%239FF3DD'/%3E%3C/svg%3E%0A") no-repeat;
+  background-size: contain;
+  display: inline-block;
+  position: absolute;
+}
+
+.saving-today-section .saving-today-div .saving-today-root::before {
+  content: "";
+  width: 74px;
+  height: 93px;
+  background: url("data:image/svg+xml,%3Csvg width='74' height='93' viewBox='0 0 74 93' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M39.4124 0.366943H67.0303C72.3893 0.366943 75.7412 6.10426 73.0517 10.6901L27.0284 89.3846C24.379 93.9308 17.7556 93.9705 15.0259 89.464L0.976113 66.1574C-0.308441 64.0134 -0.328551 61.3532 0.935931 59.1893L33.3911 3.78154C34.6355 1.67719 36.9236 0.366943 39.4124 0.366943Z' fill='%2344E0B7'/%3E%3C/svg%3E%0A") no-repeat;
+  background-size: contain;
+  display: inline-block;
+  position: absolute;
+}
+
+.saving-today-section .saving-today-div.saving-pattern-div01::before {
+  top: 60px;
+  right: 120px;
+}
+
+.saving-today-section .saving-today-div.saving-pattern-div01::after {
+  top: 180px;
+  left: 100px;
+}
+
+.saving-today-section .saving-today-div.saving-pattern-div01 .saving-today-root::before {
+  bottom: -22px;
+  right: 180px;
+}
+
+.saving-today-section .saving-today-div.saving-pattern-div02::before {
+  top: 60px;
+  left: 120px;
+}
+
+.saving-today-section .saving-today-div.saving-pattern-div02::after {
+  top: 180px;
+  right: 80px;
+}
+
+.saving-today-section .saving-today-div.saving-pattern-div02 .saving-today-root::before {
+  bottom: -22px;
+  left: 280px;
+}
+
+.saving-today-section .saving-today-div.saving-pattern-div03::before {
+  bottom: -15px;
+  left: 125px;
+}
+
+.saving-today-section .saving-today-div.saving-pattern-div03::after {
+  bottom: 105px;
+  right: 155px;
+}
+
+.saving-today-section .saving-today-div.saving-pattern-div03 .saving-today-root::before {
+  top: 105px;
+  left: 100px;
+  width: 44px;
+  height: 55px;
+  opacity: 0;
+}
+
+.saving-today-section .saving-today-div .center-container {
+  margin: 0 auto 30px auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.saving-today-section .card-custom-saving-today .card-custom-saving-today-inner {
+  padding: 10px;
+}
+
+.saving-today-section .card-custom-saving-today .card-custom-saving-today-inner .custom-list-ul {
+  z-index: 2;
+  position: relative;
+}
+
+.saving-today-section .card-custom-saving-today .card-custom-saving-today-inner .custom-list-ul li {
+  font-size: 18px;
+  line-height: 28px;
+  color: #181a1d;
+  padding: 0 0 0 27px;
+  margin: 0 0 10px 0;
+  display: block;
+  font-weight: 400;
+  position: relative;
+}
+
+.saving-today-section .card-custom-saving-today .card-custom-saving-today-inner .custom-list-ul li::before {
+  content: "";
+  height: 12px;
+  width: 12px;
+  border-radius: 40px;
+  top: 8px;
+  left: 2px;
+  --tw-bg-opacity: 1;
+  background-color: rgba(82, 48, 162, var(--tw-bg-opacity));
+  display: block;
+  position: absolute;
+}
+
+.saving-today-section .card-custom-saving-today .card-custom-saving-today-inner .title-div {
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+.saving-today-section .card-custom-saving-today .card-custom-saving-today-inner .title-div h3 {
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0 0 5px 0;
+  font-weight: 700;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(32, 10, 82, var(--tw-text-opacity));
+}
+
+.saving-today-section .card-custom-saving-today .card-custom-saving-today-inner .img-div {
+  min-height: 170px;
+  padding: 24px 0;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+.saving-today-section .card-custom-saving-today .card-custom-saving-today-inner .text-div {
+  margin-bottom: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+.saving-today-section .card-custom-saving-today .card-custom-saving-today-inner .text-div p {
+  font-size: 16px;
+  line-height: 27px;
+  margin: 0 0 10px 0;
+  display: block;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(57, 59, 63, var(--tw-text-opacity));
+}
+
+.saving-today-section .card-custom-saving-today .card-custom-saving-today-inner .text-div .link-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.saving-today-section .card-custom-saving-today .card-custom-saving-today-inner .text-div .link-div .link {
+  transition: all 0.8s;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(68, 224, 183, var(--tw-text-opacity));
+}
+
+.saving-today-section .card-custom-saving-today .card-custom-saving-today-inner .text-div .link-div .link:hover {
+  --tw-text-opacity: 1;
+  color: rgba(79, 81, 84, var(--tw-text-opacity));
+}
+
+.saving-today-section .btn-div {
+  z-index: 2;
+  position: relative;
+}
+
+.saving-today-section.saving-today-section-area-02 .heading-div {
+  padding: 0 0 50px 0;
+}
+
+.saving-today-section.saving-today-section-area-02 .heading-div p {
+  font-size: 21px;
+  line-height: 35px;
+  max-width: 715px;
+  margin: 0 auto;
+  display: block;
+  font-weight: 400;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(24, 26, 29, var(--tw-text-opacity));
+}
+
+.saving-today-section.saving-today-section-area-02 .saving-today-div {
+  padding-top: 85px;
+  padding-bottom: 20px;
+}
+
+.saving-today-section.saving-today-section-area-02 .saving-today-div.remove-pattern-div::before {
+  display: none;
+}
+
+.saving-today-section.saving-today-section-area-02 .saving-today-div.remove-pattern-div::after {
+  display: none;
+}
+
+.saving-today-section.saving-today-section-area-02 .saving-today-div.remove-pattern-div .saving-today-root::before {
+  display: none;
+}
+
+.vehicle-protection-plan-section {
+  padding: 90px 0 40px 0;
+  margin: 0px;
+  position: relative;
+}
+
+.vehicle-protection-plan-section .heading-div {
+  max-width: 720px;
+  padding: 0 0 20px 0;
+}
+
+.vehicle-protection-plan-section .heading-div h2 {
+  font-size: 50px;
+  line-height: 1.3;
+  margin: 0 0 15px 0;
+  display: block;
+  font-weight: 400;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(24, 26, 29, var(--tw-text-opacity));
+}
+
+.vehicle-protection-plan-section .heading-div p {
+  font-size: 21px;
+  line-height: 1.4;
+  display: block;
+  font-weight: 400;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(24, 26, 29, var(--tw-text-opacity));
+}
+
+.vehicle-protection-plan-section .card-custom-vehicle-plan {
+  position: relative;
+}
+
+.vehicle-protection-plan-section .card-custom-vehicle-plan .card-custom-vehicle-plan-inner {
+  margin: 0 0 20px 0;
+}
+
+.vehicle-protection-plan-section .card-custom-vehicle-plan .card-custom-vehicle-plan-inner .title-div {
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+.vehicle-protection-plan-section .card-custom-vehicle-plan .card-custom-vehicle-plan-inner .title-div h3 {
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0 0 5px 0;
+  font-weight: 700;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(32, 10, 82, var(--tw-text-opacity));
+}
+
+.vehicle-protection-plan-section .card-custom-vehicle-plan .card-custom-vehicle-plan-inner .img-div {
+  min-height: 170px;
+  padding: 24px 0;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+.vehicle-protection-plan-section .card-custom-vehicle-plan .card-custom-vehicle-plan-inner .text-div {
+  margin-bottom: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+.vehicle-protection-plan-section .card-custom-vehicle-plan .card-custom-vehicle-plan-inner .text-div p {
+  font-size: 16px;
+  line-height: 27px;
+  margin: 0 0 10px 0;
+  display: block;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(79, 81, 84, var(--tw-text-opacity));
+}
+
+.vehicle-protection-plan-section .card-custom-vehicle-plan .card-custom-vehicle-plan-inner .text-div .link-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.vehicle-protection-plan-section .card-custom-vehicle-plan .card-custom-vehicle-plan-inner .text-div .link-div .link {
+  transition: all 0.8s;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(68, 224, 183, var(--tw-text-opacity));
+}
+
+.vehicle-protection-plan-section .card-custom-vehicle-plan .card-custom-vehicle-plan-inner .text-div .link-div .link:hover {
+  --tw-text-opacity: 1;
+  color: rgba(79, 81, 84, var(--tw-text-opacity));
+}
+
+.vehicle-protection-plan-section .btn-div {
+  padding: 10px 0 0 0;
+  margin: 0px;
+}
+
+.rpsm-section {
+  padding: 100px 0 80px 0;
+  --tw-bg-opacity: 1;
+  background-color: rgba(249, 248, 251, var(--tw-bg-opacity));
+  margin: 0px;
+  position: relative;
+}
+
+.rpsm-section .heading-div {
+  max-width: 720px;
+  padding: 0 0 20px 0;
+}
+
+.rpsm-section .heading-div h2 {
+  font-size: 50px;
+  line-height: 1.3;
+  margin: 0 0 15px 0;
+  display: block;
+  font-weight: 400;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(24, 26, 29, var(--tw-text-opacity));
+}
+
+.rpsm-section .heading-div p {
+  font-size: 21px;
+  line-height: 1.4;
+  display: block;
+  font-weight: 400;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(24, 26, 29, var(--tw-text-opacity));
+}
+
+.rpsm-section .card-custom-rpsm {
+  position: relative;
+}
+
+.rpsm-section .card-custom-rpsm .card-custom-rpsm-inner {
+  margin: 0 0 20px 0;
+  border-radius: 16px;
+  padding: 32px;
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rpsm-section .card-custom-rpsm .card-custom-rpsm-inner .content-height-div {
+  min-height: 200px;
+}
+
+.rpsm-section .card-custom-rpsm .card-custom-rpsm-inner .title-div {
+  width: calc(100% - 250px);
+  padding: 0 20px 0 0;
+}
+
+.rpsm-section .card-custom-rpsm .card-custom-rpsm-inner .title-div h3 {
+  font-size: 25px;
+  line-height: 1.4;
+  margin: 0 0 15px 0;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(32, 10, 82, var(--tw-text-opacity));
+}
+
+.rpsm-section .card-custom-rpsm .card-custom-rpsm-inner .title-div p {
+  font-size: 16px;
+  line-height: 27px;
+  margin: 0 0 15px 0;
+  display: block;
+  --tw-text-opacity: 1;
+  color: rgba(79, 81, 84, var(--tw-text-opacity));
+}
+
+.rpsm-section .card-custom-rpsm .card-custom-rpsm-inner .title-div .link-div .link {
+  transition: all 0.8s;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  --tw-text-opacity: 1;
+  color: rgba(68, 224, 183, var(--tw-text-opacity));
+}
+
+.rpsm-section .card-custom-rpsm .card-custom-rpsm-inner .img-div {
+  width: 250px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.rpsm-section .card-custom-rpsm .card-custom-rpsm-inner .img-div .img-fluid {
+  -o-object-position: right;
+  object-position: right;
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .main-half-banner-section .half-banner-div.auto-refinance-banner-img-01 {
+    background-position: right center;
+    background-size: 800px;
+  }
+
+  .main-half-banner-section .half-banner-div.auto-refinance-banner-img-02 {
+    background-position: 115% 0;
+  }
+
+  .main-half-banner-section .half-banner-div.auto-refinance-banner-img-03 {
+    background-position: 125% center;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) and (min-width: 1025px) and (max-width: 1290px) {
+  .main-half-banner-section .half-banner-div.auto-refinance-banner-img-01 {
+    background-position: right center;
+    background-size: 700px;
+  }
+
+  .main-half-banner-section .half-banner-div.auto-refinance-banner-img-02 {
+    background-position: 115% 25%;
+    background-size: 60%;
+  }
+
+  .main-half-banner-section .half-banner-div.auto-refinance-banner-img-03 {
+    background-position: 125% center;
+    background-size: 65%;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-half-banner-section {
+    padding: 70px 0 0 0;
+    min-height: 580px;
+  }
+
+  .main-half-banner-section .half-banner-div {
+    padding: 0;
+    margin: 0;
+    min-height: calc(100vh - 70px);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 330px;
+  }
+
+  .main-half-banner-section .half-banner-div.auto-refinance-banner-img-01 {
+    background-position: -15px calc(100% - 50px);
+    background-size: 420px;
+  }
+
+  .main-half-banner-section .half-banner-div.auto-refinance-banner-img-02 {
+    background-position: 0 calc(100% - 50px);
+  }
+
+  .main-half-banner-section .half-banner-div.auto-refinance-banner-img-03 {
+    background-position: 80% calc(100% - 0%);
+    background-size: 140%;
+  }
+
+  .main-half-banner-section .half-banner-div.auto-refinance-banner-img-03 .btn-primary.btn-primary-big {
+    font-size: 14px;
+  }
+
+  .main-half-banner-section .half-banner-div.auto-refinance-banner-img-03 .content-banner-root .text-content h1 {
+    font-size: 34px;
+  }
+
+  .main-half-banner-section .content-banner-root {
+    padding: 50px 0 20px 0;
+    min-height: calc(100vh - 400px);
+  }
+
+  .main-half-banner-section .content-banner-root .text-content {
+    padding: 0 8px;
+    text-align: center;
+  }
+
+  .main-half-banner-section .content-banner-root .text-content h4 {
+    font-size: 14px;
+    margin: 0 0 10px 0;
+  }
+
+  .main-half-banner-section .content-banner-root .text-content h1 {
+    font-size: 36px;
+    margin: 0 0 10px 0;
+  }
+
+  .main-half-banner-section .content-banner-root .text-content h1 .span-color {
+    display: inline-block;
+  }
+
+  .main-half-banner-section .content-banner-root .text-content p {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+  }
+
+  .main-half-banner-section .content-banner-root .text-content .btn-div {
+    justify-content: center;
+  }
+
+  .saving-today-section {
+    padding: 20px 0 0 0;
+  }
+
+  .saving-today-section .container {
+    padding: 0px;
+  }
+
+  .saving-today-section .saving-today-div {
+    padding: 70px 20px 85px 20px;
+  }
+
+  .saving-today-section .saving-today-div::before {
+    display: none;
+  }
+
+  .saving-today-section .saving-today-div::after {
+    display: none;
+  }
+
+  .saving-today-section .saving-today-div .saving-today-root::before {
+    display: none;
+  }
+
+  .saving-today-section .heading-div {
+    padding: 0 0 10px 0;
+  }
+
+  .saving-today-section .heading-div h2 {
+    font-size: 30px;
+  }
+
+  .saving-today-section .card-custom-saving-today .card-custom-saving-today-inner {
+    padding: 0 0 20px 0;
+  }
+
+  .saving-today-section.saving-today-section-area-02 .heading-div {
+    padding: 0 0 40px 0;
+  }
+
+  .saving-today-section.saving-today-section-area-02 .heading-div p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .vehicle-protection-plan-section {
+    padding: 70px 0 0 0;
+  }
+
+  .vehicle-protection-plan-section .heading-div {
+    margin-bottom: 20px;
+  }
+
+  .vehicle-protection-plan-section .heading-div h2 {
+    font-size: 30px;
+    margin: 0 0 15px 0;
+  }
+
+  .vehicle-protection-plan-section .heading-div p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .vehicle-protection-plan-section .card-custom-vehicle-plan {
+    position: relative;
+  }
+
+  .vehicle-protection-plan-section .card-custom-vehicle-plan .card-custom-vehicle-plan-inner {
+    padding: 4px 4px 4px 4px;
+    margin: 0px;
+  }
+
+  .vehicle-protection-plan-section .card-custom-vehicle-plan .card-custom-vehicle-plan-inner .img-div {
+    padding: 14px 0 24px 0;
+  }
+
+  .rpsm-section {
+    padding: 70px 0 60px 0;
+  }
+
+  .rpsm-section .heading-div {
+    padding: 0px;
+  }
+
+  .rpsm-section .heading-div h2 {
+    font-size: 28px;
+  }
+
+  .rpsm-section .heading-div p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .rpsm-section .card-custom-rpsm .card-custom-rpsm-inner {
+    padding: 40px 20px;
+    justify-content: center;
+    margin: 0px;
+  }
+
+  .rpsm-section .card-custom-rpsm .card-custom-rpsm-inner .content-height-div {
+    min-height: 145px;
+  }
+
+  .rpsm-section .card-custom-rpsm .card-custom-rpsm-inner .title-div {
+    padding: 0 0 30px 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .rpsm-section .card-custom-rpsm .card-custom-rpsm-inner .img-div {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main-half-banner-section {
+    padding: 70px 0 0 0;
+    min-height: 580px;
+  }
+
+  .main-half-banner-section .half-banner-div.auto-refinance-banner-img-01 {
+    background-size: 60%;
+    background-position: center right;
+  }
+
+  .main-half-banner-section .half-banner-div.auto-refinance-banner-img-02 {
+    background-size: 60%;
+    background-position: 110% 75px;
+  }
+
+  .main-half-banner-section .half-banner-div.auto-refinance-banner-img-03 {
+    background-size: 68%;
+    background-position: 125% 95px;
+  }
+
+  .main-half-banner-section .content-banner-root {
+    padding: 50px 0 20px 0;
+  }
+
+  .main-half-banner-section .content-banner-root .text-content {
+    padding: 0 8px;
+    max-width: 370px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  .main-half-banner-section .content-banner-root .text-content h4 {
+    font-size: 14px;
+    margin: 0 0 10px 0;
+  }
+
+  .main-half-banner-section .content-banner-root .text-content h1 {
+    font-size: 36px;
+    margin: 0 0 10px 0;
+  }
+
+  .main-half-banner-section .content-banner-root .text-content h1 .span-color {
+    display: inline-block;
+  }
+
+  .main-half-banner-section .content-banner-root .text-content p {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+  }
+
+  .saving-today-section .heading-div {
+    max-width: 550px;
+  }
+
+  .saving-today-section .heading-div h2 {
+    font-size: 24px;
+  }
+
+  .saving-today-section .saving-today-div {
+    padding: 90px 24px 75px 24px;
+  }
+
+  .saving-today-section .saving-today-div::before {
+    width: 20px;
+    height: 21px;
+  }
+
+  .saving-today-section .saving-today-div::after {
+    width: 36px;
+    height: 36px;
+  }
+
+  .saving-today-section .saving-today-div .saving-today-root::before {
+    width: 52px;
+    height: 72px;
+  }
+
+  .saving-today-section .saving-today-div.saving-pattern-div01::before {
+    top: 55px;
+    right: 90px;
+  }
+
+  .saving-today-section .saving-today-div.saving-pattern-div01::after {
+    top: 150px;
+    left: 60px;
+  }
+
+  .saving-today-section .saving-today-div.saving-pattern-div01 .saving-today-root::before {
+    bottom: -22px;
+    right: 140px;
+  }
+
+  .saving-today-section .saving-today-div.saving-pattern-div02::before {
+    top: 55px;
+    left: 60px;
+  }
+
+  .saving-today-section .saving-today-div.saving-pattern-div02::after {
+    top: 150px;
+    right: 60px;
+  }
+
+  .saving-today-section .saving-today-div.saving-pattern-div02 .saving-today-root::before {
+    bottom: -22px;
+    left: 140px;
+  }
+
+  .saving-today-section .saving-today-div.saving-pattern-div03::before {
+    bottom: -10px;
+    left: 85px;
+  }
+
+  .saving-today-section .saving-today-div.saving-pattern-div03::after {
+    bottom: 70px;
+    right: 40px;
+  }
+
+  .saving-today-section .saving-today-div.saving-pattern-div03 .saving-today-root::before {
+    top: 75px;
+    left: 40px;
+    width: 44px;
+    height: 55px;
+  }
+
+  .saving-today-section .card-custom-saving-today .card-custom-saving-today-inner {
+    padding: 0px;
+  }
+
+  .saving-today-section .card-custom-saving-today .card-custom-saving-today-inner .custom-list-ul li {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0 0 0 22px;
+  }
+
+  .saving-today-section .card-custom-saving-today .card-custom-saving-today-inner .custom-list-ul li::before {
+    height: 8px;
+    width: 8px;
+  }
+
+  .saving-today-section .card-custom-saving-today .card-custom-saving-today-inner .title-div h3 {
+    font-size: 18px;
+    min-height: 50px;
+  }
+
+  .saving-today-section .card-custom-saving-today .card-custom-saving-today-inner .title-div p {
+    font-size: 14px;
+  }
+
+  .saving-today-section .card-custom-saving-today .card-custom-saving-today-inner .img-div {
+    min-height: 140px;
+    padding: 0 0 15px 0;
+  }
+
+  .saving-today-section .card-custom-saving-today .card-custom-saving-today-inner .img-div .object-contain {
+    width: 140px;
+    height: 80px;
+  }
+
+  .saving-today-section .card-custom-saving-today .card-custom-saving-today-inner .text-div p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .saving-today-section.saving-today-section-area-02 .heading-div {
+    padding: 0 0 40px 0;
+  }
+
+  .saving-today-section.saving-today-section-area-02 .heading-div p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .vehicle-protection-plan-section {
+    padding: 70px 0 30px 0;
+  }
+
+  .vehicle-protection-plan-section .heading-div {
+    margin-bottom: 30px;
+    max-width: 500px;
+  }
+
+  .vehicle-protection-plan-section .heading-div h2 {
+    font-size: 30px;
+    margin: 0 0 15px 0;
+  }
+
+  .vehicle-protection-plan-section .heading-div p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .vehicle-protection-plan-section .card-custom-vehicle-plan {
+    position: relative;
+  }
+
+  .vehicle-protection-plan-section .card-custom-vehicle-plan .card-custom-vehicle-plan-inner .title-div h3 {
+    font-size: 18px;
+  }
+
+  .vehicle-protection-plan-section .card-custom-vehicle-plan .card-custom-vehicle-plan-inner .title-div p {
+    font-size: 14px;
+  }
+
+  .vehicle-protection-plan-section .card-custom-vehicle-plan .card-custom-vehicle-plan-inner .img-div {
+    min-height: 140px;
+    padding: 0 0 15px 0;
+  }
+
+  .vehicle-protection-plan-section .card-custom-vehicle-plan .card-custom-vehicle-plan-inner .img-div .object-contain {
+    width: 140px;
+    height: 80px;
+  }
+
+  .rpsm-section {
+    padding: 70px 0 60px 0;
+  }
+
+  .rpsm-section .heading-div {
+    padding: 0;
+    max-width: 500px;
+  }
+
+  .rpsm-section .heading-div h2 {
+    font-size: 28px;
+  }
+
+  .rpsm-section .heading-div p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .rpsm-section .card-custom-rpsm .card-custom-rpsm-inner {
+    padding: 40px 20px;
+    justify-content: center;
+    margin: 0px;
+  }
+
+  .rpsm-section .card-custom-rpsm .card-custom-rpsm-inner .content-height-div {
+    min-height: 145px;
+  }
+
+  .rpsm-section .card-custom-rpsm .card-custom-rpsm-inner .title-div {
+    padding: 0 0 30px 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .rpsm-section .card-custom-rpsm .card-custom-rpsm-inner .img-div {
+    justify-content: center;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=auto-refine-lease-style.css.map */

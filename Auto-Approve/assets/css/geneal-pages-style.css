@@ -1,0 +1,124 @@
+.general-main-section {
+  margin: 0px;
+  position: relative;
+}
+
+.general-main-section .general-main-div {
+  padding: 70px 0 40px 0;
+  margin: 0px;
+  position: relative;
+}
+
+.general-main-section .general-main-div .max-930px {
+  max-width: 930px;
+}
+
+.general-main-section .general-main-div .heading-div {
+  margin: 0 0 50px 0;
+  padding: 0px;
+  position: relative;
+}
+
+.general-main-section .general-main-div .heading-div h1 {
+  font-size: 60px;
+  line-height: 75px;
+  margin: 0 0 15px 0;
+  display: block;
+  font-weight: 400;
+  padding: 0px;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(24, 26, 29, var(--tw-text-opacity));
+}
+
+.general-main-section .general-main-div .heading-div p {
+  font-size: 18px;
+  line-height: 29px;
+  margin: 0 auto 20px auto;
+  max-width: 550px;
+  display: block;
+  font-weight: 700;
+  padding: 0px;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(57, 59, 63, var(--tw-text-opacity));
+}
+
+.general-main-root {
+  margin-bottom: 1.25rem;
+  padding: 1rem;
+  position: relative;
+}
+
+.general-main-root p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #232529;
+  font-weight: 400;
+}
+
+.general-main-root .text-color-01 {
+  color: #65676a;
+}
+
+.general-main-root h4 {
+  font-size: 28px;
+  line-height: 1.5;
+  color: #232529;
+  font-weight: 700;
+}
+
+.general-main-root ul li {
+  font-size: 18px;
+  line-height: 28px;
+  color: #232529;
+  margin: 0 0 16px 0;
+  padding: 0 0 0 35px;
+  font-weight: 400;
+  position: relative;
+}
+
+.general-main-root ul li::before {
+  content: "";
+  height: 5px;
+  width: 5px;
+  left: 15px;
+  top: 13px;
+  --tw-bg-opacity: 1;
+  background-color: rgba(68, 224, 183, var(--tw-bg-opacity));
+  border-radius: 9999px;
+  display: inline-block;
+  position: absolute;
+}
+
+@media (max-width: 767px) {
+  .general-main-section .general-main-div .heading-div h1 {
+    font-size: 36px;
+    line-height: 1.5;
+  }
+
+  .general-main-section .general-main-div .heading-div p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .general-main-root {
+    padding: 0px;
+  }
+
+  .general-main-root p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .general-main-root ul li {
+    font-size: 16px;
+    line-height: 27px;
+    padding: 0 0 0 25px;
+  }
+
+  .general-main-root ul li::before {
+    left: 6px;
+  }
+}
+/*# sourceMappingURL=geneal-pages-style.css.map */

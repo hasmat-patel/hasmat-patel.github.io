@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="531px" height="183px" viewBox="0 0 531 183" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 19</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0.767719898" width="157" height="45" rx="22.5"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-193.000000, -474.000000)">
+            <g id="Group-19" transform="translate(193.000000, 463.000000)">
+                <g id="Group-12">
+                    <text id="Explore-Experience-E-Copy" font-family="PTSerif-Caption, PT Serif Caption" font-size="40" font-weight="normal" fill="#FFFAF1">
+                        <tspan x="0" y="41">Explore Experience Enjoy</tspan>
+                    </text>
+                    <text id="Lorem-ipsum-dolor-si" opacity="0.589773996" font-family="Rubik-Light, Rubik Light" font-size="16" font-weight="normal" line-spacing="24" fill="#FFF8EB">
+                        <tspan x="0" y="95">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce metus orci, </tspan>
+                        <tspan x="0" y="119">faucibus efficitur egestas a, interdum id arcu. Vivamus congue sodales.</tspan>
+                    </text>
+                    <path d="M1,59.5 L511,59.5" id="Line" stroke="#E3C76B" stroke-width="2" stroke-linecap="square"></path>
+                </g>
+                <g id="Group-6-Copy" transform="translate(0.000000, 148.000000)">
+                    <g id="BT" opacity="0.480073475">
+                        <use fill="#71694E" fill-rule="evenodd" style="mix-blend-mode: multiply;" xlink:href="#path-1"></use>
+                        <rect stroke="#E3C76B" stroke-width="0.5" stroke-linejoin="square" x="0.25" y="1.0177199" width="156.5" height="44.5" rx="22.25"></rect>
+                    </g>
+                    <text id="Visit-Us" font-family="Rubik-Medium, Rubik Medium" font-size="14" font-weight="normal" line-spacing="16" fill="#E3C76B">
+                        <tspan x="30" y="29">Visit Us</tspan>
+                    </text>
+                </g>
+                <polygon id="Shape" fill="#E3C76B" fill-rule="nonzero" points="123.01 171 111 171 111 173 123.01 173 123.01 176 127 172 123.01 168"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

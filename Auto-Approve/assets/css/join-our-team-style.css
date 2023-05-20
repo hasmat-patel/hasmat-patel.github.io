@@ -1,0 +1,764 @@
+.main-half-banner-our-team-section {
+  padding: 100px 0 0 0;
+  min-height: 750px;
+  z-index: 999;
+  margin: 0px;
+  position: relative;
+}
+
+.main-half-banner-our-team-section .half-banner-our-team-div {
+  padding: 70px 0;
+  z-index: 99;
+  height: 100%;
+  margin: 0px;
+  position: relative;
+}
+
+.main-half-banner-our-team-section .half-banner-our-team-div.our-team-bg-01 {
+  background: #fff url(../images/background/join-our-team-bg.svg) no-repeat;
+  background-size: 550px;
+  background-position: calc(100% - 25%) 75px;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+}
+
+.main-half-banner-our-team-section .content-banner-root {
+  padding: 60px 0 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  position: relative;
+  width: 100%;
+}
+
+.main-half-banner-our-team-section .content-banner-root .text-content {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 600px;
+}
+
+.main-half-banner-our-team-section .content-banner-root .text-content h4 {
+  font-size: 21px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  margin: 0 0 5px 0;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(82, 48, 162, var(--tw-text-opacity));
+  text-transform: uppercase;
+}
+
+.main-half-banner-our-team-section .content-banner-root .text-content h1 {
+  font-size: 58px;
+  line-height: 1.3;
+  margin: 0 0 5px 0;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgba(24, 26, 29, var(--tw-text-opacity));
+}
+
+.main-half-banner-our-team-section .content-banner-root .text-content h1 .span-color {
+  display: block;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(68, 224, 183, var(--tw-text-opacity));
+}
+
+.main-half-banner-our-team-section .content-banner-root .text-content p {
+  font-size: 21px;
+  line-height: 35px;
+  margin: 0 0 10px 0;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgba(24, 26, 29, var(--tw-text-opacity));
+  font-style: normal;
+}
+
+.our-team-section {
+  margin: 0 0 40px 0;
+  padding: 0px;
+}
+
+.our-team-section .heading-div {
+  padding: 0 0 15px 0;
+  z-index: 2;
+  margin: 0 auto;
+  position: relative;
+}
+
+.our-team-section .heading-div h2 {
+  font-size: 50px;
+  line-height: 1.5;
+  margin: 0 0 15px 0;
+  position: relative;
+}
+
+.our-team-section .our-team-div {
+  padding: 65px 0 35px 0;
+  margin: 0 auto;
+  --tw-bg-opacity: 1;
+  background-color: rgba(249, 248, 251, var(--tw-bg-opacity));
+  position: relative;
+}
+
+.our-team-section .our-team-div::before {
+  content: "";
+  width: 31px;
+  height: 30px;
+  background: url("data:image/svg+xml,%3Csvg width='31' height='30' viewBox='0 0 31 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M29.9133 8.95273L10.898 29.4734C10.5145 29.8904 9.9471 30.0652 9.4068 29.9329C8.8665 29.8005 8.43402 29.3807 8.27007 28.8294L0.413422 2.58425C0.247561 2.03393 0.374289 1.43348 0.74655 1.00584C1.11881 0.578204 1.68101 0.387251 2.2244 0.503884L29.1031 6.24259C29.6567 6.36554 30.1033 6.78942 30.2712 7.35125C30.4392 7.91308 30.3023 8.52538 29.9133 8.95273Z' fill='%237F61CD'/%3E%3C/svg%3E%0A") no-repeat;
+  background-size: contain;
+  display: inline-block;
+  position: absolute;
+}
+
+.our-team-section .our-team-div::after {
+  content: "";
+  width: 61px;
+  height: 61px;
+  background: url("data:image/svg+xml,%3Csvg width='61' height='61' viewBox='0 0 61 61' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='61' height='59.9958' rx='29.9979' transform='matrix(-1 0 0 1 61 0.287598)' fill='%239FF3DD'/%3E%3C/svg%3E%0A") no-repeat;
+  background-size: contain;
+  display: inline-block;
+  position: absolute;
+}
+
+.our-team-section .our-team-div .our-team-root::before {
+  content: "";
+  width: 50px;
+  height: 62px;
+  background: url("data:image/svg+xml,%3Csvg width='74' height='93' viewBox='0 0 74 93' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M39.4124 0.366943H67.0303C72.3893 0.366943 75.7412 6.10426 73.0517 10.6901L27.0284 89.3846C24.379 93.9308 17.7556 93.9705 15.0259 89.464L0.976113 66.1574C-0.308441 64.0134 -0.328551 61.3532 0.935931 59.1893L33.3911 3.78154C34.6355 1.67719 36.9236 0.366943 39.4124 0.366943Z' fill='%2344E0B7'/%3E%3C/svg%3E%0A") no-repeat;
+  background-size: contain;
+  display: inline-block;
+  position: absolute;
+}
+
+.our-team-section .our-team-div.team-pattern-div01::before {
+  top: -15px;
+  left: 20%;
+  z-index: 3333;
+}
+
+.our-team-section .our-team-div.team-pattern-div01::after {
+  bottom: 105px;
+  right: 115px;
+}
+
+.our-team-section .our-team-div.team-pattern-div01 .our-team-root::before {
+  bottom: -28px;
+  left: 110px;
+}
+
+.our-team-section .our-team-div .center-container {
+  margin: 0 auto 30px auto;
+  max-width: 950px;
+  padding: 1rem;
+  width: 100%;
+}
+
+.our-team-section .our-team-div .center-container .center-text-div p {
+  font-size: 16px;
+  line-height: 27px;
+  word-break: break-word;
+  margin: 0 0 25px 0;
+  display: block;
+  font-weight: 400;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(24, 26, 29, var(--tw-text-opacity));
+}
+
+.open-roles-section {
+  padding: 60px 0;
+  margin: 0px;
+  position: relative;
+  width: 100%;
+}
+
+.open-roles-section .container-customize {
+  max-width: 1310px;
+}
+
+.open-roles-section .open-roles-div {
+  margin: 0px;
+  position: relative;
+  width: 100%;
+}
+
+.open-roles-section .open-roles-div .heading-div {
+  margin: 0 auto 80px auto;
+  position: relative;
+  width: 100%;
+}
+
+.open-roles-section .open-roles-div .heading-div h2 {
+  font-size: 50px;
+  line-height: 1.3;
+  margin: 0 0 15px 0;
+  display: block;
+  font-weight: 400;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(24, 26, 29, var(--tw-text-opacity));
+}
+
+.open-roles-section .open-roles-div .card-custom-open-roles {
+  margin-bottom: 3.5rem;
+  position: relative;
+}
+
+.open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 0px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  position: relative;
+}
+
+.open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .img-div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  position: relative;
+  width: 105px;
+}
+
+.open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .img-div .rounded-full {
+  height: 105px;
+  width: 105px;
+  --tw-bg-opacity: 1;
+  background-color: rgba(249, 248, 251, var(--tw-bg-opacity));
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .img-div .rounded-full .img-fluid {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .right-title-div {
+  width: calc(100% - 105px);
+  padding: 0 0 0 40px;
+}
+
+.open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .right-title-div h4 {
+  font-size: 21px;
+  line-height: 28px;
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  padding: 0px;
+  --tw-text-opacity: 1;
+  color: rgba(24, 26, 29, var(--tw-text-opacity));
+}
+
+.open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .right-title-div p {
+  font-size: 18px;
+  line-height: 28px;
+  display: block;
+  margin-bottom: 0.75rem;
+  padding: 0px;
+  --tw-text-opacity: 1;
+  color: rgba(24, 26, 29, var(--tw-text-opacity));
+}
+
+.open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .right-title-div .bottom-or-div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+}
+
+.open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .right-title-div .bottom-or-div .bottom-or-left-div {
+  width: calc(100% - 140px);
+}
+
+.open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .right-title-div .bottom-or-div .bottom-or-left-div p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #65676a;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .right-title-div .bottom-or-div .bottom-or-left-div p span.icon-span {
+  width: 22px;
+  padding: 0 6px 0 0;
+  display: flex;
+}
+
+.open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .right-title-div .bottom-or-div .bottom-or-left-div p .txt {
+  width: calc(100% - 22px);
+}
+
+.open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .right-title-div .bottom-or-div .bottom-or-right-div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .right-title-div .bottom-or-div .bottom-or-right-div .link-read {
+  line-height: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .right-title-div .bottom-or-div .bottom-or-right-div .link-read .right-blue {
+  margin-left: 0.75rem;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-rotate: 0deg;
+}
+
+.get-in-touch-section .get-in-touch-div {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+.get-in-touch-section .get-in-touch-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+}
+
+.get-in-touch-section .get-in-touch-row .get-in-touch-left {
+  padding: 100px 80px;
+  width: calc(100% - 590px);
+  --tw-bg-opacity: 1;
+  background-color: rgba(82, 48, 162, var(--tw-bg-opacity));
+  position: relative;
+}
+
+.get-in-touch-section .get-in-touch-row .get-in-touch-left .get-form-main-root {
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.get-in-touch-section .get-in-touch-row .get-in-touch-left .get-form-main-root .header-txt-div {
+  margin-bottom: 3rem;
+  padding: 0px;
+  position: relative;
+}
+
+.get-in-touch-section .get-in-touch-row .get-in-touch-left .get-form-main-root .header-txt-div h1 {
+  font-size: 50px;
+  line-height: 68px;
+  margin: 0 0 20px 0;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.get-in-touch-section .get-in-touch-row .get-in-touch-right {
+  width: 590px;
+  position: relative;
+}
+
+.get-in-touch-section .get-in-touch-row .get-in-touch-right .map-div-root {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+.get-in-touch-section .get-in-touch-row .get-in-touch-right .map-div-root .map-card-box {
+  top: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+}
+
+.get-in-touch-section .get-in-touch-row .get-in-touch-right .map-div-root .map-card-box .map-card-box-inner {
+  border-radius: 8px;
+  z-index: 3;
+  margin: 0 auto;
+  max-width: 345px;
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  padding: 2.5rem;
+}
+
+.get-in-touch-section .get-in-touch-row .get-in-touch-right .map-div-root .map-card-box .map-card-box-inner h4 {
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(24, 26, 29, var(--tw-text-opacity));
+}
+
+.get-in-touch-section .get-in-touch-row .get-in-touch-right .map-div-root .map-card-box .map-card-box-inner p {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(57, 59, 63, var(--tw-text-opacity));
+}
+
+.get-in-touch-section .get-in-touch-row .get-in-touch-right .map-div-root .map-div-frame {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.get-in-touch-section .get-in-touch-row .get-in-touch-right .map-div-root .map-div-frame .custom-outside-map {
+  height: 100%;
+  width: 100%;
+}
+
+.get-in-touch-section .get-in-touch-row .get-in-touch-right .map-div-root .map-div-frame .custom-outside-map .post-map.custom-map-canvas {
+  height: 100%;
+}
+
+.get-in-touch-section .get-in-touch-row .get-in-touch-right .map-div-root .map-div-frame .custom-outside-map .map {
+  min-height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .main-half-banner-our-team-section .half-banner-our-team-div.our-team-bg-01 {
+    background-size: 500px;
+    background-position: calc(100% - 25%) 90px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-half-banner-our-team-section {
+    padding: 70px 0 0 0;
+    min-height: 580px;
+  }
+
+  .main-half-banner-our-team-section .half-banner-our-team-div {
+    padding: 0;
+    margin: 0;
+    min-height: calc(100vh - 70px);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 330px;
+  }
+
+  .main-half-banner-our-team-section .half-banner-our-team-div.our-team-bg-01 {
+    background-position: center calc(100% - 36px);
+    background-size: 84%;
+    min-height: 568px;
+  }
+
+  .main-half-banner-our-team-section .content-banner-root {
+    padding: 50px 0 20px 0;
+    min-height: calc(100vh - 400px);
+  }
+
+  .main-half-banner-our-team-section .content-banner-root .text-content {
+    padding: 0 8px;
+    text-align: center;
+  }
+
+  .main-half-banner-our-team-section .content-banner-root .text-content h4 {
+    font-size: 14px;
+    margin: 0 0 10px 0;
+  }
+
+  .main-half-banner-our-team-section .content-banner-root .text-content h1 {
+    font-size: 36px;
+    margin: 0 0 10px 0;
+  }
+
+  .main-half-banner-our-team-section .content-banner-root .text-content h1 .span-color {
+    display: inline-block;
+  }
+
+  .main-half-banner-our-team-section .content-banner-root .text-content p {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+  }
+
+  .our-team-section {
+    padding: 20px 0 0 0;
+  }
+
+  .our-team-section .container {
+    padding: 0px;
+  }
+
+  .our-team-section .our-team-div {
+    padding: 60px 20px 45px 20px;
+  }
+
+  .our-team-section .our-team-div::before {
+    display: none;
+  }
+
+  .our-team-section .our-team-div::after {
+    display: none;
+  }
+
+  .our-team-section .our-team-div .our-team-root::before {
+    display: none;
+  }
+
+  .our-team-section .our-team-div .center-container {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .our-team-section .our-team-div .center-container .center-text-div p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 20px 0;
+  }
+
+  .our-team-section .heading-div {
+    padding: 0 0 10px 0;
+  }
+
+  .our-team-section .heading-div h2 {
+    font-size: 30px;
+  }
+
+  .open-roles-section {
+    padding: 40px 0 60px 0;
+  }
+
+  .open-roles-section .open-roles-div .heading-div {
+    margin: 0 auto 60px auto;
+  }
+
+  .open-roles-section .open-roles-div .heading-div h2 {
+    font-size: 30px;
+  }
+
+  .open-roles-section .open-roles-div .card-custom-open-roles {
+    margin-bottom: 2rem;
+  }
+
+  .open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner {
+    padding: 0px;
+  }
+
+  .open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .img-div {
+    margin: 0 0 20px 0;
+    width: 100%;
+  }
+
+  .open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .img-div .rounded-full {
+    height: 90px;
+    width: 90px;
+  }
+
+  .open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .img-div .rounded-full .img-fluid {
+    max-width: 40px;
+    max-height: 40px;
+  }
+
+  .open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .right-title-div {
+    padding: 0px;
+    width: 100%;
+  }
+
+  .open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .right-title-div h4 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .right-title-div p {
+    font-size: 14px;
+    line-height: 27px;
+  }
+
+  .get-in-touch-section .get-in-touch-row .get-in-touch-left {
+    padding: 70px 24px;
+    width: 100%;
+  }
+
+  .get-in-touch-section .get-in-touch-row .get-in-touch-left .get-form-main-root .header-txt-div {
+    margin-bottom: 0.5rem;
+  }
+
+  .get-in-touch-section .get-in-touch-row .get-in-touch-left .get-form-main-root .header-txt-div h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .get-in-touch-section .get-in-touch-row .get-in-touch-right {
+    width: 100%;
+  }
+
+  .get-in-touch-section .get-in-touch-row .get-in-touch-right .map-div-root .map-div-frame .custom-outside-map .map {
+    min-height: 600px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main-half-banner-our-team-section {
+    padding: 70px 0 0 0;
+    min-height: 520px;
+  }
+
+  .main-half-banner-our-team-section .half-banner-our-team-div.our-team-bg-01 {
+    background-size: 45%;
+    min-height: 450px;
+    background-position: 85% center;
+  }
+
+  .main-half-banner-our-team-section .content-banner-root {
+    padding: 50px 0 50px 0;
+  }
+
+  .main-half-banner-our-team-section .content-banner-root .text-content {
+    padding: 0 8px;
+    max-width: 370px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  .main-half-banner-our-team-section .content-banner-root .text-content h4 {
+    font-size: 14px;
+    margin: 0 0 10px 0;
+  }
+
+  .main-half-banner-our-team-section .content-banner-root .text-content h1 {
+    font-size: 36px;
+    margin: 0 0 10px 0;
+  }
+
+  .main-half-banner-our-team-section .content-banner-root .text-content h1 .span-color {
+    display: inline-block;
+  }
+
+  .main-half-banner-our-team-section .content-banner-root .text-content p {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+  }
+
+  .our-team-section .heading-div {
+    max-width: 550px;
+  }
+
+  .our-team-section .heading-div h2 {
+    font-size: 30px;
+  }
+
+  .our-team-section .our-team-div {
+    padding: 70px 24px 55px 24px;
+  }
+
+  .our-team-section .our-team-div.team-pattern-div01::before {
+    width: 24px;
+    top: -11px;
+    left: 10%;
+  }
+
+  .our-team-section .our-team-div.team-pattern-div01::after {
+    width: 36px;
+    height: 36px;
+    bottom: 30px;
+    right: 60px;
+  }
+
+  .our-team-section .our-team-div.team-pattern-div01 .our-team-root::before {
+    bottom: -20px;
+    left: 60px;
+    width: 35px;
+    height: 45px;
+  }
+
+  .our-team-section .our-team-div .center-container {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .open-roles-section .open-roles-div .card-custom-open-roles {
+    margin-bottom: 0.25rem;
+  }
+
+  .open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner {
+    padding: 1rem;
+  }
+
+  .open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .img-div {
+    width: 90px;
+  }
+
+  .open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .img-div .rounded-full {
+    height: 90px;
+    width: 90px;
+  }
+
+  .open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .img-div .rounded-full .img-fluid {
+    max-width: 40px;
+    max-height: 40px;
+  }
+
+  .open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .right-title-div {
+    width: calc(100% - 90px);
+    padding: 0 0 0 30px;
+  }
+
+  .open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .right-title-div h4 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .open-roles-section .open-roles-div .card-custom-open-roles .card-custom-open-roles-inner .right-title-div p {
+    font-size: 14px;
+    line-height: 27px;
+  }
+
+  .get-in-touch-section .get-in-touch-row .get-in-touch-left {
+    padding: 60px 40px;
+    width: calc(100% - 320px);
+  }
+
+  .get-in-touch-section .get-in-touch-row .get-in-touch-left .get-form-main-root .header-txt-div {
+    margin-bottom: 0.5rem;
+  }
+
+  .get-in-touch-section .get-in-touch-row .get-in-touch-left .get-form-main-root .header-txt-div h1 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .get-in-touch-section .get-in-touch-row .get-in-touch-right {
+    width: 320px;
+  }
+
+  .get-in-touch-section .get-in-touch-row .get-in-touch-right .map-div-root .map-card-box .map-card-box-inner {
+    max-width: 90%;
+    padding: 1.25rem;
+  }
+}
+/*# sourceMappingURL=join-our-team-style.css.map */

@@ -1,0 +1,206 @@
+.faq-main-section {
+  @apply m-0 relative;
+}
+
+.faq-main-section .faq-main-div {
+  padding: 70px 0 40px 0;
+  @apply m-0 relative;
+}
+
+.faq-main-section .faq-main-div .max-930px {
+  max-width: 930px;
+}
+
+.faq-main-section .faq-main-div .heading-div {
+  margin: 0 0 50px 0;
+  @apply p-0 relative;
+}
+
+.faq-main-section .faq-main-div .heading-div h1 {
+  font-size: 60px;
+  line-height: 75px;
+  margin: 0 0 30px 0;
+  @apply font-normal text-custom-color2 p-0 block text-center;
+}
+
+.faq-main-section .faq-main-div .heading-div p {
+  font-size: 18px;
+  line-height: 29px;
+  margin: 0 0 20px 0;
+  @apply font-normal text-custom-color6 p-0 block text-center;
+}
+
+.faq-collapsable-main-root {
+  @apply p-4 mb-5 relative;
+}
+
+.faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new {
+  padding: 10px 0;
+  border-top: 1px solid #d3d3d4;
+}
+
+.faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new:first-child {
+  border-top: 0 solid #d3d3d4;
+}
+
+.faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new h5.ca-control {
+  font-size: 21px;
+  line-height: 35px;
+  color: #232529;
+  padding: 12px 32px 12px 0;
+  @apply font-normal flex flex-wrap justify-start items-center relative;
+}
+
+.faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new h5.ca-control .ca-link {
+  color: inherit;
+  @apply w-full;
+}
+
+.faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new h5.ca-control span.bg-custom-icon {
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
+
+.faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new h5.ca-control .text {
+  @apply relative w-full flex flex-wrap items-start;
+}
+
+.faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new h5.ca-control .text .left-text {
+  @apply relative inline-block;
+  line-height: 25px;
+  width: 27px;
+  top: 4px;
+}
+
+.faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new h5.ca-control .text span.text-right-span {
+  padding: 0 0 0 0;
+  width: calc(100% - 27px);
+}
+
+.faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new .content-collapsable-inner-div p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #232529;
+  @apply relative mb-4;
+}
+
+.faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new .content-collapsable-inner-div p .left-text {
+  font-size: 21px;
+  line-height: 27px;
+  padding: 0 0 0 3px;
+  @apply absolute left-0 top-0;
+}
+
+.faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new .content-collapsable-inner-div .heading-prag {
+  padding: 0 0 0 27px;
+}
+
+.faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new .content-collapsable-inner-div ul li {
+  font-size: 16px;
+  line-height: 28px;
+  color: #232529;
+  @apply relative mb-1;
+}
+
+.faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new .content-collapsable-inner-div .text-div {
+  padding: 0 0 0 26px;
+}
+
+.faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new .content-collapsable-inner-div .text-div p.prag-text {
+  @apply relative flex flex-wrap items-start;
+}
+
+.faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new .content-collapsable-inner-div .text-div p.prag-text span.font-left {
+  width: 62px;
+  padding: 0 12px 0 0;
+  @apply font-bold;
+}
+
+.faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new .content-collapsable-inner-div .text-div p.prag-text .txt {
+  width: calc(100% - 62px);
+}
+
+.card-faq-botom-div {
+  margin: 0 0 40px 0;
+  @apply p-0 relative;
+}
+
+.card-faq-botom-div .card-faq-botom-div-inner {
+  padding: 40px 45px 40px 45px;
+  @apply m-0 relative bg-custom-color3 rounded-2xl;
+}
+
+.card-faq-botom-div .card-faq-botom-div-inner h4 {
+  font-size: 21px;
+  line-height: 35px;
+  @apply text-blue-dark font-bold block mb-2;
+}
+
+.card-faq-botom-div .card-faq-botom-div-inner p {
+  font-size: 14px;
+  line-height: 24px;
+  @apply text-blue-dark font-normal block;
+}
+
+.card-faq-botom-div .card-faq-botom-div-inner p .link {
+  @apply text-green;
+}
+
+@media (max-width: 767px) {
+  .faq-main-section .faq-main-div {
+    padding: 55px 0 30px 0;
+  }
+  .faq-main-section .faq-main-div .heading-div h1 {
+    font-size: 36px;
+    line-height: 1.4;
+    @apply mb-5;
+  }
+  .faq-main-section .faq-main-div .heading-div p {
+    font-size: 14px;
+    line-height: 27px;
+  }
+  .faq-collapsable-main-root {
+    @apply p-0;
+  }
+  .faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new h5.ca-control {
+    font-size: 16px;
+    line-height: 27px;
+    padding: 8px 28px 8px 0;
+  }
+  .faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new h5.ca-control .text .left-text {
+    line-height: 18px;
+  }
+  .faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new h5.ca-control span.bg-custom-icon {
+    top: 18px;
+    width: 12px;
+  }
+  .faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new .content-collapsable-inner-div p {
+    font-size: 14px;
+    line-height: 25px;
+    @apply mb-3;
+  }
+  .faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new .content-collapsable-inner-div p .left-text {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new .content-collapsable-inner-div .text-div p.prag-text span.font-left {
+    width: 55px;
+    padding: 0 10px 0 0;
+  }
+  .faq-collapsable-main-root .faq-collapsable-box .collapsable-slide-new .content-collapsable-inner-div .text-div p.prag-text .txt {
+    width: calc(100% - 55px);
+  }
+  .card-faq-botom-div .card-faq-botom-div-inner {
+    padding: 30px 25px 30px 25px;
+  }
+  .card-faq-botom-div .card-faq-botom-div-inner h4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .card-faq-botom-div .card-faq-botom-div-inner p {
+    font-size: 12px;
+    line-height: 21px;
+  }
+}
+/*# sourceMappingURL=faq.css.map */

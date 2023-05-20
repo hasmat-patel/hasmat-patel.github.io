@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>shopping-cart</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-copy" transform="translate(-1045.000000, -47.000000)" stroke="#1F2027" stroke-width="2">
+            <g id="Group-4">
+                <g id="Group-9" transform="translate(1045.000000, 43.000000)">
+                    <g id="Group-3">
+                        <g id="Group-8" transform="translate(0.000000, 3.000000)">
+                            <g id="shopping-cart" transform="translate(0.000000, 2.000000)">
+                                <circle id="Oval" cx="12.5599999" cy="26.3999999" r="2.31999999"></circle>
+                                <circle id="Oval" cx="23.0799999" cy="26.3999999" r="2.31999999"></circle>
+                                <path d="M0,0 L5.27999997,0 L8.81759996,17.6747999 C9.06673275,18.9291056 10.1790268,19.8245022 11.4575999,19.7999999 L24.2879999,19.7999999 C25.5665731,19.8245022 26.6788671,18.9291056 26.9279999,17.6747999 L29.0399999,6.59999997 L6.59999997,6.59999997" id="Path"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
