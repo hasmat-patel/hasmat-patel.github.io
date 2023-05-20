@@ -1,0 +1,691 @@
+/* colors */
+/* End of colors */
+/* Common mobile CSS */
+/* End of Common mobile CSS */
+.max-width-410 {
+  max-width: 410px !important;
+}
+
+.max-width-1180 {
+  max-width: 1180px !important;
+}
+
+.core-tech-card-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.core-tech-card-section .core-tech-card-div {
+  padding: 80px 0 80px 0;
+  margin: 0;
+  background-color: #131727;
+}
+
+.core-tech-card-section::before {
+  content: " ";
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(1%, rgba(43, 51, 79, 0)), to(#131727));
+  background-image: linear-gradient(180deg, rgba(43, 51, 79, 0) 1%, #131727 100%);
+  height: 260px;
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  top: -260px;
+}
+
+.core-tech-card-section .core-content-card-full {
+  padding: 150px 0 150px 0;
+  margin: 0;
+  position: relative;
+  min-height: 100vh;
+}
+
+.core-tech-card-section .core-content-card-full .hidden-desktop {
+  display: none;
+}
+
+.core-tech-card-section .core-content-card-full .mobile-desktop {
+  display: block;
+}
+
+.core-tech-card-section .core-content-card-full .core-content-card-full-root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.core-tech-card-section .core-content-card-full .image-thumb-box-header {
+  min-height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 0 20px 0;
+}
+
+.core-tech-card-section .core-content-card-full .image-thumb-box-header h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  font-size: 28px;
+  color: #FFFFFF;
+  letter-spacing: 2.24px;
+  text-align: center;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.core-tech-card-section .core-content-card-full .image-thumb-box-header .img-top {
+  max-width: 315px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.core-tech-card-section .core-content-card-full .text-p {
+  position: absolute;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 1.44px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.core-tech-card-section .core-content-card-full .image-thumb-box.image-thumb-box-left {
+  width: 60%;
+  max-width: 570px;
+}
+
+.core-tech-card-section .core-content-card-full .image-thumb-box.image-thumb-box-right {
+  text-align: center;
+  width: 40%;
+  max-width: 350px;
+}
+
+.core-tech-card-section .core-content-card-full .image-thumb-box .img-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.core-tech-card-section .core-content-card-full .image-thumb-box .image-thumb-box-body {
+  position: relative;
+}
+
+.core-tech-card-section .core-content-card-full .image-thumb-box .text-p.txt1 {
+  top: 150px;
+  left: 0;
+  width: 185px;
+  text-align: right;
+}
+
+.core-tech-card-section .core-content-card-full .image-thumb-box .text-p.txt2 {
+  top: 260px;
+  right: 0;
+  width: 175px;
+  text-align: left;
+}
+
+.core-tech-card-section .core-content-card-full .image-thumb-box .text-p.txt3 {
+  top: 390px;
+  left: -35px;
+  width: 220px;
+  text-align: right;
+}
+
+.core-tech-card-section .core-content-card-full .image-thumb-box .img-responsive {
+  height: 650px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
+.core-tech-card-section .core-content-card-box {
+  padding: 80px 0;
+  margin: 0;
+  position: relative;
+  min-height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.core-tech-card-section .core-content-card-box .image-content-inner-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.core-tech-card-section .core-content-card-box .image-thumb-box {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+}
+
+.core-tech-card-section .core-content-card-box .image-thumb-box .img-responsive {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 10px;
+  height: auto;
+  max-height: 460px;
+}
+
+.core-tech-card-section .core-content-card-box .image-thumb-box .img-auto {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.core-tech-card-section .core-content-card-box .desc-content-div {
+  padding: 50px 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+}
+
+.core-tech-card-section .core-content-card-box .desc-content-div h2 {
+  font-size: 70px;
+  color: #5DD9A5;
+  letter-spacing: 5.6px;
+  line-height: 70px;
+  font-weight: 700;
+  font-family: 'Upgrade';
+  text-transform: uppercase;
+  word-break: break-word;
+  margin: 0 0 30px 0;
+}
+
+.core-tech-card-section .core-content-card-box .desc-content-div h4 {
+  font-size: 60px;
+  color: #5DD9A5;
+  letter-spacing: 0;
+  line-height: 60px;
+  margin: 0 0 5px 0;
+  font-family: 'Upgrade';
+  font-style: italic;
+  word-break: break-word;
+}
+
+.core-tech-card-section .core-content-card-box .desc-content-div h3 {
+  padding: 0;
+  margin: 0 0 15px 0;
+  font-size: 50px;
+  color: #5DD9A5;
+  letter-spacing: 4px;
+  line-height: 50px;
+  text-transform: uppercase;
+  max-width: 550px;
+  font-weight: 700;
+  font-family: 'Upgrade';
+  word-break: break-word;
+}
+
+.core-tech-card-section .core-content-card-box .desc-content-div p {
+  font-size: 30px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 36px;
+  font-family: 'Upgrade';
+  font-weight: 400;
+  word-break: break-word;
+  max-width: 560px;
+}
+
+.core-tech-card-section .core-content-card-box.core-content-card-left .desc-content-div {
+  padding-left: 30px;
+  max-width: 560px;
+}
+
+.core-tech-card-section .core-content-card-box.core-content-card-left .right-content-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.core-tech-card-section .core-content-card-box.core-content-card-right .img-grid-6 {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+.core-tech-card-section .core-content-card-box.core-content-card-right .content-grid-6 {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.core-tech-card-section .core-content-card-box.core-content-card-right .desc-content-div {
+  padding-right: 30px;
+  max-width: 560px;
+}
+
+.core-tech-card-section .core-content-card-box.core-content-card-right .right-content-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+/* General content section */
+.generic-content-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.generic-content-section .generic-content-div {
+  padding: 120px 0;
+  margin: 0;
+  position: relative;
+}
+
+.generic-content-root {
+  font-family: 'Upgrade';
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #484B58;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.generic-content-root .mb-60px {
+  margin-bottom: 60px !important;
+}
+
+.generic-content-root .mb-40px {
+  margin-bottom: 40px !important;
+}
+
+.generic-content-root p {
+  padding: 0;
+  margin: 0 0 25px 0;
+  font-family: 'Upgrade';
+  font-weight: 400;
+  font-size: 24px;
+  color: #484B58;
+  letter-spacing: 0;
+  line-height: 30px;
+  display: block;
+}
+
+.generic-content-root h1 {
+  padding: 0;
+  margin: 0 0 25px 0;
+  font-family: 'Upgrade';
+  font-weight: 700;
+  font-size: 50px;
+  color: #484B58;
+  letter-spacing: 0;
+  line-height: 60px;
+  display: block;
+}
+
+.generic-content-root h2 {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: 'Upgrade';
+  font-weight: 700;
+  font-size: 36px;
+  color: #484B58;
+  letter-spacing: 0;
+  line-height: 42px;
+  display: block;
+}
+
+.generic-content-root h3 {
+  padding: 0;
+  margin: 30px 0 30px 0;
+  font-size: 40px;
+  color: #131727;
+  letter-spacing: 0px;
+  line-height: 46px;
+  font-style: italic;
+  font-family: Upgrade;
+  display: block;
+}
+
+.generic-content-root h3::before {
+  content: "\201C";
+}
+
+.generic-content-root h3::after {
+  content: "\201D";
+}
+
+.generic-content-root h4 {
+  padding: 0;
+  margin: 0 0 10px 0;
+  font-family: 'Upgrade';
+  font-weight: 700;
+  font-size: 30px;
+  color: #484B58;
+  letter-spacing: 0;
+  line-height: 36px;
+  display: block;
+}
+
+.generic-content-root h5 {
+  padding: 0;
+  margin: 0 0 10px 0;
+  font-family: 'Upgrade';
+  font-weight: 700;
+  font-size: 24px;
+  color: #484B58;
+  letter-spacing: 0;
+  line-height: 30px;
+  display: block;
+}
+
+.generic-content-root h6 {
+  padding: 0;
+  margin: 0 0 10px 0;
+  font-family: 'Upgrade';
+  font-weight: 700;
+  font-size: 20px;
+  color: #484B58;
+  letter-spacing: 0;
+  line-height: 24px;
+  display: block;
+}
+
+.generic-content-root ul {
+  display: block;
+  list-style: none;
+  margin: 10px 0 30px 0;
+  position: relative;
+}
+
+.generic-content-root ul li {
+  padding: 0 0 0 25px;
+  margin: 0 0 15px 0;
+  position: relative;
+  font-size: 24px;
+  color: #484B58;
+  letter-spacing: 0px;
+  line-height: 32px;
+  font-style: italic;
+  font-family: Upgrade;
+  display: block;
+}
+
+.generic-content-root ul li::before {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 0;
+  height: 10px;
+  width: 10px;
+  background-color: #5DD9A5;
+  border-radius: 24px;
+}
+
+.generic-content-root img {
+  margin: 10px 0 30px 0;
+  width: auto;
+  max-width: 100%;
+}
+
+.generic-content-root .video-root-box {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.generic-content-root iframe {
+  margin: 10px 0 30px 0;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  min-height: 520px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* End of General content section */
+@media (min-width: 1025px) and (max-width: 1290px) {
+  .core-tech-card-section .core-tech-card-div .container.container-lg.max-width-1320 {
+    max-width: 1100px;
+  }
+}
+
+@media (min-width: 1230px) and (max-width: 1449px) {
+  .benefits-color-section2 .benefits-white-box-card .content-div h5 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .core-tech-card-section .core-content-card-box {
+    min-height: auto;
+    padding: 60px 0;
+  }
+  .core-tech-card-section .core-content-card-box .desc-content-div {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .core-tech-card-section .core-content-card-box .desc-content-div h3 {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0;
+    letter-spacing: 2px;
+    margin: 0 0 10px 0;
+    text-align: center;
+  }
+  .core-tech-card-section .core-content-card-box .desc-content-div p {
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
+    max-width: 274px;
+    margin: 0 auto;
+  }
+  .core-tech-card-section .core-content-card-box .image-thumb-box .img-responsive {
+    max-height: 230px;
+  }
+  .core-tech-card-section .core-content-card-box .max-width-410 {
+    max-width: 274px !important;
+  }
+  .core-tech-card-section .core-content-card-box.core-content-card-right .desc-content-div {
+    padding-right: 0;
+    padding-left: 0;
+    max-width: 100%;
+  }
+  .core-tech-card-section .core-content-card-box.core-content-card-left .img-grid-6 {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .core-tech-card-section .core-content-card-box.core-content-card-left .content-grid-6 {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .core-tech-card-section .core-content-card-box.core-content-card-left .desc-content-div {
+    padding-right: 0;
+    padding-left: 0;
+    max-width: 100%;
+  }
+  .core-tech-card-section .core-content-card-full {
+    padding: 0px 0 65px 0;
+    min-height: auto;
+  }
+  .core-tech-card-section .core-content-card-full .mobile-desktop {
+    display: none;
+  }
+  .core-tech-card-section .core-content-card-full .hidden-desktop {
+    display: block;
+  }
+  .core-tech-card-section .core-content-card-full .image-thumb-box-header {
+    min-height: 65px;
+  }
+  .core-tech-card-section .core-content-card-full .image-thumb-box-header h3 {
+    font-size: 11px;
+    letter-spacing: 1.24px;
+    line-height: 16px;
+    margin: 0;
+    max-width: 90px;
+  }
+  .core-tech-card-section .core-content-card-full .image-thumb-box-header .img-top {
+    max-width: 125px;
+    height: 32px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .core-tech-card-section .core-content-card-full .image-thumb-box .img-responsive {
+    height: 250px;
+  }
+  .core-tech-card-section .core-content-card-full .image-thumb-box.image-thumb-box-right .img-responsive {
+    height: 230px;
+  }
+  /* General content section */
+  .generic-content-section .generic-content-div {
+    padding: 60px 0;
+  }
+  .generic-content-root {
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .generic-content-root p {
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .generic-content-root h1 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .generic-content-root h2 {
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+  .generic-content-root h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .generic-content-root h4 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .generic-content-root h5 {
+    font-size: 21px;
+    line-height: 26px;
+  }
+  .generic-content-root h6 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .generic-content-root ul li {
+    padding: 0 0 0 18px;
+    margin: 0 0 10px 0;
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .generic-content-root ul li::before {
+    top: 10px;
+    left: 0;
+    height: 6px;
+    width: 6px;
+  }
+  .generic-content-root img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  .generic-content-root iframe {
+    min-height: 400px;
+  }
+  /* End of General content section */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .core-tech-card-section .container.container-lg.max-width-1320 {
+    max-width: 700px;
+  }
+  .core-tech-card-section .core-content-card-box {
+    padding: 60px 0;
+    min-height: 300px;
+  }
+  .core-tech-card-section .core-content-card-box .desc-content-div h3 {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0;
+    letter-spacing: 2px;
+    margin: 0 0 10px 0;
+  }
+  .core-tech-card-section .core-content-card-box .desc-content-div p {
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0;
+    margin: 0 auto;
+  }
+  .core-tech-card-section .core-content-card-box .image-thumb-box .img-responsive {
+    max-height: 230px;
+  }
+  .core-tech-card-section .core-content-card-box.core-content-card-right .desc-content-div {
+    max-width: 100%;
+  }
+  .core-tech-card-section .core-content-card-box.core-content-card-left .desc-content-div {
+    max-width: 100%;
+  }
+  .core-tech-card-section .core-content-card-full {
+    padding: 0px 0 65px 0;
+    min-height: auto;
+  }
+  .core-tech-card-section .core-content-card-full .image-thumb-box-header {
+    min-height: 80px;
+  }
+  .core-tech-card-section .core-content-card-full .image-thumb-box-header h3 {
+    font-size: 17px;
+    letter-spacing: 1.24px;
+    line-height: 24px;
+    margin: 0;
+  }
+  .core-tech-card-section .core-content-card-full .image-thumb-box-header .img-top {
+    max-width: 260px;
+    height: 42px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .core-tech-card-section .core-content-card-full .image-thumb-box .img-responsive {
+    height: 390px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

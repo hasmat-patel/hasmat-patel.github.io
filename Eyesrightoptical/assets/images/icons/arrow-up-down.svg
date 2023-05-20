@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="40" viewBox="0 0 24 40">
+  <g id="arrow-up-down" opacity="0.4">
+    <g id="keyboard_arrow_up-24px">
+      <path id="Path" d="M1.41,7.41,6,2.83l4.59,4.58L12,6,6,0,0,6Z" transform="translate(6 8)"/>
+      <path id="Path-2" data-name="Path" d="M0,0H24V24H0Z" fill="none"/>
+    </g>
+    <g id="keyboard_arrow_up-24px_copy" data-name="keyboard_arrow_up-24px copy" transform="translate(0 40)">
+      <path id="Path-3" data-name="Path" d="M1.41-7.41,6-2.83l4.59-4.58L12-6,6,0,0-6Z" transform="translate(6 -8)"/>
+      <path id="Path-4" data-name="Path" d="M0,0H24V-24H0Z" fill="none"/>
+    </g>
+  </g>
+</svg>
